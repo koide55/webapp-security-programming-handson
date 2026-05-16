@@ -33,6 +33,16 @@ python -m pip install -r requirements.txt
 python app/main.py --reset-db
 ```
 
+Windows PowerShellの場合は、次のように実行します。
+
+```powershell
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python app/main.py --reset-db
+```
+
 起動後、ブラウザで次を開きます。
 
 ```text
@@ -129,5 +139,19 @@ PORT=18090 python tools/attacker_server.py
 まとめて消す場合:
 
 ```bash
+python tools/clean.py
+```
+
+Windows PowerShellで `python` が見つからない場合は、Pythonランチャーを使います。
+
+```powershell
+py tools/clean.py
+```
+
+macOSやLinuxで `make` が使える場合は、次でも同じ処理を実行できます。
+
+```bash
 make clean
 ```
+
+Windows標準環境では `make` は通常入っていないため、`python tools/clean.py` を使ってください。
