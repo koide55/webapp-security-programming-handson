@@ -1,12 +1,12 @@
-# 講師用ヒントと解答例
+# 講師用ヒント
 
-このファイルは講師向けです。受講者へそのまま配布するのではなく、詰まったときのヒント、答え合わせ、発展課題のレビューに使ってください。
+このファイルは講師向けです。受講者へそのまま配布する答えではなく、詰まったときの声かけ、観察させるポイント、レベル差への対応に使ってください。コード例を含む解答は `docs/solutions.md` に分離しています。
 
-## 使い方
+## 基本方針
 
-- 初心者には、答えを見せる前に「どの文脈でデータがコードになったか」を質問する
-- 経験者には、修正後に同じ攻撃入力で再テストさせる
-- コード修正は一度に全部入れず、1つの脆弱性ごとに観察と確認を行う
+- 答えを見せる前に「どの文脈でデータがコードになったか」を質問する
+- 攻撃文字列の暗記ではなく、画面、HTTP、DB、Cookie、シェルの流れを言葉にしてもらう
+- コード修正は一度に全部入れず、1つの脆弱性ごとに観察、修正、再テストを行う
 - 受講者が外部サイトや第三者サービスで試さないよう、演習前後で明確に確認する
 
 ## 演習0: 起動確認
@@ -24,7 +24,12 @@
 - すでにポート8086が使われている
 - `localhost` と別ポートを取り違えている
 
-## 演習1: Bottle
+声かけ:
+
+- 「いま起動しているサーバのURLはターミナルに何と表示されていますか」
+- 「ログイン後に `/cookies` を開くと何が見えますか」
+
+## 演習1: Bottleのルーティング
 
 確認したい理解:
 
@@ -45,7 +50,7 @@
 - `users.password` に平文パスワードが保存されている
 - `comments.user_id` が投稿者を参照している
 
-講師メモ:
+声かけ:
 
 - 初心者には、Model定義と `.schema` の対応を1行ずつ見せる
 - 経験者には、平文パスワードをハッシュ化する設計へ進ませる
@@ -58,6 +63,12 @@
 - 署名付きCookieの生値は長い文字列になる
 - アプリ内部では `user1` のような値に復元される
 - Cookieをコピーするとログイン状態を再現できる
+
+声かけ:
+
+- 「ブラウザに保存されている値と、アプリが使う値は同じですか」
+- 「署名付きCookieは何を防ぎ、何を防げませんか」
+- 「Cookieを盗まれた後にパスワード認証は役に立ちますか」
 
 講師メモ:
 
@@ -73,16 +84,11 @@
 - 補助サーバにCookie文字列が届く
 - 原因箇所は `app/views/bbs.tpl` の `{{!comment.comment}}`
 
-修正例:
+声かけ:
 
-```html
-{{comment.comment}}
-```
-
-再テスト:
-
-- `<script>alert(1)</script>` を投稿する
-- スクリプトが実行されず、文字として表示されることを確認する
+- 「入力した文字列は、どの画面でHTMLとして解釈されましたか」
+- 「保存するときと表示するとき、どちらで危険になりましたか」
+- 「Cookie属性を変えると被害はどう変わりますか」
 
 講師メモ:
 
@@ -97,43 +103,12 @@
 - ボタンを押すとBBSに投稿される
 - 固定のhidden tokenは守りになっていない
 
-修正例:
+声かけ:
 
-```python
-import secrets
-
-def ensure_csrf_token(user):
-    if not user.session:
-        user.session = secrets.token_urlsafe(32)
-        user.save()
-    return user.session
-```
-
-GET `/bbs`:
-
-```python
-token = ensure_csrf_token(user)
-return template("bbs", username=user.username, comments=comments, token=token)
-```
-
-POST `/bbs`:
-
-```python
-token = request.forms.decode().get("token", "")
-if not user.session or token != user.session:
-    return error_page("CSRF token is invalid.", status=403)
-```
-
-テンプレート:
-
-```html
-<input type="hidden" name="token" value="{{token}}">
-```
-
-再テスト:
-
-- BBS画面からの投稿は成功する
-- `http://localhost:8090/csrf` からの投稿は403になる
+- 「どのサイトのフォームから送信しましたか」
+- 「POST先はどのサイトでしたか」
+- 「Cookieは誰が付けましたか」
+- 「固定トークンはなぜ守りになりませんか」
 
 ## 演習6: SQLインジェクション
 
@@ -143,28 +118,11 @@ if not user.session or token != user.session:
 - `' or 'a'='a` によって条件が常に真になる
 - ユーザ入力がSQL構造として解釈されている
 
-修正例:
+声かけ:
 
-```python
-records = cursor.execute(
-    "SELECT * FROM users WHERE username=? and password=?;",
-    (username, password),
-)
-record = records.fetchone()
-```
-
-再テスト:
-
-| username | password | 期待結果 |
-| --- | --- | --- |
-| `koide` | `password` | ログイン成功 |
-| `koide` | `' or 'a'='a` | ログイン失敗 |
-| `koide' --` | `anything` | ログイン失敗 |
-
-講師メモ:
-
-- サニタイズだけで説明しない
-- 「SQL構造」と「値」を分ける、と言う方が伝わりやすい
+- 「入力値はSQLのどこに入りましたか」
+- 「SQLの構造と値を分けるとはどういう意味ですか」
+- 「サニタイズという言葉だけで説明すると何が不足しますか」
 
 ## 演習7: コマンドインジェクション
 
@@ -174,27 +132,13 @@ record = records.fetchone()
 - `"; /bin/echo injected > command_injection_result.txt; #` により別コマンドが実行される
 - 原因箇所は `os.system(command)`
 
-修正例:
+声かけ:
 
-```python
-with OUTBOX_FILE.open("a", encoding="utf-8") as outbox:
-    outbox.write(f"From: {address}\n")
-    outbox.write(comment)
-    outbox.write("\n---\n")
-```
+- 「どの文字で本来の文字列が終わりましたか」
+- 「どの文字で別コマンドが始まりましたか」
+- 「この機能でシェルを使う必要はありますか」
 
-再テスト:
-
-- 通常の問い合わせ送信が成功する
-- コマンドインジェクション用の文字列を入力しても `command_injection_result.txt` が作られない
-- `app/mail_outbox.txt` に入力が文字として保存される
-
-講師メモ:
-
-- `subprocess.run(..., shell=False)` も選択肢だが、この機能では外部コマンド自体が不要
-- 「使わなくてよいシェルを使わない」が最も強い対策
-
-## 演習8: Pico.css
+## 演習8: Pico.cssでシンプルに整える
 
 期待する観察:
 
@@ -208,7 +152,9 @@ with OUTBOX_FILE.open("a", encoding="utf-8") as outbox:
 - テンプレート内で `{{! ... }}` を安易に増やしていないか
 - CDNが使えない環境でどうするか説明できるか
 
-## 発展課題の採点観点
+## 演習9: 改修課題
+
+発展課題の採点観点:
 
 | 観点 | 十分な状態 |
 | --- | --- |

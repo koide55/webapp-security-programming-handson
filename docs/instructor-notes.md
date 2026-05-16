@@ -12,6 +12,7 @@
 | p.46-p.49 SQLインジェクション | 演習6 |
 | p.50-p.59 コマンドインジェクション | 演習7 |
 | p.60-p.66 Pico.cssでシンプルに整える | 演習8のUI改善課題 |
+| 発展・まとめ | 演習9の改修課題 |
 
 ## 進行の目安
 
@@ -39,7 +40,7 @@
 - 初心者には、先に `docs/prerequisites.md` と `docs/troubleshooting.md` を案内する。
 - 標準進行では、`docs/exercises.md` の観察ポイントまでを必須にする。
 - 早く終わった受講者には、`docs/advanced-tasks.md` から1つ以上を選ばせる。
-- 答え合わせや詰まりどころの説明には、`docs/instructor-solutions.md` を使う。
+- 詰まりどころの声かけには `docs/instructor-hints.md`、答え合わせには `docs/solutions.md` を使う。
 
 ## 安全上の注意
 

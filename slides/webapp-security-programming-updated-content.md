@@ -52,9 +52,9 @@ title: Web Application Security Programming
 
 ---
 
-<!-- Slide 05 / original: Ex 1: Try bottle -->
+<!-- Slide 05 / source: Bottle exercise intro -->
 
-# Ex 1: Try Bottle
+# 演習1: Bottleを試そう
 
 1. Clone the repository.
 2. Install dependencies in a Python virtual environment.
@@ -84,9 +84,9 @@ python app/main.py --reset-db
 
 ---
 
-<!-- Slide 07 / original: Ex 2: Try peewee and SQLite -->
+<!-- Slide 07 / source: Peewee and SQLite exercise intro -->
 
-# Ex 2: Try Peewee and SQLite
+# 演習2: PeeweeとSQLiteを試そう
 
 - `Users` and `Comments` models define database tables.
 - `initialize_database()` creates the tables and inserts seed users.
@@ -117,9 +117,9 @@ select userid, username, password, cookie from users;
 
 ---
 
-<!-- Slide 09 / original: Ex 2 cont. -->
+<!-- Slide 09 / source: database access exercise -->
 
-# Ex 2: Database Access
+# 演習2: データベース操作
 
 - Peewee query example:
   - `Users.get_or_none(Users.username == "koide")`
@@ -372,7 +372,7 @@ records = cursor.execute(sql)
 
 ---
 
-<!-- Slide 26 / original: Ex 3 Session Hijacking -->
+<!-- Slide 26 / source: session hijacking exercise -->
 
 # 演習3: セッションハイジャック
 
@@ -406,9 +406,9 @@ records = cursor.execute(sql)
 
 ---
 
-<!-- Slide 28 / original: Ex 4 secret key -->
+<!-- Slide 28 / source: signed cookie comparison -->
 
-# 演習4: 署名付きCookieを比較する
+# 演習3 発展: 署名付きCookieを比較する
 
 `app/main.py` の次の指定を観察する。
 
@@ -582,9 +582,9 @@ python app/main.py --reset-db --init-only
 
 ---
 
-<!-- Slide 39 / original: Ex 5 XSS -->
+<!-- Slide 39 / source: XSS exercise -->
 
-# 演習5: XSS
+# 演習4: XSS
 
 1. Webアプリでログインし、BBSを開く
 2. 補助サーバを起動する
@@ -599,9 +599,9 @@ python app/main.py --reset-db --init-only
 
 ---
 
-<!-- Slide 40 / original: Ex 6 XSS -->
+<!-- Slide 40 / source: XSS explanation exercise -->
 
-# 演習6: XSSを説明する
+# 演習4 発展: XSSを説明する
 
 調べて説明するもの:
 
@@ -678,9 +678,9 @@ def csrf_page():
 
 ---
 
-<!-- Slide 45 / original: Ex 10 CSRF -->
+<!-- Slide 45 / source: CSRF exercise -->
 
-# 演習10: CSRF
+# 演習5: CSRF
 
 1. Webアプリを起動する
 2. 補助サーバを起動する
@@ -740,9 +740,9 @@ records = cursor.execute(sql)
 
 ---
 
-<!-- Slide 49 / original: Ex 7 SQL injection -->
+<!-- Slide 49 / source: SQL injection exercise -->
 
-# 演習7: SQLインジェクション
+# 演習6: SQLインジェクション
 
 ログイン画面で試す例:
 
@@ -912,9 +912,9 @@ Path("badscript_ran.txt").write_text(
 
 ---
 
-<!-- Slide 59 / original: Ex 12 command injection -->
+<!-- Slide 59 / source: command injection exercise -->
 
-# 演習12: コマンドインジェクション
+# 演習7: コマンドインジェクション
 
 1. Webアプリにログインする
 2. `/contact` を開く
@@ -1046,13 +1046,13 @@ Pico.cssがフォーム要素を自動的に整える。
 
 <!-- Slide 66 / original: UI exercise -->
 
-# 演習13: Pico.cssでUI改善
+# 演習8: Pico.cssでUI改善
 
 1. `examples/pico-css/` のサンプルを確認する
 2. `static/app.css` と `views/base.tpl` を追加する
 3. `login` 画面をテンプレート化する
 4. 他の画面も少しずつテンプレートへ移す
 5. UI改善後も、SQLi、XSS、CSRFの挙動がどう変わるか確認する
-6. 最後に脆弱性対策を1つずつ実装する
+6. 演習9として脆弱性対策を1つずつ実装する
 
 最終目標: 動くアプリから、安全に説明できる教材へ育てる
