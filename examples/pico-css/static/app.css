@@ -1,0 +1,36 @@
+:root {
+  --pico-border-radius: 0.35rem;
+}
+
+body {
+  padding-block: 1rem 2rem;
+}
+
+nav {
+  gap: 1rem;
+}
+
+article {
+  max-width: 42rem;
+  margin-inline: auto;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.notice-error {
+  padding: 0.75rem 1rem;
+  border: 1px solid #b42318;
+  border-radius: var(--pico-border-radius);
+  color: #b42318;
+  background: #fff3f0;
+}
+
+pre,
+code {
+  overflow-wrap: anywhere;
+}

@@ -931,23 +931,24 @@ Path("badscript_ran.txt").write_text(
 
 <!-- Slide 60 / original: Webアプリケーションをかっこよくしよう -->
 
-# Webアプリケーションを使いやすくしよう
+# Pico.cssでシンプルに整えよう
 
 - セキュリティ演習でも、使いやすいUIは重要
 - 入力欄、エラー表示、導線が整理されると、観察もしやすくなる
-- デザイン改善は、セキュリティ改善と矛盾しない
-- 最後に、テンプレート分離とBootstrap適用を発展課題にする
+- 大きいUIキットではなく、Pico.cssを使う
+- セマンティックHTMLにCSSを1枚足すだけで、フォームや表が整う
 
 ---
 
 <!-- Slide 61 / original: 見た目も大事 -->
 
-# Webアプリの見た目も大事
+# なぜPico.cssか
 
-- ユーザ体験が悪いと、誤操作や設定ミスが増える
-- 画面の役割が明確だと、ログイン状態やエラーに気づきやすい
-- フロントエンドとバックエンドを分けると、保守しやすい
-- UI改善では、アクセシビリティとセキュリティ表示も意識する
+- 1行の`link`で始められる
+- クラス名をたくさん覚えなくてよい
+- `label`、`input`、`button`、`table`、`nav` が自然に整う
+- Bottleの素朴なテンプレートと相性がよい
+- UI改善とセキュリティ対策を混ぜずに説明しやすい
 
 ---
 
@@ -955,89 +956,103 @@ Path("badscript_ran.txt").write_text(
 
 # ディレクトリ配置
 
-現在の教材:
+Pico.css適用のサンプル:
 
 ```text
 app/
+  static/
+    app.css
   main.py
   views/
-    bbs.tpl
-tools/
-  attacker_server.py
-docs/
-  setup.md
-  exercises.md
+    base.tpl
+    login.tpl
+examples/
+  pico-css/
 ```
 
-発展課題では、`views/base.html` や `static/css/` を追加して画面を整理する。
+サンプルコードは `examples/pico-css/` に置いてある。
 
 ---
 
 <!-- Slide 63 / original: main01.py -->
 
-# 発展: main.pyを整理する
+# main.pyに静的ファイル配信を追加
 
-整理の方向:
+```python
+from bottle import static_file
 
-- HTML文字列をPythonコードから分離する
-- 共通レイアウトをテンプレート化する
-- エラー表示を共通化する
-- セキュリティ対策を小さく実装して確認する
+@get("/static/<filepath:path>")
+def static_files(filepath):
+    return static_file(filepath, root=str(BASE_DIR / "static"))
+```
 
-例:
+ログイン画面をテンプレートに移す:
 
-- `render_page()` をテンプレートへ移す
-- ログイン、登録、問い合わせのHTMLを `views/` に分ける
+```python
+@get("/login")
+def login_form():
+    return template("login", error=None)
+```
 
 ---
 
 <!-- Slide 64 / original: base.html -->
 
-# 発展: base.html
+# base.tpl
 
-共通テンプレートに含めるもの:
+```html
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="/static/app.css">
+  <title>{{title or "WebApp Security"}}</title>
+</head>
+<body>
+  <main class="container">{{!base}}</main>
+</body>
+</html>
+```
 
-- 文字コードとviewport
-- 共通ナビゲーション
-- エラー・成功メッセージの表示領域
-- CSS読み込み
-- Cookieやログイン状態を誤解させない表示
-
-目的:
-
-- 各ページのHTML重複を減らす
-- UI変更とロジック変更を分ける
 
 ---
 
 <!-- Slide 65 / original: login.html -->
 
-# 発展: login.html
+# login.tpl
 
-ログイン画面で整えるもの:
+```html
+% rebase("base.tpl", title="Login")
 
-- `username` と `password` のラベル
-- 入力エラーの表示
-- 成功後の遷移
-- 実験用に表示するSQLの扱い
+<article>
+  <h1>Login</h1>
+  % if error:
+    <p role="alert" class="notice-error">{{error}}</p>
+  % end
+  <form action="/login" method="post">
+    <label>Username <input name="username" required></label>
+    <label>Password <input name="password" type="password" required></label>
+    <button type="submit">Login</button>
+  </form>
+</article>
+```
 
-改修課題:
-
-- プレースホルダを使った安全なSQLへ変更する
-- パスワードハッシュを導入する
-- Cookie属性を追加する
+Pico.cssがフォーム要素を自動的に整える。
 
 ---
 
-<!-- Slide 66 / original: Bootstrap exercise -->
+<!-- Slide 66 / original: UI exercise -->
 
-# 演習13: UI改善と安全化
+# 演習13: Pico.cssでUI改善
 
-1. `views/` と `static/` を整理する
-2. 共通テンプレートを作る
-3. BootstrapまたはシンプルなCSSを適用する
-4. SQLi、XSS、CSRF、コマンドインジェクションの対策を1つずつ入れる
-5. 攻撃が通らなくなったことを確認する
-6. 「原因、現象、対策」をレポートにまとめる
+1. `examples/pico-css/` のサンプルを確認する
+2. `static/app.css` と `views/base.tpl` を追加する
+3. `login` 画面をテンプレート化する
+4. 他の画面も少しずつテンプレートへ移す
+5. UI改善後も、SQLi、XSS、CSRFの挙動がどう変わるか確認する
+6. 最後に脆弱性対策を1つずつ実装する
 
 最終目標: 動くアプリから、安全に説明できる教材へ育てる

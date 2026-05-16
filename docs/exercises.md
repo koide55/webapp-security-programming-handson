@@ -154,7 +154,53 @@ sqlite3 app/data.db "delete from comments where comment like '<script>%';"
 - 本来はメール送信ライブラリを使うべきで、シェルを経由する必要がない。
 - どうしても外部コマンドを使う場合は、`subprocess.run([...], shell=False)` と引数配列を使う。
 
-## 演習8: 改修課題
+## 演習8: Pico.cssでシンプルに整える
+
+大きめのUIキットではなく、Pico.cssを使ってセマンティックHTMLをそのまま整えます。サンプルは `examples/pico-css/` にあります。
+
+追加する構成:
+
+```text
+app/
+├── static/
+│   └── app.css
+└── views/
+    ├── base.tpl
+    └── login.tpl
+```
+
+`base.tpl` でPico.cssを読み込みます。
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+<link rel="stylesheet" href="/static/app.css">
+```
+
+`app/main.py` に静的ファイル配信を追加します。
+
+```python
+from bottle import static_file
+
+@get("/static/<filepath:path>")
+def static_files(filepath):
+    return static_file(filepath, root=str(BASE_DIR / "static"))
+```
+
+ログイン画面をテンプレートへ移します。
+
+```python
+@get("/login")
+def login_form():
+    return template("login", error=None)
+```
+
+観察ポイント:
+
+- `label`、`input`、`button`、`nav` が少ない記述で整う。
+- UI改善と脆弱性対策は別の作業として分けて考えられる。
+- テンプレート化すると、XSS対策としてのエスケープ有無も確認しやすくなる。
+
+## 演習9: 改修課題
 
 次の対策を1つずつ実装し、攻撃が通らなくなることを確認してください。
 
