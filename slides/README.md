@@ -8,3 +8,7 @@
 - `docs/exercises.md`: 受講者向け演習
 - `docs/instructor-notes.md`: 講師向け進行メモ
 - `docs/security-notes.md`: 脆弱性と対策の対応表
+
+更新後のスライド本文案:
+
+- `webapp-security-programming-updated-content.md`
