@@ -10,6 +10,20 @@
     <p role="alert" class="notice-error">{{error}}</p>
   % end
 
+  <section>
+    <h2>初期ユーザ</h2>
+    <table>
+      <thead>
+        <tr><th>Username</th><th>Password</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><code>koide</code></td><td><code>password</code></td></tr>
+        <tr><td><code>alice</code></td><td><code>alice123</code></td></tr>
+        <tr><td><code>bob</code></td><td><code>bob123</code></td></tr>
+      </tbody>
+    </table>
+  </section>
+
   <form action="/login" method="post">
     <label>
       Username

@@ -164,6 +164,13 @@ def login_form():
     return render_page(
         "Login",
         """
+        <p>初期ユーザは次のアカウントを使えます。</p>
+        <table>
+          <tr><th>Username</th><th>Password</th></tr>
+          <tr><td><code>koide</code></td><td><code>password</code></td></tr>
+          <tr><td><code>alice</code></td><td><code>alice123</code></td></tr>
+          <tr><td><code>bob</code></td><td><code>bob123</code></td></tr>
+        </table>
         <form action="/login" method="post">
           <label>Username: <input name="username" type="text" autocomplete="username"></label>
           <label>Password: <input name="password" type="password" autocomplete="current-password"></label>
