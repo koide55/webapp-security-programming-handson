@@ -1,0 +1,20 @@
+services:
+  webapp:
+    build: .
+    command: python app/main.py
+    environment:
+      HOST: 0.0.0.0
+    ports:
+      - "8086:8086"
+    volumes:
+      - .:/work
+
+  attacker:
+    build: .
+    command: python tools/attacker_server.py
+    environment:
+      HOST: 0.0.0.0
+    ports:
+      - "8090:8090"
+    volumes:
+      - .:/work
