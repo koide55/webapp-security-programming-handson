@@ -10,6 +10,17 @@
 - 任意: Docker / Docker Compose
 - 任意: SQLiteを直接見るための `sqlite3` コマンド
 
+## リポジトリを取得する
+
+任意の作業ディレクトリで、GitHubから教材リポジトリを取得します。
+
+```bash
+git clone https://github.com/koide55/webapp-security-programming-handson.git
+cd webapp-security-programming-handson
+```
+
+以降のコマンドは、このリポジトリのルートで実行します。
+
 ## Pythonで起動する
 
 リポジトリのルートで実行します。
