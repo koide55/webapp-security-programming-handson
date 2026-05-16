@@ -378,7 +378,7 @@ records = cursor.execute(sql)
 
 1. 通常ウィンドウで `koide` としてログインする
 2. 別ブラウザまたはシークレットウィンドウで `alice` としてログインする
-3. 開発者ツールで `cookie_id` を確認する
+3. それぞれで `http://localhost:8086/cookies` を開く
 4. Cookieをコピーして、別ウィンドウで再読み込みする
 5. 表示されるユーザがどう変わるか観察する
 
@@ -388,23 +388,21 @@ records = cursor.execute(sql)
 
 <!-- Slide 27 / original: Chrome developer tools -->
 
-# ChromeでCookieを確認する
+# WebアプリでCookieを確認する
 
 手順:
 
-1. View
-2. Developer
-3. Developer Tools
-4. Application
-5. Storage
-6. Cookies
-7. `http://localhost:8086`
+1. ログインする
+2. ナビゲーションの `Cookie` を開く
+3. `Cookie header` を見る
+4. `cookie_id の見え方` を見る
+5. 別ブラウザの値と比較する
 
 確認する値:
 
-- `cookie_id`
-- Cookieの属性
-- ログアウト後にCookieが消えるか
+- ブラウザに保存されている `cookie_id`
+- 署名検証後にアプリが使う値
+- DB上で対応するユーザ
 
 ---
 

@@ -78,8 +78,12 @@ def render_page(title, body):
     button {{ cursor: pointer; padding: .35rem .75rem; }}
     nav a {{ margin-right: .5rem; }}
     pre {{ background: #f5f5f5; overflow-x: auto; padding: 1rem; }}
+    table {{ border-collapse: collapse; margin: 1rem 0; width: 100%; }}
+    th, td {{ border: 1px solid #ddd; padding: .5rem; text-align: left; vertical-align: top; }}
+    code {{ overflow-wrap: anywhere; }}
     .error {{ color: #a40000; font-weight: 700; }}
     .ok {{ color: #006c3d; font-weight: 700; }}
+    .muted {{ color: #666; }}
   </style>
 </head>
 <body>
@@ -90,6 +94,7 @@ def render_page(title, body):
     <a href="/signup">Signup</a>
     <a href="/login">Login</a>
     <a href="/mypage">MyPage</a>
+    <a href="/cookies">Cookie</a>
     <a href="/bbs">BBS</a>
     <a href="/contact">Contact</a>
     <a href="/logout">Logout</a>
@@ -236,6 +241,64 @@ def mypage():
           <li><a href="/bbs">掲示板へ移動</a></li>
           <li><a href="/contact">問い合わせフォームへ移動</a></li>
         </ul>
+        """,
+    )
+
+
+@get("/cookies")
+def cookies_page():
+    raw_cookie_header = request.environ.get("HTTP_COOKIE", "")
+    raw_cookie_id = request.cookies.get("cookie_id", "")
+    decoded_cookie_id = request.get_cookie("cookie_id", secret=COOKIE_SECRET)
+    user = Users.get_or_none(Users.cookie == decoded_cookie_id) if decoded_cookie_id else None
+
+    cookie_rows = []
+    for name, value in sorted(request.cookies.items()):
+        cookie_rows.append(
+            f"""
+            <tr>
+              <td><code>{html.escape(str(name))}</code></td>
+              <td><code>{html.escape(str(value))}</code></td>
+            </tr>
+            """
+        )
+    if not cookie_rows:
+        cookie_rows.append('<tr><td colspan="2" class="muted">Cookieはまだありません。</td></tr>')
+
+    decoded_value = decoded_cookie_id if decoded_cookie_id else "(なし、または署名検証に失敗)"
+    user_label = f"{user.userid}: {user.username}" if user else "(該当ユーザなし)"
+
+    return render_page(
+        "Cookie Viewer",
+        f"""
+        <p>開発者ツールを使わずに、ブラウザが送ってきたCookieを確認するための演習用ページです。</p>
+
+        <h2>Cookie header</h2>
+        <pre>{html.escape(raw_cookie_header or "(なし)")}</pre>
+
+        <h2>cookie_id の見え方</h2>
+        <table>
+          <tr>
+            <th>ブラウザに保存されている値</th>
+            <td><code>{html.escape(raw_cookie_id or "(なし)")}</code></td>
+          </tr>
+          <tr>
+            <th>署名検証後にアプリが使う値</th>
+            <td><code>{html.escape(decoded_value)}</code></td>
+          </tr>
+          <tr>
+            <th>DB上で対応するユーザ</th>
+            <td>{html.escape(user_label)}</td>
+          </tr>
+        </table>
+
+        <h2>すべてのCookie</h2>
+        <table>
+          <tr><th>名前</th><th>値</th></tr>
+          {''.join(cookie_rows)}
+        </table>
+
+        <p class="muted">セッションハイジャック演習では、別ブラウザやシークレットウィンドウでログインして、このページの値を比較してください。</p>
         """,
     )
 

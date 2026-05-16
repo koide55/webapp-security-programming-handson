@@ -53,13 +53,14 @@ select commentid, user_id, comment, datetime from comments;
 
 1. 通常ウィンドウで `koide` としてログインします。
 2. シークレットウィンドウまたは別ブラウザで `alice` としてログインします。
-3. 開発者ツールで `cookie_id` の値を確認します。
+3. それぞれのウィンドウで `http://localhost:8086/cookies` を開き、`cookie_id` の値を確認します。
 4. `koide` 側の `cookie_id` の値を `alice` 側にコピーします。
 5. `alice` 側で `/mypage` を再読み込みします。
 
 観察ポイント:
 
 - Cookieをコピーすると別のログイン状態を再現できる。
+- `/cookies` では、ブラウザに保存されている値と、署名検証後にアプリが使う値を比較できる。
 - この教材ではCookie値そのものは署名されています。任意の `user1` などに書き換えるだけでは通らない場合があります。
 
 発展:

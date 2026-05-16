@@ -34,6 +34,7 @@
   </form>
 
   <a href="/mypage"><button type="button">マイページに戻る</button></a>
+  <a href="/cookies"><button type="button">Cookieを確認する</button></a>
   <a href="/login"><button type="button">ログイン画面に戻る</button></a>
   <a href="/logout"><button type="button">ログアウトする</button></a>
 </body>
