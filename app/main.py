@@ -55,7 +55,9 @@ def initialize_database(reset=False):
             ("bob", "bob123"),
         ]
         for username, password in seed_users:
-            Users.create(username=username, password=password)
+            user = Users.create(username=username, password=password)
+            user.cookie = "user" + str(user.userid)
+            user.save()
         koide = Users.get(Users.username == "koide")
         Comments.create(
             user=koide,
@@ -80,6 +82,8 @@ def render_page(title, body):
     nav {{ display: flex; flex-wrap: wrap; gap: .5rem; }}
     nav a {{ border: 1px solid #ccc; border-radius: .35rem; color: inherit; padding: .35rem .65rem; text-decoration: none; }}
     nav a:hover {{ background: #f5f5f5; }}
+    form.compact {{ border: 1px solid #ddd; margin: 1rem 0; padding: 1rem; }}
+    form.compact button {{ width: auto; }}
     pre {{ background: #f5f5f5; overflow-x: auto; padding: 1rem; }}
     table {{ border-collapse: collapse; margin: 1rem 0; width: 100%; }}
     th, td {{ border: 1px solid #ddd; padding: .5rem; text-align: left; vertical-align: top; }}
@@ -265,6 +269,7 @@ def cookies_page():
     raw_cookie_id = request.cookies.get("cookie_id", "")
     decoded_cookie_id = request.get_cookie("cookie_id", secret=COOKIE_SECRET)
     user = Users.get_or_none(Users.cookie == decoded_cookie_id) if decoded_cookie_id else None
+    users = Users.select().order_by(Users.userid)
 
     cookie_rows = []
     for name, value in sorted(request.cookies.items()):
@@ -312,9 +317,62 @@ def cookies_page():
           {''.join(cookie_rows)}
         </table>
 
+        <h2>cookie_id を変更する</h2>
+        <p class="muted">このフォームは演習補助用です。実際のWebアプリに、利用者が任意のCookie値を署名できる画面を置いてはいけません。</p>
+
+        <form class="compact" action="/cookies" method="post">
+          <input type="hidden" name="action" value="set_decoded">
+          <label>
+            署名検証後にアプリが使う値
+            <input name="decoded_cookie_id" type="text" value="{html.escape(decoded_cookie_id or '')}" placeholder="user1">
+          </label>
+          <button type="submit">この値を署名して保存する</button>
+        </form>
+
+        <form class="compact" action="/cookies" method="post">
+          <input type="hidden" name="action" value="set_raw">
+          <label>
+            ブラウザに保存する値をそのまま貼り付ける
+            <textarea name="raw_cookie_id" rows="3" placeholder="別ブラウザの「ブラウザに保存されている値」を貼り付けます">{html.escape(raw_cookie_id or '')}</textarea>
+          </label>
+          <button type="submit">この値をそのまま保存する</button>
+        </form>
+
+        <form class="compact" action="/cookies" method="post">
+          <input type="hidden" name="action" value="clear">
+          <button type="submit">cookie_id を削除する</button>
+        </form>
+
+        <h2>初期ユーザの内部Cookie値</h2>
+        <table>
+          <tr><th>ユーザ</th><th>署名検証後の値</th></tr>
+          {''.join(f'<tr><td>{html.escape(u.username)}</td><td><code>user{u.userid}</code></td></tr>' for u in users)}
+        </table>
+
         <p class="muted">セッションハイジャック演習では、別ブラウザやシークレットウィンドウでログインして、このページの値を比較してください。</p>
         """,
     )
+
+
+@post("/cookies")
+def update_cookies():
+    action = request.forms.decode().get("action", "")
+    if action == "set_decoded":
+        decoded_cookie_id = request.forms.decode().get("decoded_cookie_id", "").strip()
+        if decoded_cookie_id:
+            response.set_cookie("cookie_id", decoded_cookie_id, secret=COOKIE_SECRET)
+        else:
+            response.delete_cookie("cookie_id")
+    elif action == "set_raw":
+        raw_cookie_id = request.forms.decode().get("raw_cookie_id", "").strip()
+        if raw_cookie_id:
+            response.set_cookie("cookie_id", raw_cookie_id)
+        else:
+            response.delete_cookie("cookie_id")
+    elif action == "clear":
+        response.delete_cookie("cookie_id")
+
+    redirect("/cookies")
 
 
 @get("/bbs")

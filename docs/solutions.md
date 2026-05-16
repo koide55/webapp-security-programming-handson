@@ -56,14 +56,17 @@ select commentid, user_id, comment, datetime from comments;
 期待する観察:
 
 - `/cookies` でブラウザ保存値と署名検証後の値を比較できる
+- `/cookies` でブラウザ保存値を貼り替えられる
+- `/cookies` で `user1` などの内部値を署名付きCookieとして保存できる
 - 署名付きCookieの生値は長い文字列になる
 - アプリ内部では `user1` のような値に復元される
 - Cookieをコピーするとログイン状態を再現できる
 
 補足:
 
-- `secret=COOKIE_SECRET` があるため、任意の `user1` を手で入れても通らない
+- `secret=COOKIE_SECRET` があるため、ブラウザ保存値として任意の `user1` を手で入れても通らない
 - 署名は改ざん検知であり、Cookie漏えいそのものを防ぐものではない
+- `/cookies` の変更フォームは演習補助機能であり、実サービスに置くべきものではない
 
 ## 演習4: XSS
 
