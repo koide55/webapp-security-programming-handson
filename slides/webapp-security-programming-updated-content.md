@@ -80,6 +80,26 @@ Point: A URL path parameter is passed into a Python function and rendered as HTM
 
 ---
 
+<!-- Slide 06 / source: OCR from slide002 Exercise 1 image code -->
+
+# 演習1: 元スライドのBottleコード
+
+```python
+from bottle import *
+
+@route('/hello/<name>')
+def index(name):
+    return template('<b>Hello, {{name}}</b> !', name=name)
+
+run(host='0.0.0.0', port=8089)
+```
+
+- URLの一部 `<name>` がPython関数の引数になる
+- `template(..., name=name)` でHTMLに値を渡す
+- 現在の教材では `app/main.py` の `@get("/hello/<name>")` に対応
+
+---
+
 <!-- Slide 06 / original: 演習1: bottleを試そう -->
 
 # 演習1: Bottleを試そう
@@ -109,6 +129,33 @@ python app/main.py --reset-db
   - `koide` / `password`
   - `alice` / `alice123`
   - `bob` / `bob123`
+
+---
+
+<!-- Slide 08 / source: OCR from slide002 Exercise 2 image code -->
+
+# 演習2: 元スライドのPeeweeコード
+
+```python
+from peewee import *
+
+db = SqliteDatabase('data.db')
+
+class Users(Model):
+    username = CharField()
+    password = CharField()
+    class Meta:
+        database = db
+
+db.connect()
+db.create_tables([Users])
+Users(username='koide', password='abcd').save()
+Users(username='hirosk', password='1234').save()
+```
+
+- `SqliteDatabase('data.db')` がSQLiteファイルを開く
+- `Users(Model)` がPythonのクラスをDBテーブルに対応させる
+- 現在の教材では `userid`, `cookie`, `Comments` も追加している
 
 ---
 
