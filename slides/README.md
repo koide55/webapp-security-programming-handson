@@ -17,5 +17,5 @@
 
 PowerPoint版:
 
-- `webapp-security-programming-handson-2026.pptx`: `slide002.pptx` の内容を現行教材に合わせて再構成した版
+- `webapp-security-programming-handson-2026.pptx`: 現行教材に合わせて再構成した105枚版
 - `webapp-security-programming-handson-2026-en.pptx`: 上記の英語版

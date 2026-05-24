@@ -1,0 +1,729 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/crmhk3q5",
+    "id": "crmhk3q5",
+    "slide": 24,
+    "layoutId": "/ppt/slideLayouts/slideLayout3.xml",
+    "layoutName": "Title and Content",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "typefaces": [
+      "+mj-lt",
+      "+mn-lt",
+      "Meiryo"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout3.xml",
+      "name": "Title and Content",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/4",
+          "id": "4",
+          "name": "Date Placeholder 3",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bat47y1k",
+      "id": "4",
+      "name": "正方形/長方形 3",
+      "bbox": [
+        0,
+        0,
+        1280,
+        734.84
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#FFE7FC"
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tsvu9kni",
+      "id": "2",
+      "name": "Title 1",
+      "bbox": [
+        48.94,
+        0,
+        1057.34,
+        114.55
+      ],
+      "text": "演習2：peeweeとSQLiteを試そう（続き）",
+      "textPreview": "演習2：peeweeとSQLiteを試そう（続き）",
+      "resolvedFontSize": 58.67,
+      "resolvedTextStyle": {
+        "fontSize": 58.67,
+        "typeface": "+mj-lt",
+        "alignment": "center"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "演習2：peeweeとSQLiteを試そう（続き）"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "演習2：peeweeとSQLiteを試そう（続き）",
+          "runs": [
+            {
+              "index": 1,
+              "text": "演習",
+              "fontSize": 48,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 2,
+              "text": "2",
+              "fontSize": 48,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 3,
+              "text": "：",
+              "fontSize": 48,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 4,
+              "text": "peewee",
+              "fontSize": 48,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 5,
+              "text": "と",
+              "fontSize": 48,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 6,
+              "text": "SQLite",
+              "fontSize": 48,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 7,
+              "text": "を試そう（続き）",
+              "fontSize": 48,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/47y1kre1",
+      "id": "3",
+      "name": "Content Placeholder 2",
+      "bbox": [
+        66.4,
+        90.35,
+        1024.93,
+        570.27
+      ],
+      "text": "データベースを直接確認する\n\n\n\n\nデータを検索する\n\n",
+      "textPreview": "データベースを直接確認する |  |  |  |  | データを検索する |  |",
+      "resolvedFontSize": 42.67,
+      "resolvedTextStyle": {
+        "fontSize": 42.67,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 8,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3. データベースを直接確認する"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": ""
+          },
+          {
+            "index": 5,
+            "text": ""
+          },
+          {
+            "index": 6,
+            "text": "4. データを検索する"
+          },
+          {
+            "index": 7,
+            "text": ""
+          },
+          {
+            "index": 8,
+            "text": ""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "データベースを直接確認する",
+          "runs": [
+            {
+              "index": 1,
+              "text": "データベースを直接確認する",
+              "typeface": "Meiryo"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "text": "データを検索する",
+          "runs": [
+            {
+              "index": 1,
+              "text": "データを検索する",
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/yhgn29gr",
+      "id": "20",
+      "name": "Picture 5",
+      "bbox": [
+        278.87,
+        436.11,
+        526.15,
+        260.83
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image11.png",
+        "contentType": "image/png",
+        "byteLength": 20795
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image11.png",
+        "contentType": "image/png",
+        "byteLength": 20795
+      }
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4vmtwra5",
+      "id": "7",
+      "name": "Rectangle 6",
+      "bbox": [
+        802.37,
+        436.11,
+        198.76,
+        260.83
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "bg1"
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ed8bat4",
+      "id": "13",
+      "name": "Rounded Rectangular Callout 12",
+      "bbox": [
+        825.14,
+        459.21,
+        281.14,
+        41.61
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "データベースのインスタンス」を生成する",
+      "textPreview": "データベースのインスタンス」を生成する",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "データベースのインスタンス」を生成する"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "データベースのインスタンス」を生成する",
+          "runs": [
+            {
+              "index": 1,
+              "text": "データベースのインスタンス」を生成する",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0nuxc3yl",
+      "id": "14",
+      "name": "Rounded Rectangular Callout 13",
+      "bbox": [
+        827.28,
+        515.02,
+        281.14,
+        41.61
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "クラスにマップする表のモデルを与える",
+      "textPreview": "クラスにマップする表のモデルを与える",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "クラスにマップする表のモデルを与える"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "クラスにマップする表のモデルを与える",
+          "runs": [
+            {
+              "index": 1,
+              "text": "クラスにマップする表のモデルを与える",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p8nqxs72",
+      "id": "15",
+      "name": "Rounded Rectangular Callout 14",
+      "bbox": [
+        826.41,
+        568.76,
+        281.14,
+        41.61
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "データベースに接続する",
+      "textPreview": "データベースに接続する",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "データベースに接続する"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "データベースに接続する",
+          "runs": [
+            {
+              "index": 1,
+              "text": "データベースに接続する",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ih4byhgn",
+      "id": "16",
+      "name": "Rounded Rectangular Callout 15",
+      "bbox": [
+        826.41,
+        622.03,
+        281.14,
+        41.61
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "ユーザ名がhiroskのレコードを検索する",
+      "textPreview": "ユーザ名がhiroskのレコードを検索する",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ユーザ名がhiroskのレコードを検索する"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ユーザ名がhiroskのレコードを検索する",
+          "runs": [
+            {
+              "index": 1,
+              "text": "ユーザ名が",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 2,
+              "text": "hirosk",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 3,
+              "text": "のレコードを検索する",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/n29gr2p8",
+      "id": "21",
+      "name": "Picture 8",
+      "bbox": [
+        261.83,
+        160.17,
+        758.67,
+        214.67
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image12.png",
+        "contentType": "image/png",
+        "byteLength": 87194
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image12.png",
+        "contentType": "image/png",
+        "byteLength": 87194
+      }
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/72x4nap4",
+      "id": "17",
+      "name": "Rounded Rectangular Callout 16",
+      "bbox": [
+        825.49,
+        138.34,
+        270.53,
+        41.61
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "データベースを操作するコマンドラインツール",
+      "textPreview": "データベースを操作するコマンドラインツール",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "データベースを操作するコマンドラインツ"
+          },
+          {
+            "index": 2,
+            "text": "ール"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "データベースを操作するコマンドラインツール",
+          "runs": [
+            {
+              "index": 1,
+              "text": "データベースを操作するコマンドラインツール",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wjudg7ad",
+      "id": "18",
+      "name": "Rounded Rectangular Callout 17",
+      "bbox": [
+        825.27,
+        203.73,
+        220.96,
+        41.61
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "どんな表を定義したんだっけ？",
+      "textPreview": "どんな表を定義したんだっけ？",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "どんな表を定義したんだっけ？"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "どんな表を定義したんだっけ？",
+          "runs": [
+            {
+              "index": 1,
+              "text": "どんな表を定義したんだっけ？",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p4r65wju",
+      "id": "19",
+      "name": "Rounded Rectangular Callout 18",
+      "bbox": [
+        825.14,
+        303.05,
+        221.08,
+        41.61
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "表usersの中身を全部表示してね",
+      "textPreview": "表usersの中身を全部表示してね",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "表usersの中身を全部表示してね"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "表usersの中身を全部表示してね",
+          "runs": [
+            {
+              "index": 1,
+              "text": "表",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 2,
+              "text": "users",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 3,
+              "text": "の中身を全部表示してね",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

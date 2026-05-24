@@ -1,0 +1,623 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/mhk3q5o7",
+    "id": "mhk3q5o7",
+    "slide": 22,
+    "layoutId": "/ppt/slideLayouts/slideLayout3.xml",
+    "layoutName": "Title and Content",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "typefaces": [
+      "+mj-lt",
+      "+mn-lt",
+      "Meiryo"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout3.xml",
+      "name": "Title and Content",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/4",
+          "id": "4",
+          "name": "Date Placeholder 3",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6tovahoz",
+      "id": "4",
+      "name": "正方形/長方形 3",
+      "bbox": [
+        0,
+        0,
+        1289.51,
+        720
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#FFE7FC"
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/onyd0z61",
+      "id": "2",
+      "name": "Title 1",
+      "bbox": [
+        71.41,
+        15.48,
+        1048.59,
+        92.5
+      ],
+      "text": "Ex 2：Try peewee and SQLite",
+      "textPreview": "Ex 2：Try peewee and SQLite",
+      "resolvedFontSize": 58.67,
+      "resolvedTextStyle": {
+        "fontSize": 58.67,
+        "typeface": "+mj-lt",
+        "alignment": "center"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Ex 2：Try peewee and SQLite"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Ex 2：Try peewee and SQLite",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ex 2",
+              "fontSize": 48,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 2,
+              "text": "：",
+              "fontSize": 48,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 3,
+              "text": "Try peewee and SQLite",
+              "fontSize": 48,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8v6psfi",
+      "id": "3",
+      "name": "Content Placeholder 2",
+      "bbox": [
+        71.41,
+        123.47,
+        1000.59,
+        545.74
+      ],
+      "text": "Input the following code（Insert data）\n\n\n\n\n\n\n\nExecute it\n$ python3.5 main.py ",
+      "textPreview": "Input the following code（Insert data） |  |  |  |  |  |  |  | Execute it | $ python3.5 main.py",
+      "resolvedFontSize": 39.47,
+      "resolvedTextStyle": {
+        "fontSize": 42.67,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 10,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1. Input the following code（Insert data）"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": ""
+          },
+          {
+            "index": 5,
+            "text": ""
+          },
+          {
+            "index": 6,
+            "text": ""
+          },
+          {
+            "index": 7,
+            "text": ""
+          },
+          {
+            "index": 8,
+            "text": ""
+          },
+          {
+            "index": 9,
+            "text": "2. Execute it"
+          },
+          {
+            "index": 10,
+            "text": "$ python3.5 main.py"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Input the following code（Insert data）",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Input the following code"
+            },
+            {
+              "index": 2,
+              "text": "（"
+            },
+            {
+              "index": 3,
+              "text": "Insert data"
+            },
+            {
+              "index": 4,
+              "text": "）"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "text": "Execute it",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Execute it"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "text": "$ python3.5 main.py ",
+          "runs": [
+            {
+              "index": 1,
+              "text": "$ python3.5 ",
+              "color": "#002060"
+            },
+            {
+              "index": 2,
+              "text": "main.py",
+              "color": "#002060"
+            },
+            {
+              "index": 3,
+              "text": " ",
+              "color": "#002060"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/byhgn29g",
+      "id": "13",
+      "name": "Picture 4",
+      "bbox": [
+        1097.67,
+        500.25,
+        159.71,
+        200.36
+      ],
+      "contentType": "image/tiff",
+      "asset": {
+        "assetId": "/ppt/media/image9.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 185502
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image9.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 185502
+      }
+    },
+    {
+      "order": 5,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/0rqd4vmt",
+      "id": "14",
+      "name": "Picture 5",
+      "bbox": [
+        285.02,
+        175.67,
+        629.26,
+        362.69
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image10.png",
+        "contentType": "image/png",
+        "byteLength": 21070
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image10.png",
+        "contentType": "image/png",
+        "byteLength": 21070
+      }
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/61032lsz",
+      "id": "8",
+      "name": "Rounded Rectangular Callout 7",
+      "bbox": [
+        742.75,
+        316.9,
+        267.5,
+        38.61
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "Create a model of database",
+      "textPreview": "Create a model of database",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Create a model of database"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Create a model of database",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Create a model of database",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vmtwra5g",
+      "id": "9",
+      "name": "Right Brace 8",
+      "bbox": [
+        640,
+        293.46,
+        34.5,
+        102.88
+      ],
+      "geometry": "rightBrace",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b2hwfyxo",
+      "id": "10",
+      "name": "Rounded Rectangular Callout 9",
+      "bbox": [
+        742.75,
+        388.4,
+        267.5,
+        38.61
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "Connect to the database",
+      "textPreview": "Connect to the database",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Connect to the database"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Connect to the database",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Connect to the database",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mhk3q5o7",
+      "id": "11",
+      "name": "Rounded Rectangular Callout 10",
+      "bbox": [
+        742.22,
+        439.86,
+        267.5,
+        38.61
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "Create tables corresponding to models",
+      "textPreview": "Create tables corresponding to models",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Create tables corresponding to models"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Create tables corresponding to models",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Create tables corresponding to models",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t83itgfm",
+      "id": "12",
+      "name": "Rounded Rectangular Callout 11",
+      "bbox": [
+        599.65,
+        558.31,
+        315.37,
+        38.61
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "Create  two sets of data and store them",
+      "textPreview": "Create  two sets of data and store them",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Create  two sets of data and store them"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Create  two sets of data and store them",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Create  two sets of data and store them",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dg7adsji",
+      "id": "7",
+      "name": "Rounded Rectangular Callout 6",
+      "bbox": [
+        744.5,
+        215.26,
+        267.5,
+        38.61
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "Create an instance of database",
+      "textPreview": "Create an instance of database",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Create an instance of database"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Create an instance of database",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Create an instance of database",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

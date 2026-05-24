@@ -1,0 +1,689 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/8z25kb6x",
+    "id": "8z25kb6x",
+    "slide": 17,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "DEFAULT",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "typefaces": [
+      "+mn-lt",
+      "Hiragino Sans",
+      "Menlo"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "DEFAULT",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pg3ex0nu",
+      "id": "2",
+      "name": "Shape 0",
+      "bbox": [
+        0,
+        0,
+        21.12,
+        720
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#0F766E",
+      "lineColor": "rgba(51, 51, 51, 0)",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wval87ed",
+      "id": "3",
+      "name": "Text 1",
+      "bbox": [
+        62.4,
+        30.72,
+        249.6,
+        21.12
+      ],
+      "geometry": "rect",
+      "text": "基礎",
+      "textPreview": "基礎",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "基礎"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "基礎",
+          "runs": [
+            {
+              "index": 1,
+              "text": "基礎",
+              "fontSize": 10.67,
+              "typeface": "Hiragino Sans",
+              "color": "#0F766E",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7mp0bi9s",
+      "id": "4",
+      "name": "Text 2",
+      "bbox": [
+        62.4,
+        54.72,
+        1123.2,
+        59.52
+      ],
+      "geometry": "rect",
+      "text": "演習2: 元スライドのPeeweeコード",
+      "textPreview": "演習2: 元スライドのPeeweeコード",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "演習2: 元スライドのPeeweeコード"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "演習2: 元スライドのPeeweeコード",
+          "runs": [
+            {
+              "index": 1,
+              "text": "演習2: 元スライドのPeeweeコード",
+              "fontSize": 38.67,
+              "typeface": "Hiragino Sans",
+              "color": "#111827",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e1w7mp0b",
+      "id": "5",
+      "name": "Shape 3",
+      "bbox": [
+        62.4,
+        122.88,
+        1152,
+        0
+      ],
+      "geometry": "line",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1.07
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/psfil0rq",
+      "id": "6",
+      "name": "Shape 4",
+      "bbox": [
+        62.4,
+        675.84,
+        1152,
+        0
+      ],
+      "geometry": "line",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": "#E5E7EB",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w7mp0bi9",
+      "id": "7",
+      "name": "Text 5",
+      "bbox": [
+        65.28,
+        683.52,
+        652.8,
+        17.28
+      ],
+      "geometry": "rect",
+      "text": "webapp-security-programming-handson",
+      "textPreview": "webapp-security-programming-handson",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "webapp-security-programming-handson"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "webapp-security-programming-handson",
+          "runs": [
+            {
+              "index": 1,
+              "text": "webapp-security-programming-handson",
+              "fontSize": 10,
+              "typeface": "Hiragino Sans",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7u54zido",
+      "id": "8",
+      "name": "Text 6",
+      "bbox": [
+        1134.72,
+        682.56,
+        81.6,
+        17.28
+      ],
+      "geometry": "rect",
+      "text": "10 / 74",
+      "textPreview": "10 / 74",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "10 / 74"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "10 / 74",
+          "runs": [
+            {
+              "index": 1,
+              "text": "10 / 74",
+              "fontSize": 10,
+              "typeface": "Hiragino Sans",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ed8bat47",
+      "id": "9",
+      "name": "Shape 7",
+      "bbox": [
+        78.72,
+        149.76,
+        1121.28,
+        281.47
+      ],
+      "geometry": "roundRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#F3F4F6",
+      "lineColor": "#E5E7EB",
+      "lineWidth": 1.07
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/onyd0z61",
+      "id": "10",
+      "name": "Text 8",
+      "bbox": [
+        97.92,
+        168.96,
+        1065.6,
+        252.67
+      ],
+      "geometry": "rect",
+      "text": "from peewee import *\n\ndb = SqliteDatabase('data.db')\n\nclass Users(Model):\n    username = CharField()\n    password = CharField()\n    class Meta:\n        database = db\n\ndb.connect()\ndb.create_tables([Users])\nUsers(username='koide', password='abcd').save()\nUsers(username='hirosk', password='1234').save()",
+      "textPreview": "from peewee import * |  | db = SqliteDatabase('data.db') |  | class Users(Model): |     username = CharField() |     password = CharField...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 14,
+        "lines": [
+          {
+            "index": 1,
+            "text": "from peewee import *"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "db = SqliteDatabase('data.db')"
+          },
+          {
+            "index": 4,
+            "text": ""
+          },
+          {
+            "index": 5,
+            "text": "class Users(Model):"
+          },
+          {
+            "index": 6,
+            "text": "    username = CharField()"
+          },
+          {
+            "index": 7,
+            "text": "    password = CharField()"
+          },
+          {
+            "index": 8,
+            "text": "    class Meta:"
+          },
+          {
+            "index": 9,
+            "text": "        database = db"
+          },
+          {
+            "index": 10,
+            "text": ""
+          },
+          {
+            "index": 11,
+            "text": "db.connect()"
+          },
+          {
+            "index": 12,
+            "text": "db.create_tables([Users])"
+          },
+          {
+            "index": 13,
+            "text": "Users(username='koide', password='abcd').save()"
+          },
+          {
+            "index": 14,
+            "text": "Users(username='hirosk', password='1234').save()"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "from peewee import *",
+          "runs": [
+            {
+              "index": 1,
+              "text": "from peewee import *",
+              "fontSize": 11.47,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "db = SqliteDatabase('data.db')",
+          "runs": [
+            {
+              "index": 1,
+              "text": "db = SqliteDatabase('data.db')",
+              "fontSize": 11.47,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "class Users(Model):",
+          "runs": [
+            {
+              "index": 1,
+              "text": "class Users(Model):",
+              "fontSize": 11.47,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "text": "    username = CharField()",
+          "runs": [
+            {
+              "index": 1,
+              "text": "    username = CharField()",
+              "fontSize": 11.47,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "text": "    password = CharField()",
+          "runs": [
+            {
+              "index": 1,
+              "text": "    password = CharField()",
+              "fontSize": 11.47,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "text": "    class Meta:",
+          "runs": [
+            {
+              "index": 1,
+              "text": "    class Meta:",
+              "fontSize": 11.47,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "text": "        database = db",
+          "runs": [
+            {
+              "index": 1,
+              "text": "        database = db",
+              "fontSize": 11.47,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "text": "db.connect()",
+          "runs": [
+            {
+              "index": 1,
+              "text": "db.connect()",
+              "fontSize": 11.47,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "text": "db.create_tables([Users])",
+          "runs": [
+            {
+              "index": 1,
+              "text": "db.create_tables([Users])",
+              "fontSize": 11.47,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "text": "Users(username='koide', password='abcd').save()",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Users(username='koide', password='abcd').save()",
+              "fontSize": 11.47,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "text": "Users(username='hirosk', password='1234').save()",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Users(username='hirosk', password='1234').save()",
+              "fontSize": 11.47,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8v6psfi",
+      "id": "11",
+      "name": "Text 9",
+      "bbox": [
+        88.32,
+        448.51,
+        1099.2,
+        129.6
+      ],
+      "geometry": "rect",
+      "text": "• SqliteDatabase('data.db') がSQLiteファイルを開く\n• Users(Model) がPythonのクラスをDBテーブルに対応させる\n• 現在の教材では userid, cookie, Comments も追加している",
+      "textPreview": "• SqliteDatabase('data.db') がSQLiteファイルを開く | • Users(Model) がPythonのクラスをDBテーブルに対応させる | • 現在の教材では userid, cookie, Comments も追加している",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• SqliteDatabase('data.db') がSQLiteファイルを開く"
+          },
+          {
+            "index": 2,
+            "text": "• Users(Model) がPythonのクラスをDBテーブルに対応させる"
+          },
+          {
+            "index": 3,
+            "text": "• 現在の教材では userid, cookie, Comments も追加している"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• SqliteDatabase('data.db') がSQLiteファイルを開く",
+          "runs": [
+            {
+              "index": 1,
+              "text": "• SqliteDatabase('data.db') がSQLiteファイルを開く",
+              "fontSize": 20,
+              "typeface": "Hiragino Sans",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "• Users(Model) がPythonのクラスをDBテーブルに対応させる",
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Users(Model) がPythonのクラスをDBテーブルに対応させる",
+              "fontSize": 20,
+              "typeface": "Hiragino Sans",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "• 現在の教材では userid, cookie, Comments も追加している",
+          "runs": [
+            {
+              "index": 1,
+              "text": "• 現在の教材では userid, cookie, Comments も追加している",
+              "fontSize": 20,
+              "typeface": "Hiragino Sans",
+              "color": "#111827"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

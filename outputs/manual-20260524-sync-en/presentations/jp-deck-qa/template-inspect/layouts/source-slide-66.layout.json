@@ -1,0 +1,443 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/hk3q5o7q",
+    "id": "hk3q5o7q",
+    "slide": 67,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "DEFAULT",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "typefaces": [
+      "+mn-lt",
+      "Hiragino Sans"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "DEFAULT",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ylc7u54z",
+      "id": "2",
+      "name": "Shape 0",
+      "bbox": [
+        0,
+        0,
+        21.12,
+        720
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#0F766E",
+      "lineColor": "rgba(51, 51, 51, 0)",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r65wjudg",
+      "id": "3",
+      "name": "Text 1",
+      "bbox": [
+        62.4,
+        30.72,
+        249.6,
+        21.12
+      ],
+      "geometry": "rect",
+      "text": "CSRF",
+      "textPreview": "CSRF",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CSRF"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CSRF",
+          "runs": [
+            {
+              "index": 1,
+              "text": "CSRF",
+              "fontSize": 10.67,
+              "typeface": "Hiragino Sans",
+              "color": "#0F766E",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g3ex0nux",
+      "id": "4",
+      "name": "Text 2",
+      "bbox": [
+        62.4,
+        54.72,
+        1123.2,
+        59.52
+      ],
+      "geometry": "rect",
+      "text": "CSRFの実験環境",
+      "textPreview": "CSRFの実験環境",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CSRFの実験環境"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CSRFの実験環境",
+          "runs": [
+            {
+              "index": 1,
+              "text": "CSRFの実験環境",
+              "fontSize": 38.67,
+              "typeface": "Hiragino Sans",
+              "color": "#111827",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5o7qpg3e",
+      "id": "5",
+      "name": "Shape 3",
+      "bbox": [
+        62.4,
+        122.88,
+        1152,
+        0
+      ],
+      "geometry": "line",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1.07
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yxobm58z",
+      "id": "6",
+      "name": "Shape 4",
+      "bbox": [
+        62.4,
+        675.84,
+        1152,
+        0
+      ],
+      "geometry": "line",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": "#E5E7EB",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nih4byhg",
+      "id": "7",
+      "name": "Text 5",
+      "bbox": [
+        65.28,
+        683.52,
+        652.8,
+        17.28
+      ],
+      "geometry": "rect",
+      "text": "webapp-security-programming-handson",
+      "textPreview": "webapp-security-programming-handson",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "webapp-security-programming-handson"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "webapp-security-programming-handson",
+          "runs": [
+            {
+              "index": 1,
+              "text": "webapp-security-programming-handson",
+              "fontSize": 10,
+              "typeface": "Hiragino Sans",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g7adsji5",
+      "id": "8",
+      "name": "Text 6",
+      "bbox": [
+        1134.72,
+        682.56,
+        81.6,
+        17.28
+      ],
+      "geometry": "rect",
+      "text": "44 / 74",
+      "textPreview": "44 / 74",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "44 / 74"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "44 / 74",
+          "runs": [
+            {
+              "index": 1,
+              "text": "44 / 74",
+              "fontSize": 10,
+              "typeface": "Hiragino Sans",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9s36hcrm",
+      "id": "9",
+      "name": "Text 7",
+      "bbox": [
+        88.32,
+        149.76,
+        1099.2,
+        167.04
+      ],
+      "geometry": "rect",
+      "text": "• ブラウザは、対象サイトへのリクエストにCookieを自動で付ける\n• 別サイト上のフォームからでも、対象サイトへPOSTできる\n• サーバが正当な画面からの操作か検証しないと、意図しない操作が成立する\n• 掲示板投稿を例に観察する",
+      "textPreview": "• ブラウザは、対象サイトへのリクエストにCookieを自動で付ける | • 別サイト上のフォームからでも、対象サイトへPOSTできる | • サーバが正当な画面からの操作か検証しないと、意図しない操作が成立する | • 掲示板投稿を例に観察する",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• ブラウザは、対象サイトへのリクエストにCookieを自動で付ける"
+          },
+          {
+            "index": 2,
+            "text": "• 別サイト上のフォームからでも、対象サイトへPOSTできる"
+          },
+          {
+            "index": 3,
+            "text": "• サーバが正当な画面からの操作か検証しないと、意図しない操作が成立する"
+          },
+          {
+            "index": 4,
+            "text": "• 掲示板投稿を例に観察する"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• ブラウザは、対象サイトへのリクエストにCookieを自動で付ける",
+          "runs": [
+            {
+              "index": 1,
+              "text": "• ブラウザは、対象サイトへのリクエストにCookieを自動で付ける",
+              "fontSize": 20,
+              "typeface": "Hiragino Sans",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "• 別サイト上のフォームからでも、対象サイトへPOSTできる",
+          "runs": [
+            {
+              "index": 1,
+              "text": "• 別サイト上のフォームからでも、対象サイトへPOSTできる",
+              "fontSize": 20,
+              "typeface": "Hiragino Sans",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "• サーバが正当な画面からの操作か検証しないと、意図しない操作が成立する",
+          "runs": [
+            {
+              "index": 1,
+              "text": "• サーバが正当な画面からの操作か検証しないと、意図しない操作が成立する",
+              "fontSize": 20,
+              "typeface": "Hiragino Sans",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "• 掲示板投稿を例に観察する",
+          "runs": [
+            {
+              "index": 1,
+              "text": "• 掲示板投稿を例に観察する",
+              "fontSize": 20,
+              "typeface": "Hiragino Sans",
+              "color": "#111827"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

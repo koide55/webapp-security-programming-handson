@@ -1,0 +1,583 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/re1w7mp0",
+    "id": "re1w7mp0",
+    "slide": 12,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "DEFAULT",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "typefaces": [
+      "+mn-lt",
+      "Hiragino Sans",
+      "Menlo"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "DEFAULT",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6tovahoz",
+      "id": "2",
+      "name": "Shape 0",
+      "bbox": [
+        0,
+        0,
+        21.12,
+        720
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#0F766E",
+      "lineColor": "rgba(51, 51, 51, 0)",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vahoza1g",
+      "id": "3",
+      "name": "Text 1",
+      "bbox": [
+        62.4,
+        30.72,
+        249.6,
+        21.12
+      ],
+      "geometry": "rect",
+      "text": "基礎",
+      "textPreview": "基礎",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "基礎"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "基礎",
+          "runs": [
+            {
+              "index": 1,
+              "text": "基礎",
+              "fontSize": 10.67,
+              "typeface": "Hiragino Sans",
+              "color": "#0F766E",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/onyd0z61",
+      "id": "4",
+      "name": "Text 2",
+      "bbox": [
+        62.4,
+        54.72,
+        1123.2,
+        59.52
+      ],
+      "geometry": "rect",
+      "text": "演習1: 元スライドのBottleコード",
+      "textPreview": "演習1: 元スライドのBottleコード",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "演習1: 元スライドのBottleコード"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "演習1: 元スライドのBottleコード",
+          "runs": [
+            {
+              "index": 1,
+              "text": "演習1: 元スライドのBottleコード",
+              "fontSize": 38.67,
+              "typeface": "Hiragino Sans",
+              "color": "#111827",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8v6psfi",
+      "id": "5",
+      "name": "Shape 3",
+      "bbox": [
+        62.4,
+        122.88,
+        1152,
+        0
+      ],
+      "geometry": "line",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1.07
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6hcrmhk3",
+      "id": "6",
+      "name": "Shape 4",
+      "bbox": [
+        62.4,
+        675.84,
+        1152,
+        0
+      ],
+      "geometry": "line",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": "#E5E7EB",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z25kb6xk",
+      "id": "7",
+      "name": "Text 5",
+      "bbox": [
+        65.28,
+        683.52,
+        652.8,
+        17.28
+      ],
+      "geometry": "rect",
+      "text": "webapp-security-programming-handson",
+      "textPreview": "webapp-security-programming-handson",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "webapp-security-programming-handson"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "webapp-security-programming-handson",
+          "runs": [
+            {
+              "index": 1,
+              "text": "webapp-security-programming-handson",
+              "fontSize": 10,
+              "typeface": "Hiragino Sans",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oj2t83it",
+      "id": "8",
+      "name": "Text 6",
+      "bbox": [
+        1134.72,
+        682.56,
+        81.6,
+        17.28
+      ],
+      "geometry": "rect",
+      "text": "07 / 74",
+      "textPreview": "07 / 74",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "07 / 74"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "07 / 74",
+          "runs": [
+            {
+              "index": 1,
+              "text": "07 / 74",
+              "fontSize": 10,
+              "typeface": "Hiragino Sans",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d4vmtwra",
+      "id": "9",
+      "name": "Shape 7",
+      "bbox": [
+        78.72,
+        149.76,
+        1121.28,
+        180.2
+      ],
+      "geometry": "roundRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#F3F4F6",
+      "lineColor": "#E5E7EB",
+      "lineWidth": 1.07
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4byhgn2",
+      "id": "10",
+      "name": "Text 8",
+      "bbox": [
+        97.92,
+        168.96,
+        1065.6,
+        151.4
+      ],
+      "geometry": "rect",
+      "text": "from bottle import *\n\n@route('/hello/<name>')\ndef index(name):\n    return template('<b>Hello, {{name}}</b> !', name=name)\n\nrun(host='0.0.0.0', port=8089)",
+      "textPreview": "from bottle import * |  | @route('/hello/<name>') | def index(name): |     return template('<b>Hello, {{name}}</b> !', name=name) |  | ru...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 7,
+        "lines": [
+          {
+            "index": 1,
+            "text": "from bottle import *"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "@route('/hello/<name>')"
+          },
+          {
+            "index": 4,
+            "text": "def index(name):"
+          },
+          {
+            "index": 5,
+            "text": "    return template('<b>Hello, {{name}}</b> !', name=name)"
+          },
+          {
+            "index": 6,
+            "text": ""
+          },
+          {
+            "index": 7,
+            "text": "run(host='0.0.0.0', port=8089)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "from bottle import *",
+          "runs": [
+            {
+              "index": 1,
+              "text": "from bottle import *",
+              "fontSize": 13.6,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "@route('/hello/<name>')",
+          "runs": [
+            {
+              "index": 1,
+              "text": "@route('/hello/<name>')",
+              "fontSize": 13.6,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "def index(name):",
+          "runs": [
+            {
+              "index": 1,
+              "text": "def index(name):",
+              "fontSize": 13.6,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "    return template('<b>Hello, {{name}}</b> !', name=name)",
+          "runs": [
+            {
+              "index": 1,
+              "text": "    return template('<b>Hello, {{name}}</b> !', name=name)",
+              "fontSize": 13.6,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "text": "run(host='0.0.0.0', port=8089)",
+          "runs": [
+            {
+              "index": 1,
+              "text": "run(host='0.0.0.0', port=8089)",
+              "fontSize": 13.6,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sji5snel",
+      "id": "11",
+      "name": "Text 9",
+      "bbox": [
+        88.32,
+        347.24,
+        1099.2,
+        129.6
+      ],
+      "geometry": "rect",
+      "text": "• URLの一部 <name> がPython関数の引数になる\n• template(..., name=name) でHTMLに値を渡す\n• 現在の教材では app/main.py の @get(\"/hello/<name>\") に対応",
+      "textPreview": "• URLの一部 <name> がPython関数の引数になる | • template(..., name=name) でHTMLに値を渡す | • 現在の教材では app/main.py の @get(\"/hello/<name>\") に対応",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• URLの一部 <name> がPython関数の引数になる"
+          },
+          {
+            "index": 2,
+            "text": "• template(..., name=name) でHTMLに値を渡す"
+          },
+          {
+            "index": 3,
+            "text": "• 現在の教材では app/main.py の @get(\"/hello/<name>\") に対応"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• URLの一部 <name> がPython関数の引数になる",
+          "runs": [
+            {
+              "index": 1,
+              "text": "• URLの一部 <name> がPython関数の引数になる",
+              "fontSize": 20,
+              "typeface": "Hiragino Sans",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "• template(..., name=name) でHTMLに値を渡す",
+          "runs": [
+            {
+              "index": 1,
+              "text": "• template(..., name=name) でHTMLに値を渡す",
+              "fontSize": 20,
+              "typeface": "Hiragino Sans",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "• 現在の教材では app/main.py の @get(\"/hello/<name>\") に対応",
+          "runs": [
+            {
+              "index": 1,
+              "text": "• 現在の教材では app/main.py の @get(\"/hello/<name>\") に対応",
+              "fontSize": 20,
+              "typeface": "Hiragino Sans",
+              "color": "#111827"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

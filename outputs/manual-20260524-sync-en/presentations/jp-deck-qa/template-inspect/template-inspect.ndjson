@@ -1,0 +1,143 @@
+{"kind":"slide","id":"sl/2x4nap4r","slide":2,"title":"Slide 2","textShapes":0}
+{"kind":"image","id":"im/mhk3q5o7","slide":2,"name":"Picture 2","bbox":[0,3,1280,714]}
+{"kind":"slide","id":"sl/pg3ex0nu","slide":3,"title":"Slide 3","textShapes":0}
+{"kind":"image","id":"im/bi9s36hc","slide":3,"name":"Picture 2","bbox":[0,3,1280,714]}
+{"kind":"slide","id":"sl/s72x4nap","slide":4,"title":"Web Application Security Programming","textShapes":5}
+{"kind":"shape","id":"sh/o7qpg3ex","slide":4,"name":"Shape 0","bbox":[0,0,32.64,720]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":4,"textChars":36,"textLines":1}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":4,"textChars":40,"textLines":1}
+{"kind":"shape","id":"sh/vy90je9c","slide":4,"name":"Shape 3","bbox":[78.72,312,1041.6,244.8]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":4,"textChars":164,"textLines":4}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":4,"textChars":62,"textLines":1}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":4,"textChars":7,"textLines":1}
+{"kind":"slide","id":"sl/val87ed8","slide":5,"title":"LECTURE","textShapes":5}
+{"kind":"shape","id":"sh/qtcj6tov","slide":5,"name":"Shape 0","bbox":[0,0,21.12,720]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":5,"textChars":7,"textLines":1}
+{"kind":"textbox","id":"sh/87ed8bat","slide":5,"textChars":12,"textLines":1}
+{"kind":"shape","id":"sh/xs72x4na","slide":5,"name":"Shape 3","bbox":[62.4,122.88,1152,0]}
+{"kind":"shape","id":"sh/q1orytsv","slide":5,"name":"Shape 4","bbox":[62.4,675.84,1152,0]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":5,"textChars":35,"textLines":1}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":5,"textChars":7,"textLines":1}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":5,"textChars":131,"textLines":4}
+{"kind":"slide","id":"sl/mlkjm1cf","slide":6,"title":"準備","textShapes":6}
+{"kind":"shape","id":"sh/ovahoza1","slide":6,"name":"Shape 0","bbox":[0,0,21.12,720]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":6,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":6,"textChars":19,"textLines":1}
+{"kind":"shape","id":"sh/z25kb6xk","slide":6,"name":"Shape 3","bbox":[62.4,122.88,1152,0]}
+{"kind":"shape","id":"sh/onyd0z61","slide":6,"name":"Shape 4","bbox":[62.4,675.84,1152,0]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":6,"textChars":35,"textLines":1}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":6,"textChars":7,"textLines":1}
+{"kind":"textbox","id":"sh/vy90je9c","slide":6,"textChars":174,"textLines":5}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":6,"textChars":37,"textLines":1}
+{"kind":"slide","id":"sl/58z25kb6","slide":7,"title":"準備","textShapes":5}
+{"kind":"shape","id":"sh/ylc7u54z","slide":7,"name":"Shape 0","bbox":[0,0,21.12,720]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":7,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":7,"textChars":11,"textLines":1}
+{"kind":"shape","id":"sh/5o7qpg3e","slide":7,"name":"Shape 3","bbox":[62.4,122.88,1152,0]}
+{"kind":"shape","id":"sh/yxobm58z","slide":7,"name":"Shape 4","bbox":[62.4,675.84,1152,0]}
+{"kind":"textbox","id":"sh/nih4byhg","slide":7,"textChars":35,"textLines":1}
+{"kind":"textbox","id":"sh/g7adsji5","slide":7,"textChars":7,"textLines":1}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":7,"textChars":151,"textLines":9}
+{"kind":"image","id":"im/qxs72x4n","slide":7,"name":"Picture 2","bbox":[497.38,167.04,771.01,430.08]}
+{"kind":"slide","id":"sl/0z61032l","slide":8,"title":"Webアプリの実験環境","textShapes":2}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":8,"textChars":11,"textLines":1}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":8,"textChars":168,"textLines":11}
+{"kind":"image","id":"im/at47y1kr","slide":8,"name":"Picture 3","bbox":[984.49,252.26,226.67,85]}
+{"kind":"image","id":"im/3ex0nuxc","slide":8,"name":"Picture 5","bbox":[993.82,131.5,208,71.76]}
+{"kind":"image","id":"im/szqtcj6t","slide":8,"name":"Picture 4","bbox":[993.82,419.6,234.67,101.73]}
+{"kind":"slide","id":"sl/fu18jqh0","slide":9,"title":"Frameworks we use here","textShapes":2}
+{"kind":"textbox","id":"sh/u9knih4b","slide":9,"textChars":22,"textLines":1}
+{"kind":"textbox","id":"sh/judg7ads","slide":9,"textChars":265,"textLines":10}
+{"kind":"image","id":"im/5sneloj2","slide":9,"name":"Picture 3","bbox":[984.49,252.26,226.67,85]}
+{"kind":"image","id":"im/cbulwval","slide":9,"name":"Picture 5","bbox":[993.82,131.5,208,71.76]}
+{"kind":"image","id":"im/nqxs72x4","slide":9,"name":"Picture 4","bbox":[993.82,419.6,234.67,101.73]}
+{"kind":"slide","id":"sl/qh0fepkz","slide":10,"title":"準備","textShapes":5}
+{"kind":"shape","id":"sh/ovahoza1","slide":10,"name":"Shape 0","bbox":[0,0,21.12,720]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":10,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":10,"textChars":22,"textLines":1}
+{"kind":"shape","id":"sh/z25kb6xk","slide":10,"name":"Shape 3","bbox":[62.4,122.88,1152,0]}
+{"kind":"shape","id":"sh/onyd0z61","slide":10,"name":"Shape 4","bbox":[62.4,675.84,1152,0]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":10,"textChars":35,"textLines":1}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":10,"textChars":7,"textLines":1}
+{"kind":"textbox","id":"sh/vy90je9c","slide":10,"textChars":290,"textLines":5}
+{"kind":"slide","id":"sl/29gr2p8n","slide":11,"title":"基礎","textShapes":6}
+{"kind":"shape","id":"sh/9gr2p8nq","slide":11,"name":"Shape 0","bbox":[0,0,21.12,720]}
+{"kind":"textbox","id":"sh/gvy90je9","slide":11,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":11,"textChars":15,"textLines":1}
+{"kind":"shape","id":"sh/2hwfyxob","slide":11,"name":"Shape 3","bbox":[62.4,122.88,1152,0]}
+{"kind":"shape","id":"sh/94fu18jq","slide":11,"name":"Shape 4","bbox":[62.4,675.84,1152,0]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":11,"textChars":35,"textLines":1}
+{"kind":"textbox","id":"sh/rqd4vmtw","slide":11,"textChars":7,"textLines":1}
+{"kind":"textbox","id":"sh/25kb6xkf","slide":11,"textChars":216,"textLines":5}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":11,"textChars":82,"textLines":1}
+{"kind":"slide","id":"sl/re1w7mp0","slide":12,"title":"基礎","textShapes":6}
+{"kind":"shape","id":"sh/6tovahoz","slide":12,"name":"Shape 0","bbox":[0,0,21.12,720]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":12,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/onyd0z61","slide":12,"textChars":20,"textLines":1}
+{"kind":"shape","id":"sh/d8v6psfi","slide":12,"name":"Shape 3","bbox":[62.4,122.88,1152,0]}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":12,"name":"Shape 4","bbox":[62.4,675.84,1152,0]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":12,"textChars":35,"textLines":1}
+{"kind":"textbox","id":"sh/oj2t83it","slide":12,"textChars":7,"textLines":1}
+{"kind":"shape","id":"sh/d4vmtwra","slide":12,"name":"Shape 7","bbox":[78.72,149.76,1121.28,180.2]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":12,"textChars":153,"textLines":7}
+{"kind":"textbox","id":"sh/sji5snel","slide":12,"textChars":119,"textLines":3}
+{"kind":"slide","id":"sl/4fu18jqh","slide":13,"title":"基礎","textShapes":6}
+{"kind":"shape","id":"sh/s72x4nap","slide":13,"name":"Shape 0","bbox":[0,0,21.12,720]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":13,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/adsji5sn","slide":13,"textChars":15,"textLines":1}
+{"kind":"shape","id":"sh/3ylc7u54","slide":13,"name":"Shape 3","bbox":[62.4,122.88,1152,0]}
+{"kind":"shape","id":"sh/sji5snel","slide":13,"name":"Shape 4","bbox":[62.4,675.84,1152,0]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":13,"textChars":35,"textLines":1}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":13,"textChars":7,"textLines":1}
+{"kind":"shape","id":"sh/za1gvy90","slide":13,"name":"Shape 7","bbox":[78.72,149.76,1121.28,159.12]}
+{"kind":"textbox","id":"sh/z61032ls","slide":13,"textChars":230,"textLines":6}
+{"kind":"textbox","id":"sh/al87ed8b","slide":13,"textChars":79,"textLines":2}
+{"kind":"slide","id":"sl/lwval87e","slide":14,"title":"各自の端末からpythonを起動して以下を入力","textShapes":7}
+{"kind":"shape","id":"sh/36hcrmhk","slide":14,"name":"正方形/長方形 3","bbox":[2,0,1280,720]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":14,"textChars":40,"textLines":7}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":14,"textChars":14,"textLines":1}
+{"kind":"textbox","id":"sh/epkzupwb","slide":14,"textChars":49,"textLines":2}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":14,"textChars":23,"textLines":1}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":14,"textChars":10,"textLines":1}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":14,"textChars":16,"textLines":1}
+{"kind":"textbox","id":"sh/1gvy90je","slide":14,"textChars":9,"textLines":1}
+{"kind":"image","id":"im/qpg3ex0n","slide":14,"name":"Picture 14","bbox":[212,177.2,832.61,307.23]}
+{"kind":"image","id":"im/fa9w3m94","slide":14,"name":"Picture 7","bbox":[1023.33,593.77,208,71.76]}
+{"kind":"image","id":"im/8v6psfil","slide":14,"name":"Picture 16","bbox":[217.39,543.68,391.88,174.48]}
+{"kind":"slide","id":"sl/25kb6xkf","slide":15,"title":"Ex 1：Try bottle","textShapes":7}
+{"kind":"shape","id":"sh/2x4nap4r","slide":15,"name":"正方形/長方形 3","bbox":[0,1.84,1280,720]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":15,"textChars":15,"textLines":1}
+{"kind":"textbox","id":"sh/dcbulwva","slide":15,"textChars":86,"textLines":7}
+{"kind":"textbox","id":"sh/vu9knih4","slide":15,"textChars":80,"textLines":1}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":15,"textChars":42,"textLines":1}
+{"kind":"textbox","id":"sh/adsji5sn","slide":15,"textChars":27,"textLines":1}
+{"kind":"textbox","id":"sh/zidonyd0","slide":15,"textChars":22,"textLines":1}
+{"kind":"textbox","id":"sh/a1gvy90j","slide":15,"textChars":22,"textLines":1}
+{"kind":"image","id":"im/54zidony","slide":15,"name":"Picture 14","bbox":[212,167.1,860,317.33]}
+{"kind":"image","id":"im/cj6tovah","slide":15,"name":"Picture 7","bbox":[1023.33,593.77,208,71.76]}
+{"kind":"image","id":"im/nyd0z610","slide":15,"name":"Picture 16","bbox":[217.39,543.68,391.88,174.48]}
+{"kind":"slide","id":"sl/7y1kre1w","slide":16,"title":"基礎","textShapes":5}
+{"kind":"shape","id":"sh/yd0z6103","slide":16,"name":"Shape 0","bbox":[0,0,21.12,720]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":16,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/g7adsji5","slide":16,"textChars":22,"textLines":1}
+{"kind":"shape","id":"sh/9s36hcrm","slide":16,"name":"Shape 3","bbox":[62.4,122.88,1152,0]}
+{"kind":"shape","id":"sh/y1kre1w7","slide":16,"name":"Shape 4","bbox":[62.4,675.84,1152,0]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":16,"textChars":35,"textLines":1}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":16,"textChars":7,"textLines":1}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":16,"textChars":232,"textLines":7}
+{"kind":"slide","id":"sl/8z25kb6x","slide":17,"title":"基礎","textShapes":6}
+{"kind":"shape","id":"sh/pg3ex0nu","slide":17,"name":"Shape 0","bbox":[0,0,21.12,720]}
+{"kind":"textbox","id":"sh/wval87ed","slide":17,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":17,"textChars":20,"textLines":1}
+{"kind":"shape","id":"sh/e1w7mp0b","slide":17,"name":"Shape 3","bbox":[62.4,122.88,1152,0]}
+{"kind":"shape","id":"sh/psfil0rq","slide":17,"name":"Shape 4","bbox":[62.4,675.84,1152,0]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":17,"textChars":35,"textLines":1}
+{"kind":"textbox","id":"sh/7u54zido","slide":17,"textChars":7,"textLines":1}
+{"kind":"shape","id":"sh/ed8bat47","slide":17,"name":"Shape 7","bbox":[78.72,149.76,1121.28,281.47]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":17,"textChars":302,"textLines":14}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":17,"textChars":125,"textLines":3}
+{"kind":"slide","id":"sl/54zidony","slide":18,"title":"基礎","textShapes":6}
+{"kind":"shape","id":"sh/x0nuxc3y","slide":18,"name":"Shape 0","bbox":[0,0,21.12,720]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":18,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":18,"textChars":22,"textLines":1}
+{"kind":"notice","message":"Truncated: omitted 931 lines. Increase maxChars or narrow target."}

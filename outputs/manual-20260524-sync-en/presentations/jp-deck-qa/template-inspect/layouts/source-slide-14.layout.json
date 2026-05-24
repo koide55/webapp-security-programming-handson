@@ -1,0 +1,585 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/25kb6xkf",
+    "id": "25kb6xkf",
+    "slide": 15,
+    "layoutId": "/ppt/slideLayouts/slideLayout3.xml",
+    "layoutName": "Title and Content",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "typefaces": [
+      "+mj-lt",
+      "+mn-lt",
+      "Meiryo"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout3.xml",
+      "name": "Title and Content",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/4",
+          "id": "4",
+          "name": "Date Placeholder 3",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2x4nap4r",
+      "id": "4",
+      "name": "正方形/長方形 3",
+      "bbox": [
+        0,
+        1.84,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#FFE7FC"
+    },
+    {
+      "order": 2,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/54zidony",
+      "id": "20",
+      "name": "Picture 14",
+      "bbox": [
+        212,
+        167.1,
+        860,
+        317.33
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image7.png",
+        "contentType": "image/png",
+        "byteLength": 141667
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image7.png",
+        "contentType": "image/png",
+        "byteLength": 141667
+      }
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kre1w7mp",
+      "id": "2",
+      "name": "タイトル 1",
+      "bbox": [
+        58.54,
+        20.86,
+        1013.46,
+        99.95
+      ],
+      "text": "Ex 1：Try bottle",
+      "textPreview": "Ex 1：Try bottle",
+      "resolvedFontSize": 58.67,
+      "resolvedTextStyle": {
+        "fontSize": 58.67,
+        "typeface": "+mj-lt",
+        "alignment": "center"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Ex 1：Try bottle"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Ex 1：Try bottle",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ex 1",
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 2,
+              "text": "：",
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 3,
+              "text": "Try ",
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 4,
+              "text": "bottle",
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dcbulwva",
+      "id": "3",
+      "name": "コンテンツ プレースホルダー 2",
+      "bbox": [
+        58.54,
+        124.33,
+        1201.67,
+        519.36
+      ],
+      "text": "Launch python and input following.\n\n\n\n\n\nAccess by using a browser and confirm working.",
+      "textPreview": "Launch python and input following. |  |  |  |  |  | Access by using a browser and confirm working.",
+      "resolvedFontSize": 42.67,
+      "resolvedTextStyle": {
+        "fontSize": 42.67,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 7,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1. Launch python and input following."
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": ""
+          },
+          {
+            "index": 5,
+            "text": ""
+          },
+          {
+            "index": 6,
+            "text": ""
+          },
+          {
+            "index": 7,
+            "text": "2. Access by using a browser and confirm working."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Launch python and input following.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Launch python and input following.",
+              "typeface": "Meiryo"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "text": "Access by using a browser and confirm working.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Access by using a browser and confirm working.",
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/cj6tovah",
+      "id": "21",
+      "name": "Picture 7",
+      "bbox": [
+        1023.33,
+        593.77,
+        208,
+        71.76
+      ],
+      "contentType": "image/tiff",
+      "asset": {
+        "assetId": "/ppt/media/image5.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 59286
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image5.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 59286
+      }
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vu9knih4",
+      "id": "9",
+      "name": "Rounded Rectangular Callout 8",
+      "bbox": [
+        796.03,
+        260.85,
+        316.62,
+        38.61
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "When a GET \"/hello/something\" request is sent, the next method will be executed.",
+      "textPreview": "When a GET \"/hello/something\" request is sent, the next method will be executed.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "When a GET \"/hello/something\" request is sent,"
+          },
+          {
+            "index": 2,
+            "text": "the next method will be executed."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "When a GET \"/hello/something\" request is sent, the next method will be executed.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "When a GET \"/hello/something\" request is sent, the next method will be executed.",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ylc7u54",
+      "id": "10",
+      "name": "Rounded Rectangular Callout 9",
+      "bbox": [
+        810.72,
+        364.33,
+        316.62,
+        38.61
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "Create HTML to send back using a template.",
+      "textPreview": "Create HTML to send back using a template.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Create HTML to send back using a template."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Create HTML to send back using a template.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Create HTML to send back using a template.",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/adsji5sn",
+      "id": "11",
+      "name": "Rounded Rectangular Callout 10",
+      "bbox": [
+        684.64,
+        448.43,
+        161.08,
+        38.61
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "Main loop of the web server",
+      "textPreview": "Main loop of the web server",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Main loop of the web"
+          },
+          {
+            "index": 2,
+            "text": "server"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Main loop of the web server",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Main loop of the web server",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/nyd0z610",
+      "id": "22",
+      "name": "Picture 16",
+      "bbox": [
+        217.39,
+        543.68,
+        391.88,
+        174.48
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image8.png",
+        "contentType": "image/png",
+        "byteLength": 63661
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image8.png",
+        "contentType": "image/png",
+        "byteLength": 63661
+      }
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zidonyd0",
+      "id": "18",
+      "name": "Rounded Rectangular Callout 17",
+      "bbox": [
+        667.53,
+        547.22,
+        178.19,
+        35.09
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "Input URL to a browser",
+      "textPreview": "Input URL to a browser",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Input URL to a browser"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Input URL to a browser",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Input URL to a browser",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a1gvy90j",
+      "id": "19",
+      "name": "Rounded Rectangular Callout 18",
+      "bbox": [
+        660.93,
+        683.07,
+        184.8,
+        35.09
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "We can see the result.",
+      "textPreview": "We can see the result.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "We can see the result."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "We can see the result.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "We can see the result.",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,910 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/vahoza1g",
+    "id": "vahoza1g",
+    "slide": 29,
+    "layoutId": "/ppt/slideLayouts/slideLayout4.xml",
+    "layoutName": "Title Only",
+    "layoutType": "titleOnly",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "typefaces": [
+      "+mj-lt",
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout4.xml",
+      "name": "Title Only",
+      "type": "titleOnly",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout4.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout4.xml/3",
+          "id": "3",
+          "name": "Date Placeholder 2",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout4.xml/4",
+          "id": "4",
+          "name": "Footer Placeholder 3",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2hwfyxob",
+      "id": "2",
+      "name": "Title 1",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "text": "HTTP（おさらい）",
+      "textPreview": "HTTP（おさらい）",
+      "resolvedFontSize": 58.67,
+      "resolvedTextStyle": {
+        "fontSize": 58.67,
+        "typeface": "+mj-lt",
+        "alignment": "center"
+      },
+      "textLayout": {
+        "lineCount": 10,
+        "lines": [
+          {
+            "index": 1,
+            "text": "H"
+          },
+          {
+            "index": 2,
+            "text": "T"
+          },
+          {
+            "index": 3,
+            "text": "T"
+          },
+          {
+            "index": 4,
+            "text": "P"
+          },
+          {
+            "index": 5,
+            "text": "（"
+          },
+          {
+            "index": 6,
+            "text": "お"
+          },
+          {
+            "index": 7,
+            "text": "さ"
+          },
+          {
+            "index": 8,
+            "text": "ら"
+          },
+          {
+            "index": 9,
+            "text": "い"
+          },
+          {
+            "index": 10,
+            "text": "）"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HTTP（おさらい）",
+          "runs": [
+            {
+              "index": 1,
+              "text": "HTTP"
+            },
+            {
+              "index": 2,
+              "text": "（おさらい）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/mp0bi9s3",
+      "id": "29",
+      "name": "Picture 2",
+      "bbox": [
+        600.35,
+        242.67,
+        305.73,
+        285.47
+      ],
+      "contentType": "image/tiff",
+      "asset": {
+        "assetId": "/ppt/media/image14.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 856202
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image14.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 856202
+      }
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ra5gbq1o",
+      "id": "7",
+      "name": "Right Arrow 6",
+      "bbox": [
+        292.56,
+        177.5,
+        269.65,
+        81.88
+      ],
+      "geometry": "rightArrow",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#0070C0"
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9knih4by",
+      "id": "9",
+      "name": "Right Arrow 8",
+      "bbox": [
+        292.56,
+        245.26,
+        269.65,
+        81.88
+      ],
+      "geometry": "rightArrow",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#00B050"
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p8nqxs72",
+      "id": "10",
+      "name": "TextBox 9",
+      "bbox": [
+        345.21,
+        199.05,
+        193.03,
+        38.78
+      ],
+      "geometry": "rect",
+      "text": "HTTPリクエスト",
+      "textPreview": "HTTPリクエスト",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HTTPリクエスト"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HTTPリクエスト",
+          "runs": [
+            {
+              "index": 1,
+              "text": "HTTP",
+              "color": "bg1",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "リクエスト",
+              "color": "bg1",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0nuxc3yl",
+      "id": "11",
+      "name": "TextBox 10",
+      "bbox": [
+        343.08,
+        266.82,
+        193.03,
+        38.78
+      ],
+      "geometry": "rect",
+      "text": "HTTPレスポンス",
+      "textPreview": "HTTPレスポンス",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HTTPレスポンス"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HTTPレスポンス",
+          "runs": [
+            {
+              "index": 1,
+              "text": "HTTP",
+              "color": "bg1",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "レスポンス",
+              "color": "bg1",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0bi9s36h",
+      "id": "19",
+      "name": "Right Arrow 18",
+      "bbox": [
+        292.56,
+        415.12,
+        269.65,
+        81.88
+      ],
+      "geometry": "rightArrow",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#0070C0"
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sneloj2t",
+      "id": "20",
+      "name": "Right Arrow 19",
+      "bbox": [
+        292.56,
+        482.88,
+        269.65,
+        81.88
+      ],
+      "geometry": "rightArrow",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#00B050"
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l87ed8ba",
+      "id": "21",
+      "name": "TextBox 20",
+      "bbox": [
+        345.21,
+        436.67,
+        193.03,
+        38.78
+      ],
+      "geometry": "rect",
+      "text": "HTTPリクエスト",
+      "textPreview": "HTTPリクエスト",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HTTPリクエスト"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HTTPリクエスト",
+          "runs": [
+            {
+              "index": 1,
+              "text": "HTTP",
+              "color": "bg1",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "リクエスト",
+              "color": "bg1",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ahoza1gv",
+      "id": "22",
+      "name": "TextBox 21",
+      "bbox": [
+        343.08,
+        504.44,
+        193.03,
+        38.78
+      ],
+      "geometry": "rect",
+      "text": "HTTPレスポンス",
+      "textPreview": "HTTPレスポンス",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HTTPレスポンス"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HTTPレスポンス",
+          "runs": [
+            {
+              "index": 1,
+              "text": "HTTP",
+              "color": "bg1",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "レスポンス",
+              "color": "bg1",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/szqtcj6t",
+      "id": "30",
+      "name": "Picture 7",
+      "bbox": [
+        44.51,
+        201.69,
+        255.2,
+        343.22
+      ],
+      "contentType": "image/tiff",
+      "asset": {
+        "assetId": "/ppt/media/image15.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 856762
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image15.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 856762
+      }
+    },
+    {
+      "order": 12,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/lkjm1cfa",
+      "id": "31",
+      "name": "Picture 4",
+      "bbox": [
+        35.64,
+        304.18,
+        119.16,
+        119.16
+      ],
+      "contentType": "image/tiff",
+      "asset": {
+        "assetId": "/ppt/media/image16.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 141794
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image16.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 141794
+      }
+    },
+    {
+      "order": 13,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/at47y1kr",
+      "id": "32",
+      "name": "Picture 24",
+      "bbox": [
+        570.28,
+        163.02,
+        119.92,
+        192.73
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image17.png",
+        "contentType": "image/png",
+        "byteLength": 65165
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image17.png",
+        "contentType": "image/png",
+        "byteLength": 65165
+      }
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szqtcj6t",
+      "id": "24",
+      "name": "Rounded Rectangular Callout 23",
+      "bbox": [
+        720.26,
+        198.9,
+        197.24,
+        79.85
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "このページで\nパスワード認証しても",
+      "textPreview": "このページで | パスワード認証しても",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "このページで"
+          },
+          {
+            "index": 2,
+            "text": "パスワード認証して"
+          },
+          {
+            "index": 3,
+            "text": "も"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "このページで",
+          "runs": [
+            {
+              "index": 1,
+              "text": "このページで",
+              "fontSize": 18.67
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "パスワード認証しても",
+          "runs": [
+            {
+              "index": 1,
+              "text": "パスワード認証しても",
+              "fontSize": 18.67
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/3ex0nuxc",
+      "id": "33",
+      "name": "Picture 25",
+      "bbox": [
+        571.21,
+        440.42,
+        133.04,
+        104.49
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image18.png",
+        "contentType": "image/png",
+        "byteLength": 39279
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image18.png",
+        "contentType": "image/png",
+        "byteLength": 39279
+      }
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ex0nuxc",
+      "id": "27",
+      "name": "Rounded Rectangular Callout 26",
+      "bbox": [
+        720.31,
+        456.67,
+        223.9,
+        79.85
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "このページでは\n同じユーザとは限らない",
+      "textPreview": "このページでは | 同じユーザとは限らない",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "このページでは"
+          },
+          {
+            "index": 2,
+            "text": "同じユーザとは限らな"
+          },
+          {
+            "index": 3,
+            "text": "い"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "このページでは",
+          "runs": [
+            {
+              "index": 1,
+              "text": "このページでは",
+              "fontSize": 18.67
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "同じユーザとは限らない",
+          "runs": [
+            {
+              "index": 1,
+              "text": "同じユーザとは限らない",
+              "fontSize": 18.67
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w3m94fu1",
+      "id": "28",
+      "name": "TextBox 27",
+      "bbox": [
+        123.54,
+        621.09,
+        752.46,
+        67.86
+      ],
+      "geometry": "rect",
+      "text": "HTTPはステートレスなプロトコル",
+      "textPreview": "HTTPはステートレスなプロトコル",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HTTPはステートレスなプロトコル"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HTTPはステートレスなプロトコル",
+          "runs": [
+            {
+              "index": 1,
+              "text": "HTTP",
+              "fontSize": 48
+            },
+            {
+              "index": 2,
+              "text": "はステートレスなプロトコル",
+              "fontSize": 48
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gvy90je9",
+      "id": "4",
+      "name": "TextBox 3",
+      "bbox": [
+        960.27,
+        237.58,
+        305.73,
+        242.34
+      ],
+      "geometry": "rect",
+      "text": "HTML (Review)\n\nIf someone uses password authentication on this page, he or she may be not the same user on the different pages, because HTTP is a stateless protocol. ",
+      "textPreview": "HTML (Review) |  | If someone uses password authentication on this page, he or she may be not the same user on the different pages, becau...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 9,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HTML (Review)"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "If someone uses"
+          },
+          {
+            "index": 4,
+            "text": "password authentication"
+          },
+          {
+            "index": 5,
+            "text": "on this page, he or she"
+          },
+          {
+            "index": 6,
+            "text": "may be not the same user"
+          },
+          {
+            "index": 7,
+            "text": "on the different pages,"
+          },
+          {
+            "index": 8,
+            "text": "because HTTP is a"
+          },
+          {
+            "index": 9,
+            "text": "stateless protocol."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HTML (Review)",
+          "runs": [
+            {
+              "index": 1,
+              "text": "HTML (Review)"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "If someone uses password authentication on this page, he or she may be not the same user on the different pages, because HTTP is a stateless protocol. ",
+          "runs": [
+            {
+              "index": 1,
+              "text": "If someone uses password authentication on this page, he or she may be not the same user on the different pages, because HTTP is a stateless protocol."
+            },
+            {
+              "index": 2,
+              "text": " "
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

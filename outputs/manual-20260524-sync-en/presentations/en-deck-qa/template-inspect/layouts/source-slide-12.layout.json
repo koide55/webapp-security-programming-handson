@@ -1,0 +1,516 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/4fu18jqh",
+    "id": "4fu18jqh",
+    "slide": 13,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "DEFAULT",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "typefaces": [
+      "+mn-lt",
+      "Aptos",
+      "Aptos Display",
+      "Menlo"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "DEFAULT",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s72x4nap",
+      "id": "2",
+      "name": "Shape 0",
+      "bbox": [
+        0,
+        0,
+        21.12,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F766E",
+      "lineColor": "#0F766E",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lszqtcj6",
+      "id": "3",
+      "name": "Text 1",
+      "bbox": [
+        63.36,
+        34.56,
+        220.8,
+        17.28
+      ],
+      "geometry": "rect",
+      "text": "FOUNDATION",
+      "textPreview": "FOUNDATION",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FOUNDATION"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FOUNDATION",
+          "runs": [
+            {
+              "index": 1,
+              "text": "FOUNDATION",
+              "fontSize": 9.33,
+              "typeface": "Aptos",
+              "color": "#0F766E",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/adsji5sn",
+      "id": "4",
+      "name": "Text 2",
+      "bbox": [
+        63.36,
+        64.32,
+        1142.4,
+        46.08
+      ],
+      "geometry": "rect",
+      "text": "Exercise 1: Run the App",
+      "textPreview": "Exercise 1: Run the App",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Exercise 1: Run the App"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Exercise 1: Run the App",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Exercise 1: Run the App",
+              "fontSize": 34.67,
+              "typeface": "Aptos Display",
+              "color": "#111827",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ylc7u54",
+      "id": "5",
+      "name": "Shape 3",
+      "bbox": [
+        63.36,
+        122.88,
+        1147.2,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sji5snel",
+      "id": "6",
+      "name": "Shape 4",
+      "bbox": [
+        75.84,
+        148.8,
+        1108.8,
+        111.17
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F3F4F6",
+      "lineColor": "#E5E7EB",
+      "lineWidth": 0.93
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4byhgn2",
+      "id": "7",
+      "name": "Text 5",
+      "bbox": [
+        94.08,
+        166.08,
+        1078.08,
+        86.21
+      ],
+      "geometry": "rect",
+      "text": "git clone https://github.com/koide55/webapp-security-programming-handson.git\ncd webapp-security-programming-handson\npython3 -m venv .venv\n. .venv/bin/activate\npython -m pip install -r requirements.txt\npython app/main.py --reset-db",
+      "textPreview": "git clone https://github.com/koide55/webapp-security-programming-handson.git | cd webapp-security-programming-handson | python3 -m venv ....",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "git clone https://github.com/koide55/webapp-security-programming-handson.git"
+          },
+          {
+            "index": 2,
+            "text": "cd webapp-security-programming-handson"
+          },
+          {
+            "index": 3,
+            "text": "python3 -m venv .venv"
+          },
+          {
+            "index": 4,
+            "text": ". .venv/bin/activate"
+          },
+          {
+            "index": 5,
+            "text": "python -m pip install -r requirements.txt"
+          },
+          {
+            "index": 6,
+            "text": "python app/main.py --reset-db"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "git clone https://github.com/koide55/webapp-security-programming-handson.git",
+          "runs": [
+            {
+              "index": 1,
+              "text": "git clone https://github.com/koide55/webapp-security-programming-handson.git",
+              "fontSize": 11.2,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "cd webapp-security-programming-handson",
+          "runs": [
+            {
+              "index": 1,
+              "text": "cd webapp-security-programming-handson",
+              "fontSize": 11.2,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "python3 -m venv .venv",
+          "runs": [
+            {
+              "index": 1,
+              "text": "python3 -m venv .venv",
+              "fontSize": 11.2,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": ". .venv/bin/activate",
+          "runs": [
+            {
+              "index": 1,
+              "text": ". .venv/bin/activate",
+              "fontSize": 11.2,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "python -m pip install -r requirements.txt",
+          "runs": [
+            {
+              "index": 1,
+              "text": "python -m pip install -r requirements.txt",
+              "fontSize": 11.2,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "text": "python app/main.py --reset-db",
+          "runs": [
+            {
+              "index": 1,
+              "text": "python app/main.py --reset-db",
+              "fontSize": 11.2,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ap4r65wj",
+      "id": "8",
+      "name": "Text 6",
+      "bbox": [
+        78.72,
+        282.05,
+        1108.8,
+        48.94
+      ],
+      "geometry": "rect",
+      "text": "- Open http://localhost:8086/hello/security\n- Check the route and return value in app/main.py",
+      "textPreview": "- Open http://localhost:8086/hello/security | - Check the route and return value in app/main.py",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "- Open http://localhost:8086/hello/security"
+          },
+          {
+            "index": 2,
+            "text": "- Check the route and return value in app/main.py"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "- Open http://localhost:8086/hello/security",
+          "runs": [
+            {
+              "index": 1,
+              "text": "- Open http://localhost:8086/hello/security",
+              "fontSize": 19.73,
+              "typeface": "Aptos",
+              "color": "#1F2937"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "- Check the route and return value in app/main.py",
+          "runs": [
+            {
+              "index": 1,
+              "text": "- Check the route and return value in app/main.py",
+              "fontSize": 19.73,
+              "typeface": "Aptos",
+              "color": "#1F2937"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/za1gvy90",
+      "id": "9",
+      "name": "Text 7",
+      "bbox": [
+        64.32,
+        689.28,
+        403.2,
+        14.4
+      ],
+      "geometry": "rect",
+      "text": "webapp-security-programming-handson",
+      "textPreview": "webapp-security-programming-handson",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "webapp-security-programming-handson"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "webapp-security-programming-handson",
+          "runs": [
+            {
+              "index": 1,
+              "text": "webapp-security-programming-handson",
+              "fontSize": 8.67,
+              "typeface": "Aptos",
+              "color": "#7B8794"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z61032ls",
+      "id": "10",
+      "name": "Text 8",
+      "bbox": [
+        1142.4,
+        689.28,
+        72,
+        14.4
+      ],
+      "geometry": "rect",
+      "text": "12 / 105",
+      "textPreview": "12 / 105",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "12 / 105"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "12 / 105",
+          "runs": [
+            {
+              "index": 1,
+              "text": "12 / 105",
+              "fontSize": 8.67,
+              "typeface": "Aptos",
+              "color": "#7B8794"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/al87ed8b",
+      "id": "11",
+      "name": "Shape 9",
+      "bbox": [
+        64.32,
+        675.84,
+        1147.2,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#E5E7EB",
+      "lineWidth": 1.33
+    }
+  ],
+  "composeRuns": []
+}

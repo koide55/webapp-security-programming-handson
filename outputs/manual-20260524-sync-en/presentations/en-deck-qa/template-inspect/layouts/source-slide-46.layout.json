@@ -1,0 +1,512 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/nih4byhg",
+    "id": "nih4byhg",
+    "slide": 47,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "DEFAULT",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "typefaces": [
+      "+mn-lt",
+      "Aptos",
+      "Aptos Display",
+      "Menlo"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "DEFAULT",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m94fu18j",
+      "id": "2",
+      "name": "Shape 0",
+      "bbox": [
+        0,
+        0,
+        21.12,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F766E",
+      "lineColor": "#0F766E",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fu18jqh0",
+      "id": "3",
+      "name": "Text 1",
+      "bbox": [
+        63.36,
+        34.56,
+        220.8,
+        17.28
+      ],
+      "geometry": "rect",
+      "text": "FOUNDATION",
+      "textPreview": "FOUNDATION",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FOUNDATION"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FOUNDATION",
+          "runs": [
+            {
+              "index": 1,
+              "text": "FOUNDATION",
+              "fontSize": 9.33,
+              "typeface": "Aptos",
+              "color": "#0F766E",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/83itgfml",
+      "id": "4",
+      "name": "Text 2",
+      "bbox": [
+        63.36,
+        64.32,
+        1142.4,
+        46.08
+      ],
+      "geometry": "rect",
+      "text": "Login",
+      "textPreview": "Login",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Login"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Login",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Login",
+              "fontSize": 34.67,
+              "typeface": "Aptos Display",
+              "color": "#111827",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xobm58z2",
+      "id": "5",
+      "name": "Shape 3",
+      "bbox": [
+        63.36,
+        122.88,
+        1147.2,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qxs72x4n",
+      "id": "6",
+      "name": "Text 4",
+      "bbox": [
+        78.72,
+        148.8,
+        1108.8,
+        26.88
+      ],
+      "geometry": "rect",
+      "text": "For the SQL injection exercise, the login implementation is intentionally vulnerable.",
+      "textPreview": "For the SQL injection exercise, the login implementation is intentionally vulnerable.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "For the SQL injection exercise, the login implementation is intentionally vulnerable."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "For the SQL injection exercise, the login implementation is intentionally vulnerable.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "For the SQL injection exercise, the login implementation is intentionally vulnerable.",
+              "fontSize": 19.73,
+              "typeface": "Aptos",
+              "color": "#1F2937"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fil0rqd4",
+      "id": "7",
+      "name": "Shape 5",
+      "bbox": [
+        75.84,
+        192.96,
+        1108.8,
+        71.5
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F3F4F6",
+      "lineColor": "#E5E7EB",
+      "lineWidth": 0.93
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4zidonyd",
+      "id": "8",
+      "name": "Text 6",
+      "bbox": [
+        94.08,
+        210.24,
+        1078.08,
+        46.54
+      ],
+      "geometry": "rect",
+      "text": "sql = \"SELECT * FROM users WHERE username='\" + username + \\\n      \"' and password='\" + password + \"';\"\nrecords = cursor.execute(sql)",
+      "textPreview": "sql = \"SELECT * FROM users WHERE username='\" + username + \\ |       \"' and password='\" + password + \"';\" | records = cursor.execute(sql)",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "sql = \"SELECT * FROM users WHERE username='\" + username + \\"
+          },
+          {
+            "index": 2,
+            "text": "      \"' and password='\" + password + \"';\""
+          },
+          {
+            "index": 3,
+            "text": "records = cursor.execute(sql)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "sql = \"SELECT * FROM users WHERE username='\" + username + \\",
+          "runs": [
+            {
+              "index": 1,
+              "text": "sql = \"SELECT * FROM users WHERE username='\" + username + \\",
+              "fontSize": 12.53,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "      \"' and password='\" + password + \"';\"",
+          "runs": [
+            {
+              "index": 1,
+              "text": "      \"' and password='\" + password + \"';\"",
+              "fontSize": 12.53,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "records = cursor.execute(sql)",
+          "runs": [
+            {
+              "index": 1,
+              "text": "records = cursor.execute(sql)",
+              "fontSize": 12.53,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xkf6dcbu",
+      "id": "9",
+      "name": "Text 7",
+      "bbox": [
+        78.72,
+        286.54,
+        1108.8,
+        48.94
+      ],
+      "geometry": "rect",
+      "text": "- On success, the app issues a cookie\n- The executed SQL is displayed so students can observe dangerous concatenation",
+      "textPreview": "- On success, the app issues a cookie | - The executed SQL is displayed so students can observe dangerous concatenation",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "- On success, the app issues a cookie"
+          },
+          {
+            "index": 2,
+            "text": "- The executed SQL is displayed so students can observe dangerous concatenation"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "- On success, the app issues a cookie",
+          "runs": [
+            {
+              "index": 1,
+              "text": "- On success, the app issues a cookie",
+              "fontSize": 19.73,
+              "typeface": "Aptos",
+              "color": "#1F2937"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "- The executed SQL is displayed so students can observe dangerous concatenation",
+          "runs": [
+            {
+              "index": 1,
+              "text": "- The executed SQL is displayed so students can observe dangerous concatenation",
+              "fontSize": 19.73,
+              "typeface": "Aptos",
+              "color": "#1F2937"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1kre1w7m",
+      "id": "10",
+      "name": "Text 8",
+      "bbox": [
+        64.32,
+        689.28,
+        403.2,
+        14.4
+      ],
+      "geometry": "rect",
+      "text": "webapp-security-programming-handson",
+      "textPreview": "webapp-security-programming-handson",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "webapp-security-programming-handson"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "webapp-security-programming-handson",
+          "runs": [
+            {
+              "index": 1,
+              "text": "webapp-security-programming-handson",
+              "fontSize": 8.67,
+              "typeface": "Aptos",
+              "color": "#7B8794"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c3ylc7u5",
+      "id": "11",
+      "name": "Text 9",
+      "bbox": [
+        1142.4,
+        689.28,
+        72,
+        14.4
+      ],
+      "geometry": "rect",
+      "text": "46 / 105",
+      "textPreview": "46 / 105",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "46 / 105"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "46 / 105",
+          "runs": [
+            {
+              "index": 1,
+              "text": "46 / 105",
+              "fontSize": 8.67,
+              "typeface": "Aptos",
+              "color": "#7B8794"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ji5snelo",
+      "id": "12",
+      "name": "Shape 10",
+      "bbox": [
+        64.32,
+        675.84,
+        1147.2,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#E5E7EB",
+      "lineWidth": 1.33
+    }
+  ],
+  "composeRuns": []
+}

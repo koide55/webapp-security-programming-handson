@@ -1,0 +1,592 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/9cvixcze",
+    "id": "9cvixcze",
+    "slide": 54,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "DEFAULT",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "typefaces": [
+      "+mn-lt",
+      "Hiragino Sans",
+      "Menlo"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "DEFAULT",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e1w7mp0b",
+      "id": "2",
+      "name": "Shape 0",
+      "bbox": [
+        0,
+        0,
+        21.12,
+        720
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#0F766E",
+      "lineColor": "rgba(51, 51, 51, 0)",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7mp0bi9s",
+      "id": "3",
+      "name": "Text 1",
+      "bbox": [
+        62.4,
+        30.72,
+        249.6,
+        21.12
+      ],
+      "geometry": "rect",
+      "text": "XSS",
+      "textPreview": "XSS",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "XSS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "XSS",
+          "runs": [
+            {
+              "index": 1,
+              "text": "XSS",
+              "fontSize": 10.67,
+              "typeface": "Hiragino Sans",
+              "color": "#0F766E",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wval87ed",
+      "id": "4",
+      "name": "Text 2",
+      "bbox": [
+        62.4,
+        54.72,
+        1123.2,
+        59.52
+      ],
+      "geometry": "rect",
+      "text": "BBS 2/3: 投稿処理",
+      "textPreview": "BBS 2/3: 投稿処理",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "BBS 2/3: 投稿処理"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "BBS 2/3: 投稿処理",
+          "runs": [
+            {
+              "index": 1,
+              "text": "BBS 2/3: 投稿処理",
+              "fontSize": 38.67,
+              "typeface": "Hiragino Sans",
+              "color": "#111827",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pg3ex0nu",
+      "id": "5",
+      "name": "Shape 3",
+      "bbox": [
+        62.4,
+        122.88,
+        1152,
+        0
+      ],
+      "geometry": "line",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1.07
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/epkzupwb",
+      "id": "6",
+      "name": "Shape 4",
+      "bbox": [
+        62.4,
+        675.84,
+        1152,
+        0
+      ],
+      "geometry": "line",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": "#E5E7EB",
+      "lineWidth": 0.8
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7adsji5s",
+      "id": "7",
+      "name": "Text 5",
+      "bbox": [
+        65.28,
+        683.52,
+        652.8,
+        17.28
+      ],
+      "geometry": "rect",
+      "text": "webapp-security-programming-handson",
+      "textPreview": "webapp-security-programming-handson",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "webapp-security-programming-handson"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "webapp-security-programming-handson",
+          "runs": [
+            {
+              "index": 1,
+              "text": "webapp-security-programming-handson",
+              "fontSize": 10,
+              "typeface": "Hiragino Sans",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wra5gbq1",
+      "id": "8",
+      "name": "Text 6",
+      "bbox": [
+        1134.72,
+        682.56,
+        81.6,
+        17.28
+      ],
+      "geometry": "rect",
+      "text": "34 / 74",
+      "textPreview": "34 / 74",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "34 / 74"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "34 / 74",
+          "runs": [
+            {
+              "index": 1,
+              "text": "34 / 74",
+              "fontSize": 10,
+              "typeface": "Hiragino Sans",
+              "color": "#6B7280"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lc7u54zi",
+      "id": "9",
+      "name": "Shape 7",
+      "bbox": [
+        78.72,
+        149.76,
+        1121.28,
+        159.12
+      ],
+      "geometry": "roundRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#F3F4F6",
+      "lineColor": "#E5E7EB",
+      "lineWidth": 1.07
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9w3m94fu",
+      "id": "10",
+      "name": "Text 8",
+      "bbox": [
+        97.92,
+        168.96,
+        1065.6,
+        130.32
+      ],
+      "geometry": "rect",
+      "text": "@post(\"/bbs\")\ndef post_bbs():\n    user = current_user()\n    comment = request.forms.decode().get(\"comment\", \"\")\n    Comments.create(user=user, comment=comment, datetime=now)\n    redirect(\"/bbs\")",
+      "textPreview": "@post(\"/bbs\") | def post_bbs(): |     user = current_user() |     comment = request.forms.decode().get(\"comment\", \"\") |     Comments.crea...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "@post(\"/bbs\")"
+          },
+          {
+            "index": 2,
+            "text": "def post_bbs():"
+          },
+          {
+            "index": 3,
+            "text": "    user = current_user()"
+          },
+          {
+            "index": 4,
+            "text": "    comment = request.forms.decode().get(\"comment\", \"\")"
+          },
+          {
+            "index": 5,
+            "text": "    Comments.create(user=user, comment=comment, datetime=now)"
+          },
+          {
+            "index": 6,
+            "text": "    redirect(\"/bbs\")"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "@post(\"/bbs\")",
+          "runs": [
+            {
+              "index": 1,
+              "text": "@post(\"/bbs\")",
+              "fontSize": 13.6,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "def post_bbs():",
+          "runs": [
+            {
+              "index": 1,
+              "text": "def post_bbs():",
+              "fontSize": 13.6,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "    user = current_user()",
+          "runs": [
+            {
+              "index": 1,
+              "text": "    user = current_user()",
+              "fontSize": 13.6,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "    comment = request.forms.decode().get(\"comment\", \"\")",
+          "runs": [
+            {
+              "index": 1,
+              "text": "    comment = request.forms.decode().get(\"comment\", \"\")",
+              "fontSize": 13.6,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "    Comments.create(user=user, comment=comment, datetime=now)",
+          "runs": [
+            {
+              "index": 1,
+              "text": "    Comments.create(user=user, comment=comment, datetime=now)",
+              "fontSize": 13.6,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "text": "    redirect(\"/bbs\")",
+          "runs": [
+            {
+              "index": 1,
+              "text": "    redirect(\"/bbs\")",
+              "fontSize": 13.6,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kb6xkf6d",
+      "id": "11",
+      "name": "Text 9",
+      "bbox": [
+        88.32,
+        326.16,
+        1099.2,
+        129.6
+      ],
+      "geometry": "rect",
+      "text": "• フォーム入力をDBへ保存する\n• 入力値そのものはこの時点ではHTMLではない\n• 危険になるのは「表示するときの文脈」",
+      "textPreview": "• フォーム入力をDBへ保存する | • 入力値そのものはこの時点ではHTMLではない | • 危険になるのは「表示するときの文脈」",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• フォーム入力をDBへ保存する"
+          },
+          {
+            "index": 2,
+            "text": "• 入力値そのものはこの時点ではHTMLではない"
+          },
+          {
+            "index": 3,
+            "text": "• 危険になるのは「表示するときの文脈」"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• フォーム入力をDBへ保存する",
+          "runs": [
+            {
+              "index": 1,
+              "text": "• フォーム入力をDBへ保存する",
+              "fontSize": 20,
+              "typeface": "Hiragino Sans",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "• 入力値そのものはこの時点ではHTMLではない",
+          "runs": [
+            {
+              "index": 1,
+              "text": "• 入力値そのものはこの時点ではHTMLではない",
+              "fontSize": 20,
+              "typeface": "Hiragino Sans",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "• 危険になるのは「表示するときの文脈」",
+          "runs": [
+            {
+              "index": 1,
+              "text": "• 危険になるのは「表示するときの文脈」",
+              "fontSize": 20,
+              "typeface": "Hiragino Sans",
+              "color": "#111827"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

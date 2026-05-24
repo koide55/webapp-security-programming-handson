@@ -1,0 +1,537 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/loj2t83i",
+    "id": "loj2t83i",
+    "slide": 45,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "DEFAULT",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "typefaces": [
+      "+mn-lt",
+      "Aptos",
+      "Aptos Display",
+      "Menlo"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "DEFAULT",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e1w7mp0b",
+      "id": "2",
+      "name": "Shape 0",
+      "bbox": [
+        0,
+        0,
+        21.12,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F766E",
+      "lineColor": "#0F766E",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7mp0bi9s",
+      "id": "3",
+      "name": "Text 1",
+      "bbox": [
+        63.36,
+        34.56,
+        220.8,
+        17.28
+      ],
+      "geometry": "rect",
+      "text": "FOUNDATION",
+      "textPreview": "FOUNDATION",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FOUNDATION"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FOUNDATION",
+          "runs": [
+            {
+              "index": 1,
+              "text": "FOUNDATION",
+              "fontSize": 9.33,
+              "typeface": "Aptos",
+              "color": "#0F766E",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wval87ed",
+      "id": "4",
+      "name": "Text 2",
+      "bbox": [
+        63.36,
+        64.32,
+        1142.4,
+        46.08
+      ],
+      "geometry": "rect",
+      "text": "Database Configuration",
+      "textPreview": "Database Configuration",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Database Configuration"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Database Configuration",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Database Configuration",
+              "fontSize": 34.67,
+              "typeface": "Aptos Display",
+              "color": "#111827",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pg3ex0nu",
+      "id": "5",
+      "name": "Shape 3",
+      "bbox": [
+        63.36,
+        122.88,
+        1147.2,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#CBD5E1",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/epkzupwb",
+      "id": "6",
+      "name": "Shape 4",
+      "bbox": [
+        75.84,
+        148.8,
+        1108.8,
+        155.48
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F3F4F6",
+      "lineColor": "#E5E7EB",
+      "lineWidth": 0.93
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7adsji5s",
+      "id": "7",
+      "name": "Text 5",
+      "bbox": [
+        94.08,
+        166.08,
+        1078.08,
+        130.52
+      ],
+      "geometry": "rect",
+      "text": "DBFILE = BASE_DIR / \"data.db\"\ndb = SqliteDatabase(str(DBFILE))\n\nclass Users(BaseModel):\n    userid = PrimaryKeyField()\n    username = CharField(null=True, unique=True)\n    password = CharField(null=True)\n    cookie = CharField(null=True)",
+      "textPreview": "DBFILE = BASE_DIR / \"data.db\" | db = SqliteDatabase(str(DBFILE)) |  | class Users(BaseModel): |     userid = PrimaryKeyField() |     user...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 8,
+        "lines": [
+          {
+            "index": 1,
+            "text": "DBFILE = BASE_DIR / \"data.db\""
+          },
+          {
+            "index": 2,
+            "text": "db = SqliteDatabase(str(DBFILE))"
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": "class Users(BaseModel):"
+          },
+          {
+            "index": 5,
+            "text": "    userid = PrimaryKeyField()"
+          },
+          {
+            "index": 6,
+            "text": "    username = CharField(null=True, unique=True)"
+          },
+          {
+            "index": 7,
+            "text": "    password = CharField(null=True)"
+          },
+          {
+            "index": 8,
+            "text": "    cookie = CharField(null=True)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "DBFILE = BASE_DIR / \"data.db\"",
+          "runs": [
+            {
+              "index": 1,
+              "text": "DBFILE = BASE_DIR / \"data.db\"",
+              "fontSize": 12.53,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "db = SqliteDatabase(str(DBFILE))",
+          "runs": [
+            {
+              "index": 1,
+              "text": "db = SqliteDatabase(str(DBFILE))",
+              "fontSize": 12.53,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "class Users(BaseModel):",
+          "runs": [
+            {
+              "index": 1,
+              "text": "class Users(BaseModel):",
+              "fontSize": 12.53,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "    userid = PrimaryKeyField()",
+          "runs": [
+            {
+              "index": 1,
+              "text": "    userid = PrimaryKeyField()",
+              "fontSize": 12.53,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "text": "    username = CharField(null=True, unique=True)",
+          "runs": [
+            {
+              "index": 1,
+              "text": "    username = CharField(null=True, unique=True)",
+              "fontSize": 12.53,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "text": "    password = CharField(null=True)",
+          "runs": [
+            {
+              "index": 1,
+              "text": "    password = CharField(null=True)",
+              "fontSize": 12.53,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "text": "    cookie = CharField(null=True)",
+          "runs": [
+            {
+              "index": 1,
+              "text": "    cookie = CharField(null=True)",
+              "fontSize": 12.53,
+              "typeface": "Menlo",
+              "color": "#111827"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wra5gbq1",
+      "id": "8",
+      "name": "Text 6",
+      "bbox": [
+        78.72,
+        326.36,
+        1108.8,
+        48.94
+      ],
+      "geometry": "rect",
+      "text": "- The SQLite file is app/data.db\n- --reset-db initializes it",
+      "textPreview": "- The SQLite file is app/data.db | - --reset-db initializes it",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "- The SQLite file is app/data.db"
+          },
+          {
+            "index": 2,
+            "text": "- --reset-db initializes it"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "- The SQLite file is app/data.db",
+          "runs": [
+            {
+              "index": 1,
+              "text": "- The SQLite file is app/data.db",
+              "fontSize": 19.73,
+              "typeface": "Aptos",
+              "color": "#1F2937"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "- --reset-db initializes it",
+          "runs": [
+            {
+              "index": 1,
+              "text": "- --reset-db initializes it",
+              "fontSize": 19.73,
+              "typeface": "Aptos",
+              "color": "#1F2937"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lc7u54zi",
+      "id": "9",
+      "name": "Text 7",
+      "bbox": [
+        64.32,
+        689.28,
+        403.2,
+        14.4
+      ],
+      "geometry": "rect",
+      "text": "webapp-security-programming-handson",
+      "textPreview": "webapp-security-programming-handson",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "webapp-security-programming-handson"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "webapp-security-programming-handson",
+          "runs": [
+            {
+              "index": 1,
+              "text": "webapp-security-programming-handson",
+              "fontSize": 8.67,
+              "typeface": "Aptos",
+              "color": "#7B8794"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9w3m94fu",
+      "id": "10",
+      "name": "Text 8",
+      "bbox": [
+        1142.4,
+        689.28,
+        72,
+        14.4
+      ],
+      "geometry": "rect",
+      "text": "44 / 105",
+      "textPreview": "44 / 105",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "44 / 105"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "44 / 105",
+          "runs": [
+            {
+              "index": 1,
+              "text": "44 / 105",
+              "fontSize": 8.67,
+              "typeface": "Aptos",
+              "color": "#7B8794"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kb6xkf6d",
+      "id": "11",
+      "name": "Shape 9",
+      "bbox": [
+        64.32,
+        675.84,
+        1147.2,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#E5E7EB",
+      "lineWidth": 1.33
+    }
+  ],
+  "composeRuns": []
+}

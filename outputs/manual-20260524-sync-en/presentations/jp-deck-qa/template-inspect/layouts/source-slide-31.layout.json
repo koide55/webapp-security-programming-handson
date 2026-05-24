@@ -1,0 +1,1060 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/h0fepkzu",
+    "id": "h0fepkzu",
+    "slide": 32,
+    "layoutId": "/ppt/slideLayouts/slideLayout4.xml",
+    "layoutName": "Title Only",
+    "layoutType": "titleOnly",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "typefaces": [
+      "+mj-lt",
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout4.xml",
+      "name": "Title Only",
+      "type": "titleOnly",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout4.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout4.xml/3",
+          "id": "3",
+          "name": "Date Placeholder 2",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout4.xml/4",
+          "id": "4",
+          "name": "Footer Placeholder 3",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y1kre1w7",
+      "id": "2",
+      "name": "Title 1",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "text": "HTTP Cookie （セッション管理）",
+      "textPreview": "HTTP Cookie （セッション管理）",
+      "resolvedFontSize": 58.67,
+      "resolvedTextStyle": {
+        "fontSize": 58.67,
+        "typeface": "+mj-lt",
+        "alignment": "center"
+      },
+      "textLayout": {
+        "lineCount": 21,
+        "lines": [
+          {
+            "index": 1,
+            "text": "H"
+          },
+          {
+            "index": 2,
+            "text": "T"
+          },
+          {
+            "index": 3,
+            "text": "T"
+          },
+          {
+            "index": 4,
+            "text": "P"
+          },
+          {
+            "index": 5,
+            "text": " "
+          },
+          {
+            "index": 6,
+            "text": "C"
+          },
+          {
+            "index": 7,
+            "text": "o"
+          },
+          {
+            "index": 8,
+            "text": "o"
+          },
+          {
+            "index": 9,
+            "text": "k"
+          },
+          {
+            "index": 10,
+            "text": "i"
+          },
+          {
+            "index": 11,
+            "text": "e"
+          },
+          {
+            "index": 12,
+            "text": " "
+          },
+          {
+            "index": 13,
+            "text": "（"
+          },
+          {
+            "index": 14,
+            "text": "セ"
+          },
+          {
+            "index": 15,
+            "text": "ッ"
+          },
+          {
+            "index": 16,
+            "text": "シ"
+          },
+          {
+            "index": 17,
+            "text": "ョ"
+          },
+          {
+            "index": 18,
+            "text": "ン"
+          },
+          {
+            "index": 19,
+            "text": "管"
+          },
+          {
+            "index": 20,
+            "text": "理"
+          },
+          {
+            "index": 21,
+            "text": "）"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HTTP Cookie （セッション管理）",
+          "runs": [
+            {
+              "index": 1,
+              "text": "HTTP Cookie （"
+            },
+            {
+              "index": 2,
+              "text": "セッション管理）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/xobm58z2",
+      "id": "31",
+      "name": "Picture 2",
+      "bbox": [
+        726.06,
+        306.2,
+        305.73,
+        285.47
+      ],
+      "contentType": "image/tiff",
+      "asset": {
+        "assetId": "/ppt/media/image14.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 856202
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image14.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 856202
+      }
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rytsvu9k",
+      "id": "7",
+      "name": "Right Arrow 6",
+      "bbox": [
+        418.27,
+        239.62,
+        269.65,
+        81.88
+      ],
+      "geometry": "rightArrow",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#0070C0"
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9cvixcze",
+      "id": "9",
+      "name": "Right Arrow 8",
+      "bbox": [
+        418.27,
+        308.8,
+        269.65,
+        81.88
+      ],
+      "geometry": "rightArrow",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#00B050"
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tovahoza",
+      "id": "10",
+      "name": "TextBox 9",
+      "bbox": [
+        470.92,
+        262.58,
+        193.03,
+        38.78
+      ],
+      "geometry": "rect",
+      "text": "HTTPリクエスト",
+      "textPreview": "HTTPリクエスト",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HTTPリクエスト"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HTTPリクエスト",
+          "runs": [
+            {
+              "index": 1,
+              "text": "HTTP",
+              "color": "bg1",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "リクエスト",
+              "color": "bg1",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/032lszqt",
+      "id": "11",
+      "name": "TextBox 10",
+      "bbox": [
+        468.79,
+        330.35,
+        193.03,
+        38.78
+      ],
+      "geometry": "rect",
+      "text": "HTTPレスポンス",
+      "textPreview": "HTTPレスポンス",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HTTPレスポンス"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HTTPレスポンス",
+          "runs": [
+            {
+              "index": 1,
+              "text": "HTTP",
+              "color": "bg1",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "レスポンス",
+              "color": "bg1",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0je9cvix",
+      "id": "19",
+      "name": "Right Arrow 18",
+      "bbox": [
+        418.27,
+        478.65,
+        269.65,
+        81.88
+      ],
+      "geometry": "rightArrow",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#0070C0"
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g7adsji5",
+      "id": "20",
+      "name": "Right Arrow 19",
+      "bbox": [
+        418.27,
+        546.41,
+        269.65,
+        81.88
+      ],
+      "geometry": "rightArrow",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#00B050"
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9s36hcrm",
+      "id": "21",
+      "name": "TextBox 20",
+      "bbox": [
+        470.92,
+        500.2,
+        193.03,
+        38.78
+      ],
+      "geometry": "rect",
+      "text": "HTTPリクエスト",
+      "textPreview": "HTTPリクエスト",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HTTPリクエスト"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HTTPリクエスト",
+          "runs": [
+            {
+              "index": 1,
+              "text": "HTTP",
+              "color": "bg1",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "リクエスト",
+              "color": "bg1",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y1kre1w7",
+      "id": "22",
+      "name": "TextBox 21",
+      "bbox": [
+        468.79,
+        567.97,
+        193.03,
+        38.78
+      ],
+      "geometry": "rect",
+      "text": "HTTPレスポンス",
+      "textPreview": "HTTPレスポンス",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HTTPレスポンス"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HTTPレスポンス",
+          "runs": [
+            {
+              "index": 1,
+              "text": "HTTP",
+              "color": "bg1",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "レスポンス",
+              "color": "bg1",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/qxs72x4n",
+      "id": "32",
+      "name": "Picture 7",
+      "bbox": [
+        170.22,
+        265.22,
+        255.2,
+        343.22
+      ],
+      "contentType": "image/tiff",
+      "asset": {
+        "assetId": "/ppt/media/image15.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 856762
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image15.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 856762
+      }
+    },
+    {
+      "order": 12,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/fil0rqd4",
+      "id": "33",
+      "name": "Picture 4",
+      "bbox": [
+        161.35,
+        367.71,
+        119.16,
+        119.16
+      ],
+      "contentType": "image/tiff",
+      "asset": {
+        "assetId": "/ppt/media/image16.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 141794
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image16.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 141794
+      }
+    },
+    {
+      "order": 13,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/4fu18jqh",
+      "id": "34",
+      "name": "Picture 24",
+      "bbox": [
+        695.99,
+        226.55,
+        119.92,
+        192.73
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image17.png",
+        "contentType": "image/png",
+        "byteLength": 65165
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image17.png",
+        "contentType": "image/png",
+        "byteLength": 65165
+      }
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gfmlkjm1",
+      "id": "24",
+      "name": "Rounded Rectangular Callout 23",
+      "bbox": [
+        846.02,
+        216.13,
+        240.47,
+        79.85
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "認証できたらセッションIDを生成して保存",
+      "textPreview": "認証できたらセッションIDを生成して保存",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "認証できたらセッショ"
+          },
+          {
+            "index": 2,
+            "text": "ンIDを生成して保存"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "認証できたらセッションIDを生成して保存",
+          "runs": [
+            {
+              "index": 1,
+              "text": "認証できたらセッション",
+              "fontSize": 21.33
+            },
+            {
+              "index": 2,
+              "text": "ID",
+              "fontSize": 21.33
+            },
+            {
+              "index": 3,
+              "text": "を生成して保存",
+              "fontSize": 21.33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/x0nuxc3y",
+      "id": "35",
+      "name": "Picture 25",
+      "bbox": [
+        696.92,
+        503.95,
+        133.04,
+        104.49
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image18.png",
+        "contentType": "image/png",
+        "byteLength": 39279
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image18.png",
+        "contentType": "image/png",
+        "byteLength": 39279
+      }
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rytsvu9k",
+      "id": "27",
+      "name": "Rounded Rectangular Callout 26",
+      "bbox": [
+        829.99,
+        528.59,
+        272.98,
+        79.85
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "サーバで管理しているセッションIDが一致したら同じユーザと判断",
+      "textPreview": "サーバで管理しているセッションIDが一致したら同じユーザと判断",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "サーバで管理しているセ"
+          },
+          {
+            "index": 2,
+            "text": "ッションID"
+          },
+          {
+            "index": 3,
+            "text": "が一致したら同じユーザ"
+          },
+          {
+            "index": 4,
+            "text": "と判断"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "サーバで管理しているセッションIDが一致したら同じユーザと判断",
+          "runs": [
+            {
+              "index": 1,
+              "text": "サーバで管理しているセッション",
+              "fontSize": 21.33
+            },
+            {
+              "index": 2,
+              "text": "ID",
+              "fontSize": 21.33
+            },
+            {
+              "index": 3,
+              "text": "が一致したら同じユーザと判断",
+              "fontSize": 21.33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rmhk3q5o",
+      "id": "23",
+      "name": "Rounded Rectangular Callout 22",
+      "bbox": [
+        843.32,
+        308.8,
+        240.47,
+        79.85
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "生成したセッションIDをHTTPヘッダに付けて送る",
+      "textPreview": "生成したセッションIDをHTTPヘッダに付けて送る",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "生成したセッションID"
+          },
+          {
+            "index": 2,
+            "text": "をHTTP"
+          },
+          {
+            "index": 3,
+            "text": "ヘッダに付けて送る"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "生成したセッションIDをHTTPヘッダに付けて送る",
+          "runs": [
+            {
+              "index": 1,
+              "text": "生成したセッション",
+              "fontSize": 21.33
+            },
+            {
+              "index": 2,
+              "text": "ID",
+              "fontSize": 21.33
+            },
+            {
+              "index": 3,
+              "text": "を",
+              "fontSize": 21.33
+            },
+            {
+              "index": 4,
+              "text": "HTTP",
+              "fontSize": 21.33
+            },
+            {
+              "index": 5,
+              "text": "ヘッダに付けて送る",
+              "fontSize": 21.33
+            }
+          ]
+        }
+      ],
+      "fillColor": "tx2"
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gfmlkjm1",
+      "id": "4",
+      "name": "TextBox 3",
+      "bbox": [
+        496.82,
+        363.43,
+        143.25,
+        29.08
+      ],
+      "geometry": "rect",
+      "text": "セッションID:001",
+      "textPreview": "セッションID:001",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "セッションID:001"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "セッションID:001",
+          "runs": [
+            {
+              "index": 1,
+              "text": "セッション",
+              "fontSize": 16
+            },
+            {
+              "index": 2,
+              "text": "ID:001",
+              "fontSize": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9cvixcze",
+      "id": "29",
+      "name": "TextBox 28",
+      "bbox": [
+        495.02,
+        472.61,
+        143.25,
+        29.08
+      ],
+      "geometry": "rect",
+      "text": "セッションID:001",
+      "textPreview": "セッションID:001",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "セッションID:001"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "セッションID:001",
+          "runs": [
+            {
+              "index": 1,
+              "text": "セッション",
+              "fontSize": 16
+            },
+            {
+              "index": 2,
+              "text": "ID:001",
+              "fontSize": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vahoza1g",
+      "id": "30",
+      "name": "Rounded Rectangular Callout 29",
+      "bbox": [
+        825.06,
+        418.58,
+        318.74,
+        80.26
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "リクエストを送信する際にセッションIDをHTTPヘッダに付けて一緒に送る",
+      "textPreview": "リクエストを送信する際にセッションIDをHTTPヘッダに付けて一緒に送る",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "リクエストを送信する際にセッ"
+          },
+          {
+            "index": 2,
+            "text": "ションIDをHTTP"
+          },
+          {
+            "index": 3,
+            "text": "ヘッダに付けて一緒に送る"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "リクエストを送信する際にセッションIDをHTTPヘッダに付けて一緒に送る",
+          "runs": [
+            {
+              "index": 1,
+              "text": "リクエストを送信する際にセッション",
+              "fontSize": 21.33
+            },
+            {
+              "index": 2,
+              "text": "ID",
+              "fontSize": 21.33
+            },
+            {
+              "index": 3,
+              "text": "を",
+              "fontSize": 21.33
+            },
+            {
+              "index": 4,
+              "text": "HTTP",
+              "fontSize": 21.33
+            },
+            {
+              "index": 5,
+              "text": "ヘッダに付けて一緒に送る",
+              "fontSize": 21.33
+            }
+          ]
+        }
+      ],
+      "fillColor": "tx2"
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,1024 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/yhgn29gr",
+    "id": "yhgn29gr",
+    "slide": 33,
+    "layoutId": "/ppt/slideLayouts/slideLayout3.xml",
+    "layoutName": "Title and Content",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "typefaces": [
+      "+mj-lt",
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout3.xml",
+      "name": "Title and Content",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/4",
+          "id": "4",
+          "name": "Date Placeholder 3",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wfyxobm5",
+      "id": "3",
+      "name": "Title 2",
+      "bbox": [
+        104.25,
+        27.07,
+        963.8,
+        95.4
+      ],
+      "text": "Session Hijacking",
+      "textPreview": "Session Hijacking",
+      "resolvedFontSize": 58.67,
+      "resolvedTextStyle": {
+        "fontSize": 58.67,
+        "typeface": "+mj-lt",
+        "alignment": "center"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Session Hijacking"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Session Hijacking",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Session Hijacking"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/4vmtwra5",
+      "id": "31",
+      "name": "Picture 4",
+      "bbox": [
+        719.57,
+        262.46,
+        305.73,
+        285.47
+      ],
+      "contentType": "image/tiff",
+      "asset": {
+        "assetId": "/ppt/media/image14.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 856202
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image14.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 856202
+      }
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lc7u54zi",
+      "id": "6",
+      "name": "Right Arrow 5",
+      "bbox": [
+        411.79,
+        195.87,
+        269.65,
+        81.88
+      ],
+      "geometry": "rightArrow",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#0070C0"
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wra5gbq1",
+      "id": "7",
+      "name": "Right Arrow 6",
+      "bbox": [
+        411.79,
+        265.05,
+        269.65,
+        81.88
+      ],
+      "geometry": "rightArrow",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#00B050"
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7adsji5s",
+      "id": "8",
+      "name": "TextBox 7",
+      "bbox": [
+        464.43,
+        218.84,
+        158.57,
+        38.78
+      ],
+      "geometry": "rect",
+      "text": "HTTP Request",
+      "textPreview": "HTTP Request",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HTTP Request"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HTTP Request",
+          "runs": [
+            {
+              "index": 1,
+              "text": "HTTP Request",
+              "color": "bg1",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/epkzupwb",
+      "id": "9",
+      "name": "TextBox 8",
+      "bbox": [
+        462.3,
+        286.6,
+        172.98,
+        38.78
+      ],
+      "geometry": "rect",
+      "text": "HTTP Response",
+      "textPreview": "HTTP Response",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HTTP Response"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HTTP Response",
+          "runs": [
+            {
+              "index": 1,
+              "text": "HTTP Response",
+              "color": "bg1",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8jqh0fep",
+      "id": "10",
+      "name": "Right Arrow 9",
+      "bbox": [
+        411.79,
+        434.9,
+        269.65,
+        81.88
+      ],
+      "geometry": "rightArrow",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#0070C0"
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4nap4r6",
+      "id": "11",
+      "name": "Right Arrow 10",
+      "bbox": [
+        411.79,
+        502.67,
+        269.65,
+        81.88
+      ],
+      "geometry": "rightArrow",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#00B050"
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qd4vmtwr",
+      "id": "12",
+      "name": "TextBox 11",
+      "bbox": [
+        464.43,
+        456.46,
+        158.57,
+        38.78
+      ],
+      "geometry": "rect",
+      "text": "HTTP Request",
+      "textPreview": "HTTP Request",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HTTP Request"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HTTP Request",
+          "runs": [
+            {
+              "index": 1,
+              "text": "HTTP Request",
+              "color": "bg1",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fyxobm58",
+      "id": "13",
+      "name": "TextBox 12",
+      "bbox": [
+        462.3,
+        524.22,
+        172.98,
+        38.78
+      ],
+      "geometry": "rect",
+      "text": "HTTP Response",
+      "textPreview": "HTTP Response",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HTTP Response"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HTTP Response",
+          "runs": [
+            {
+              "index": 1,
+              "text": "HTTP Response",
+              "color": "bg1",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/bat47y1k",
+      "id": "32",
+      "name": "Picture 13",
+      "bbox": [
+        108.2,
+        145.22,
+        255.2,
+        192.03
+      ],
+      "contentType": "image/tiff",
+      "asset": {
+        "assetId": "/ppt/media/image20.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 481026
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image20.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 481026
+      }
+    },
+    {
+      "order": 12,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/mp0bi9s3",
+      "id": "33",
+      "name": "Picture 14",
+      "bbox": [
+        289.47,
+        213.47,
+        119.16,
+        119.16
+      ],
+      "contentType": "image/tiff",
+      "asset": {
+        "assetId": "/ppt/media/image16.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 141794
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image16.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 141794
+      }
+    },
+    {
+      "order": 13,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/tsvu9kni",
+      "id": "34",
+      "name": "Picture 15",
+      "bbox": [
+        689.51,
+        182.8,
+        119.92,
+        192.73
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image17.png",
+        "contentType": "image/png",
+        "byteLength": 65165
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image17.png",
+        "contentType": "image/png",
+        "byteLength": 65165
+      }
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fa9w3m94",
+      "id": "17",
+      "name": "Rounded Rectangular Callout 16",
+      "bbox": [
+        839.53,
+        172.39,
+        269.72,
+        79.85
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "The password I correct.\nKoide’s session ID is registered.",
+      "textPreview": "The password I correct. | Koide’s session ID is registered.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The password I correct."
+          },
+          {
+            "index": 2,
+            "text": "Koide’s session ID is"
+          },
+          {
+            "index": 3,
+            "text": "registered."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The password I correct.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "The password I correct.",
+              "fontSize": 21.33
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "Koide’s session ID is registered.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Koide’s session ID is registered.",
+              "fontSize": 21.33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/47y1kre1",
+      "id": "35",
+      "name": "Picture 17",
+      "bbox": [
+        690.43,
+        460.2,
+        133.04,
+        104.49
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image18.png",
+        "contentType": "image/png",
+        "byteLength": 39279
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image18.png",
+        "contentType": "image/png",
+        "byteLength": 39279
+      }
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1gvy90je",
+      "id": "19",
+      "name": "Rounded Rectangular Callout 18",
+      "bbox": [
+        823.5,
+        484.84,
+        306.18,
+        79.85
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "Koide, welcome !",
+      "textPreview": "Koide, welcome !",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Koide, welcome !"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Koide, welcome !",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Koide, welcome !",
+              "fontSize": 21.33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/loj2t83i",
+      "id": "20",
+      "name": "Rounded Rectangular Callout 19",
+      "bbox": [
+        836.83,
+        265.05,
+        269.72,
+        79.85
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "Koide’s session ID is user11.",
+      "textPreview": "Koide’s session ID is user11.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Koide’s session ID is"
+          },
+          {
+            "index": 2,
+            "text": "user11."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Koide’s session ID is user11.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Koide’s session ID is user11.",
+              "fontSize": 21.33
+            }
+          ]
+        }
+      ],
+      "fillColor": "tx2"
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w3m94fu1",
+      "id": "21",
+      "name": "TextBox 20",
+      "bbox": [
+        490.33,
+        319.69,
+        135.34,
+        29.08
+      ],
+      "geometry": "rect",
+      "text": "Session ID:user11",
+      "textPreview": "Session ID:user11",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Session ID:user11"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Session ID:user11",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Session ID:user11",
+              "fontSize": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3itgfmlk",
+      "id": "22",
+      "name": "TextBox 21",
+      "bbox": [
+        436.21,
+        429.42,
+        135.34,
+        29.08
+      ],
+      "geometry": "rect",
+      "text": "Session ID:user11",
+      "textPreview": "Session ID:user11",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Session ID:user11"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Session ID:user11",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Session ID:user11",
+              "fontSize": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ex0nuxc3",
+      "id": "23",
+      "name": "Rounded Rectangular Callout 22",
+      "bbox": [
+        818.57,
+        374.83,
+        269.72,
+        80.26
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "I have a session ID, user11.",
+      "textPreview": "I have a session ID, user11.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "I have a session ID,"
+          },
+          {
+            "index": 2,
+            "text": "user11."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "I have a session ID, user11.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "I have a session ID, user11.",
+              "fontSize": 21.33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/bm58z25k",
+      "id": "36",
+      "name": "Picture 24",
+      "bbox": [
+        156,
+        406.72,
+        204.14,
+        194.21
+      ],
+      "contentType": "image/tiff",
+      "asset": {
+        "assetId": "/ppt/media/image21.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 390046
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image21.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 390046
+      }
+    },
+    {
+      "order": 22,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/m1cfa9w3",
+      "id": "37",
+      "name": "Picture 27",
+      "bbox": [
+        292.04,
+        409.91,
+        119.16,
+        119.16
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image22.png",
+        "contentType": "image/png",
+        "byteLength": 20527
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image22.png",
+        "contentType": "image/png",
+        "byteLength": 20527
+      }
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sneloj2t",
+      "id": "29",
+      "name": "Rounded Rectangular Callout 28",
+      "bbox": [
+        104.25,
+        335.81,
+        285.43,
+        64.58
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "The browser stores the session ID.",
+      "textPreview": "The browser stores the session ID.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The browser stores the"
+          },
+          {
+            "index": 2,
+            "text": "session ID."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The browser stores the session ID.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "The browser stores the session ID."
+            }
+          ]
+        }
+      ],
+      "fillColor": "tx2"
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6hcrmhk3",
+      "id": "30",
+      "name": "Rounded Rectangular Callout 29",
+      "bbox": [
+        108.2,
+        592.04,
+        285.43,
+        64.58
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "If I know the session ID, I can pretend to be her.",
+      "textPreview": "If I know the session ID, I can pretend to be her.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "If I know the session ID,"
+          },
+          {
+            "index": 2,
+            "text": "I can pretend to be her."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "If I know the session ID, I can pretend to be her.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "If I know the session ID, I can pretend to be her."
+            }
+          ]
+        }
+      ],
+      "fillColor": "tx2"
+    }
+  ],
+  "composeRuns": []
+}

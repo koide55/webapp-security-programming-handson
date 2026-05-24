@@ -17,4 +17,4 @@ Updated slide source:
 
 PowerPoint version:
 
-- `webapp-security-programming-handson-2026-en.pptx`: English deck rebuilt from the current course material
+- `webapp-security-programming-handson-2026-en.pptx`: English 105-slide deck aligned with the current Japanese deck

@@ -1,0 +1,650 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/lwval87e",
+    "id": "lwval87e",
+    "slide": 14,
+    "layoutId": "/ppt/slideLayouts/slideLayout3.xml",
+    "layoutName": "Title and Content",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "typefaces": [
+      "+mj-lt",
+      "+mn-lt",
+      "Meiryo"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout3.xml",
+      "name": "Title and Content",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/4",
+          "id": "4",
+          "name": "Date Placeholder 3",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/36hcrmhk",
+      "id": "4",
+      "name": "正方形/長方形 3",
+      "bbox": [
+        2,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#FFE7FC"
+    },
+    {
+      "order": 2,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/qpg3ex0n",
+      "id": "20",
+      "name": "Picture 14",
+      "bbox": [
+        212,
+        177.2,
+        832.61,
+        307.23
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image7.png",
+        "contentType": "image/png",
+        "byteLength": 141667
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image7.png",
+        "contentType": "image/png",
+        "byteLength": 141667
+      }
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wfyxobm5",
+      "id": "3",
+      "name": "コンテンツ プレースホルダー 2",
+      "bbox": [
+        58.54,
+        123.95,
+        1013.46,
+        519.36
+      ],
+      "text": "各自の端末からpythonを起動して以下を入力\n\n\n\n\n\nブラウザで接続して確認",
+      "textPreview": "各自の端末からpythonを起動して以下を入力 |  |  |  |  |  | ブラウザで接続して確認",
+      "resolvedFontSize": 42.67,
+      "resolvedTextStyle": {
+        "fontSize": 42.67,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 7,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1. 各自の端末からpythonを起動して以下を入力"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": ""
+          },
+          {
+            "index": 5,
+            "text": ""
+          },
+          {
+            "index": 6,
+            "text": ""
+          },
+          {
+            "index": 7,
+            "text": "2. ブラウザで接続して確認"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "各自の端末からpythonを起動して以下を入力",
+          "runs": [
+            {
+              "index": 1,
+              "text": "各自の端末から",
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 2,
+              "text": "python",
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 3,
+              "text": "を起動して以下を入力",
+              "typeface": "Meiryo"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "text": "ブラウザで接続して確認",
+          "runs": [
+            {
+              "index": 1,
+              "text": "ブラウザで接続して確認",
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l0rqd4vm",
+      "id": "2",
+      "name": "タイトル 1",
+      "bbox": [
+        47.15,
+        13.11,
+        1013.46,
+        99.95
+      ],
+      "text": "演習1：bottleを試そう",
+      "textPreview": "演習1：bottleを試そう",
+      "resolvedFontSize": 58.67,
+      "resolvedTextStyle": {
+        "fontSize": 58.67,
+        "typeface": "+mj-lt",
+        "alignment": "center"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "演習1：bottleを試そう"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "演習1：bottleを試そう",
+          "runs": [
+            {
+              "index": 1,
+              "text": "演習",
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 2,
+              "text": "1",
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 3,
+              "text": "：",
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 4,
+              "text": "bottle",
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 5,
+              "text": "を試そう",
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/fa9w3m94",
+      "id": "21",
+      "name": "Picture 7",
+      "bbox": [
+        1023.33,
+        593.77,
+        208,
+        71.76
+      ],
+      "contentType": "image/tiff",
+      "asset": {
+        "assetId": "/ppt/media/image5.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 59286
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image5.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 59286
+      }
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/epkzupwb",
+      "id": "9",
+      "name": "Rounded Rectangular Callout 8",
+      "bbox": [
+        796.03,
+        260.85,
+        316.62,
+        38.61
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "GET “/hello/なんたら”というリクエストが\n送られてきたらそのつぎのメソッドが実行される",
+      "textPreview": "GET “/hello/なんたら”というリクエストが | 送られてきたらそのつぎのメソッドが実行される",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "GET “/hello/なんたら”というリクエストが"
+          },
+          {
+            "index": 2,
+            "text": "送られてきたらそのつぎのメソッドが実行される"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "GET “/hello/なんたら”というリクエストが",
+          "runs": [
+            {
+              "index": 1,
+              "text": "GET “/hello/",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 2,
+              "text": "なんたら",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 3,
+              "text": "”",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 4,
+              "text": "というリクエストが",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "送られてきたらそのつぎのメソッドが実行される",
+          "runs": [
+            {
+              "index": 1,
+              "text": "送られてきたらそのつぎのメソッドが実行される",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8jqh0fep",
+      "id": "10",
+      "name": "Rounded Rectangular Callout 9",
+      "bbox": [
+        810.72,
+        364.33,
+        316.62,
+        38.61
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "テンプレートを使って送り返すHTMLを作成する",
+      "textPreview": "テンプレートを使って送り返すHTMLを作成する",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "テンプレートを使って送り返すHTMLを作成する"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "テンプレートを使って送り返すHTMLを作成する",
+          "runs": [
+            {
+              "index": 1,
+              "text": "テンプレートを使って送り返す",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 2,
+              "text": "HTML",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 3,
+              "text": "を作成する",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4nap4r6",
+      "id": "11",
+      "name": "Rounded Rectangular Callout 10",
+      "bbox": [
+        684.64,
+        448.43,
+        161.08,
+        38.61
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "サーバのメインループ",
+      "textPreview": "サーバのメインループ",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "サーバのメインループ"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "サーバのメインループ",
+          "runs": [
+            {
+              "index": 1,
+              "text": "サーバのメインループ",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/8v6psfil",
+      "id": "22",
+      "name": "Picture 16",
+      "bbox": [
+        217.39,
+        543.68,
+        391.88,
+        174.48
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image8.png",
+        "contentType": "image/png",
+        "byteLength": 63661
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image8.png",
+        "contentType": "image/png",
+        "byteLength": 63661
+      }
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8z25kb6x",
+      "id": "18",
+      "name": "Rounded Rectangular Callout 17",
+      "bbox": [
+        667.53,
+        547.22,
+        257,
+        35.09
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "ブラウザにURLをいれると．．．",
+      "textPreview": "ブラウザにURLをいれると．．．",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ブラウザにURLをいれると．．．"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ブラウザにURLをいれると．．．",
+          "runs": [
+            {
+              "index": 1,
+              "text": "ブラウザに",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 2,
+              "text": "URL",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 3,
+              "text": "をいれると．．．",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1gvy90je",
+      "id": "19",
+      "name": "Rounded Rectangular Callout 18",
+      "bbox": [
+        660.93,
+        683.07,
+        257,
+        35.09
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "結果が帰っていた！",
+      "textPreview": "結果が帰っていた！",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "結果が帰っていた！"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "結果が帰っていた！",
+          "runs": [
+            {
+              "index": 1,
+              "text": "結果が帰っていた！",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

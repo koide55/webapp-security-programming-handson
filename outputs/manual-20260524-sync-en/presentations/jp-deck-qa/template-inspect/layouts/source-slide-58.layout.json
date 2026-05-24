@@ -1,0 +1,644 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/ih4byhgn",
+    "id": "ih4byhgn",
+    "slide": 59,
+    "layoutId": "/ppt/slideLayouts/slideLayout3.xml",
+    "layoutName": "Title and Content",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "typefaces": [
+      "+mj-lt",
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout3.xml",
+      "name": "Title and Content",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/4",
+          "id": "4",
+          "name": "Date Placeholder 3",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0bi9s36h",
+      "id": "2",
+      "name": "Title 1",
+      "bbox": [
+        58.07,
+        0,
+        1061.93,
+        84
+      ],
+      "text": "Cross-site scripting attack (XSS)",
+      "textPreview": "Cross-site scripting attack (XSS)",
+      "resolvedFontSize": 58.67,
+      "resolvedTextStyle": {
+        "fontSize": 58.67,
+        "typeface": "+mj-lt",
+        "alignment": "center"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Cross-site scripting attack (XSS)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Cross-site scripting attack (XSS)",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Cross-site scripting attack (XSS)",
+              "fontSize": 42.67
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/kzupwb2h",
+      "id": "18",
+      "name": "Picture 3",
+      "bbox": [
+        358.98,
+        106.03,
+        164.44,
+        227.88
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image26.png",
+        "contentType": "image/png",
+        "byteLength": 64081
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image26.png",
+        "contentType": "image/png",
+        "byteLength": 64081
+      }
+    },
+    {
+      "order": 3,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/9knih4by",
+      "id": "19",
+      "name": "Picture 4",
+      "bbox": [
+        826.48,
+        106.03,
+        188.25,
+        188.25
+      ],
+      "contentType": "image/jpeg",
+      "asset": {
+        "assetId": "/ppt/media/image27.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 11648
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image27.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 11648
+      }
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/d8v6psfi",
+      "id": "20",
+      "name": "Picture 5",
+      "bbox": [
+        271.52,
+        464.38,
+        210.49,
+        211.81
+      ],
+      "contentType": "image/tiff",
+      "asset": {
+        "assetId": "/ppt/media/image28.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 439022
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image28.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 439022
+      }
+    },
+    {
+      "order": 5,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/onyd0z61",
+      "id": "21",
+      "name": "Picture 6",
+      "bbox": [
+        815.07,
+        460.84,
+        211.07,
+        211.07
+      ],
+      "contentType": "image/tiff",
+      "asset": {
+        "assetId": "/ppt/media/image29.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 436390
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image29.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 436390
+      }
+    },
+    {
+      "order": 6,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/z25kb6xk",
+      "id": "22",
+      "name": "Picture 7",
+      "bbox": [
+        462.72,
+        219.97,
+        121.4,
+        121.4
+      ],
+      "contentType": "image/tiff",
+      "asset": {
+        "assetId": "/ppt/media/image30.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 147810
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image30.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 147810
+      }
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/72x4nap4",
+      "id": "9",
+      "name": "Right Arrow 8",
+      "bbox": [
+        521.16,
+        394.2,
+        370.78,
+        34.6
+      ],
+      "geometry": "rightArrow",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "tx1",
+      "lineColor": "tx1"
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zqtcj6to",
+      "id": "10",
+      "name": "Right Arrow 9",
+      "bbox": [
+        531.46,
+        182.09,
+        286.97,
+        34.6
+      ],
+      "geometry": "rightArrow",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "tx1",
+      "lineColor": "tx1"
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/65wjudg7",
+      "id": "11",
+      "name": "Right Arrow 10",
+      "bbox": [
+        839.99,
+        364.48,
+        161.24,
+        34.6
+      ],
+      "geometry": "rightArrow",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "tx1",
+      "lineColor": "tx1"
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hwfyxobm",
+      "id": "12",
+      "name": "Right Arrow 11",
+      "bbox": [
+        319.71,
+        393.3,
+        149.52,
+        34.6
+      ],
+      "geometry": "rightArrow",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#0070C0"
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/obm58z25",
+      "id": "13",
+      "name": "TextBox 12",
+      "bbox": [
+        244.5,
+        392.11,
+        264.53,
+        38.78
+      ],
+      "geometry": "rect",
+      "text": "I often visit this web site.",
+      "textPreview": "I often visit this web site.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "I often visit this web site."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "I often visit this web site.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "I often visit this web site."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6xkf6dcb",
+      "id": "15",
+      "name": "TextBox 14",
+      "bbox": [
+        856.86,
+        352.01,
+        175.98,
+        67.86
+      ],
+      "geometry": "rect",
+      "text": "I prepare \na malicious site.",
+      "textPreview": "I prepare  | a malicious site.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "I prepare"
+          },
+          {
+            "index": 2,
+            "text": "a malicious site."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "I prepare ",
+          "runs": [
+            {
+              "index": 1,
+              "text": "I prepare "
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "a malicious site.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "a malicious site."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hk3q5o7q",
+      "id": "16",
+      "name": "TextBox 15",
+      "bbox": [
+        632.31,
+        377.69,
+        186.74,
+        67.86
+      ],
+      "geometry": "rect",
+      "text": "I set a malicious\nScript to the site.",
+      "textPreview": "I set a malicious | Script to the site.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "I set a malicious"
+          },
+          {
+            "index": 2,
+            "text": "Script to the site."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "I set a malicious",
+          "runs": [
+            {
+              "index": 1,
+              "text": "I set a malicious"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "Script to the site.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Script to the site."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oza1gvy9",
+      "id": "17",
+      "name": "TextBox 16",
+      "bbox": [
+        554.62,
+        133.08,
+        224.75,
+        126.02
+      ],
+      "geometry": "rect",
+      "text": "Private information \nand so on will be \nsent to the malicious\nsite.",
+      "textPreview": "Private information  | and so on will be  | sent to the malicious | site.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Private information"
+          },
+          {
+            "index": 2,
+            "text": "and so on will be"
+          },
+          {
+            "index": 3,
+            "text": "sent to the malicious"
+          },
+          {
+            "index": 4,
+            "text": "site."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Private information ",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Private information "
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "and so on will be ",
+          "runs": [
+            {
+              "index": 1,
+              "text": "and so on will be "
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "sent to the malicious",
+          "runs": [
+            {
+              "index": 1,
+              "text": "sent to the malicious"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "site.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "site."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

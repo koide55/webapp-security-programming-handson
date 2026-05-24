@@ -1,0 +1,636 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/j2t83itg",
+    "id": "j2t83itg",
+    "slide": 21,
+    "layoutId": "/ppt/slideLayouts/slideLayout3.xml",
+    "layoutName": "Title and Content",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "typefaces": [
+      "+mj-lt",
+      "+mn-lt",
+      "Meiryo"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout3.xml",
+      "name": "Title and Content",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/4",
+          "id": "4",
+          "name": "Date Placeholder 3",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout3.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4byhgn29",
+      "id": "4",
+      "name": "正方形/長方形 3",
+      "bbox": [
+        0,
+        0,
+        1289.51,
+        720
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "#FFE7FC"
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mhk3q5o7",
+      "id": "2",
+      "name": "Title 1",
+      "bbox": [
+        71.41,
+        15.48,
+        1048.59,
+        92.5
+      ],
+      "text": "演習2：peeweeとSQLiteを試そう",
+      "textPreview": "演習2：peeweeとSQLiteを試そう",
+      "resolvedFontSize": 58.67,
+      "resolvedTextStyle": {
+        "fontSize": 58.67,
+        "typeface": "+mj-lt",
+        "alignment": "center"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "演習2：peeweeとSQLiteを試そう"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "演習2：peeweeとSQLiteを試そう",
+          "runs": [
+            {
+              "index": 1,
+              "text": "演習",
+              "fontSize": 48,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 2,
+              "text": "2",
+              "fontSize": 48,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 3,
+              "text": "：",
+              "fontSize": 48,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 4,
+              "text": "peewee",
+              "fontSize": 48,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 5,
+              "text": "と",
+              "fontSize": 48,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 6,
+              "text": "SQLite",
+              "fontSize": 48,
+              "typeface": "Meiryo"
+            },
+            {
+              "index": 7,
+              "text": "を試そう",
+              "fontSize": 48,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b2hwfyxo",
+      "id": "3",
+      "name": "Content Placeholder 2",
+      "bbox": [
+        71.41,
+        123.47,
+        1000.59,
+        545.74
+      ],
+      "text": "コードを入力する（データを挿入）\n\n\n\n\n\n\n実行する\n$ python3.5 main.py ",
+      "textPreview": "コードを入力する（データを挿入） |  |  |  |  |  |  | 実行する | $ python3.5 main.py",
+      "resolvedFontSize": 42.67,
+      "resolvedTextStyle": {
+        "fontSize": 42.67,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 9,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1. コードを入力する（データを挿入）"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": ""
+          },
+          {
+            "index": 5,
+            "text": ""
+          },
+          {
+            "index": 6,
+            "text": ""
+          },
+          {
+            "index": 7,
+            "text": ""
+          },
+          {
+            "index": 8,
+            "text": "2. 実行する"
+          },
+          {
+            "index": 9,
+            "text": "$ python3.5 main.py"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "コードを入力する（データを挿入）",
+          "runs": [
+            {
+              "index": 1,
+              "text": "コードを入力する（データを挿入）",
+              "typeface": "Meiryo"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "text": "実行する",
+          "runs": [
+            {
+              "index": 1,
+              "text": "実行する",
+              "typeface": "Meiryo"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "text": "$ python3.5 main.py ",
+          "runs": [
+            {
+              "index": 1,
+              "text": "$ python3.5 ",
+              "typeface": "Meiryo",
+              "color": "#002060"
+            },
+            {
+              "index": 2,
+              "text": "main.py",
+              "typeface": "Meiryo",
+              "color": "#002060"
+            },
+            {
+              "index": 3,
+              "text": " ",
+              "typeface": "Meiryo",
+              "color": "#002060"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/xc3ylc7u",
+      "id": "13",
+      "name": "Picture 4",
+      "bbox": [
+        1097.67,
+        500.25,
+        159.71,
+        200.36
+      ],
+      "contentType": "image/tiff",
+      "asset": {
+        "assetId": "/ppt/media/image9.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 185502
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image9.tiff",
+        "contentType": "image/tiff",
+        "byteLength": 185502
+      }
+    },
+    {
+      "order": 5,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/mtwra5gb",
+      "id": "14",
+      "name": "Picture 5",
+      "bbox": [
+        285.02,
+        175.67,
+        629.26,
+        362.69
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image10.png",
+        "contentType": "image/png",
+        "byteLength": 21070
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image10.png",
+        "contentType": "image/png",
+        "byteLength": 21070
+      }
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/47y1kre1",
+      "id": "8",
+      "name": "Rounded Rectangular Callout 7",
+      "bbox": [
+        742.75,
+        316.9,
+        267.5,
+        38.61
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "データベースのモデルを作成する",
+      "textPreview": "データベースのモデルを作成する",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "データベースのモデルを作成する"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "データベースのモデルを作成する",
+          "runs": [
+            {
+              "index": 1,
+              "text": "データベースのモデルを作成する",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tsvu9kni",
+      "id": "9",
+      "name": "Right Brace 8",
+      "bbox": [
+        640,
+        293.46,
+        34.5,
+        102.88
+      ],
+      "geometry": "rightBrace",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/90je9cvi",
+      "id": "10",
+      "name": "Rounded Rectangular Callout 9",
+      "bbox": [
+        742.75,
+        388.4,
+        267.5,
+        38.61
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "データベースに接続する",
+      "textPreview": "データベースに接続する",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "データベースに接続する"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "データベースに接続する",
+          "runs": [
+            {
+              "index": 1,
+              "text": "データベースに接続する",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gfmlkjm1",
+      "id": "11",
+      "name": "Rounded Rectangular Callout 10",
+      "bbox": [
+        742.22,
+        439.86,
+        267.5,
+        38.61
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "モデルに対応したテーブルを作成する",
+      "textPreview": "モデルに対応したテーブルを作成する",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "モデルに対応したテーブルを作成する"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "モデルに対応したテーブルを作成する",
+          "runs": [
+            {
+              "index": 1,
+              "text": "モデルに対応したテーブルを作成する",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rytsvu9k",
+      "id": "12",
+      "name": "Rounded Rectangular Callout 11",
+      "bbox": [
+        599.65,
+        558.31,
+        315.37,
+        38.61
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "データをふたつ作成してテーブルに格納する",
+      "textPreview": "データをふたつ作成してテーブルに格納する",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "データをふたつ作成してテーブルに格納する"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "データをふたつ作成してテーブルに格納する",
+          "runs": [
+            {
+              "index": 1,
+              "text": "データをふたつ作成してテーブルに格納する",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bq1oryts",
+      "id": "7",
+      "name": "Rounded Rectangular Callout 6",
+      "bbox": [
+        744.5,
+        215.26,
+        267.5,
+        38.61
+      ],
+      "geometry": "wedgeRoundRectCallout",
+      "text": "データベースのインスタンスを作成する",
+      "textPreview": "データベースのインスタンスを作成する",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "データベースのインスタンスを作成する"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "データベースのインスタンスを作成する",
+          "runs": [
+            {
+              "index": 1,
+              "text": "データベースのインスタンスを作成する",
+              "fontSize": 13.33,
+              "typeface": "Meiryo"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}
