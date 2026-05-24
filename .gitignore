@@ -8,3 +8,4 @@ stolen_cookies.log
 badscript_ran.txt
 downloaded_badscript.py
 command_injection_result.txt
+outputs/
