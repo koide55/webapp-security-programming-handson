@@ -2,6 +2,8 @@
 
 元スライド `webapp-prosecit-20250727.pdf` は、教材作成時の章立てと演習順序の参照元です。
 
+英語版の案内は `README.en.md` です。
+
 このリポジトリでは、スライドの流れを次の教材に整理しています。
 
 - `docs/setup.md`: 実験環境
@@ -16,3 +18,4 @@
 PowerPoint版:
 
 - `webapp-security-programming-handson-2026.pptx`: `slide002.pptx` の内容を現行教材に合わせて再構成した版
+- `webapp-security-programming-handson-2026-en.pptx`: 上記の英語版
